@@ -1,0 +1,2298 @@
+# EESchema Netlist Version 1.1 created  lun. 24 févr. 2014 11:41:00 CET
+(
+ ( /52F265F0/52F3A963 SM0603_Capa C1 22p
+  ( 1 /USBHUB/D+hub )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F35E44 SM0603_Capa C2 22p
+  ( 1 /USBHUB/D-hub )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F35E88 SM0603_Capa C3 27p
+  ( 1 N-000127 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F3A9FF SM0603_Capa C4 100n
+  ( 1 GND )
+  ( 2 N-000097 )
+ )
+ ( /52F265F0/52F35E86 SM0603_Capa C5 27p
+  ( 1 N-000128 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39AC1 SM0603_Capa C6 22pF
+  ( 1 /USBHUB/USBFilter/DP1 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B21 SM0603_Capa C7 22pF
+  ( 1 /USBHUB/USBFilter/DM1 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B2C SM0603_Capa C8 22pF
+  ( 1 /USBHUB/USBFilter/DP2 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B23 SM0603_Capa C9 22pF
+  ( 1 /USBHUB/USBFilter/DM2 )
+  ( 2 GND )
+ )
+ ( /52F38CA5/530369D7 CAN_RADIAL-CMS C10 10u
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F1FB75 SM0603_Capa C11 18p
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F8CC4E SM0603_Capa C12 18p
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F8CC4F SM0603_Capa C13 1u
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B68 SM0603_Capa C14 22pF
+  ( 1 /USBHUB/USBFilter/DP3 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B5F SM0603_Capa C15 22pF
+  ( 1 /USBHUB/USBFilter/DM3 )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F8CC67 SM0603_Capa C16 100n
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B55 SM0603_Capa C17 22pF
+  ( 1 /USBHUB/USBFilter/DP4 )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F22FC2 SM0603_Capa C18 4.7u
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F8CC62 SM0603_Capa C19 100n
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B5E SM0603_Capa C20 22pF
+  ( 1 /USBHUB/USBFilter/DM4 )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F8CC4D SM0603_Capa C21 18p
+  ( 1 N-000090 )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F1FB79 SM0603_Capa C22 18p
+  ( 1 N-000095 )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F1FB7B SM0603_Capa C23 1u
+  ( 1 N-000073 )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F8CC61 SM0603_Capa C24 4.7u
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F22FC6 SM0603_Capa C25 0.1u
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F23127 SM0603_Capa C26 0.1u
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F38CA5/5301D3EB SM0603_Capa C27 22uF
+  ( 1 ? )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B40 SM0603_Capa C28 22pF
+  ( 1 /USBHUB/USBFilter/DP5 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B37 SM0603_Capa C29 22pF
+  ( 1 /USBHUB/USBFilter/DM5 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B2D SM0603_Capa C30 22pF
+  ( 1 /USBHUB/USBFilter/DP6 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B36 SM0603_Capa C31 22pF
+  ( 1 /USBHUB/USBFilter/DM6 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B41 SM0603_Capa C32 22pF
+  ( 1 /USBHUB/USBFilter/DP7 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B4A SM0603_Capa C33 22pF
+  ( 1 /USBHUB/USBFilter/DM7 )
+  ( 2 GND )
+ )
+ ( /52FC9E63/52FCC6B3 SM0603_Capa C34 4.7u
+  ( 1 /connectorIn/Vext )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DAC2 SM0603_Capa C35 4.7u
+  ( 1 /connectorIn/Vprog )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DABE SM0603_Capa C36 4.7u
+  ( 1 /connectorIn/Vhub )
+  ( 2 GND )
+ )
+ ( /52FB3A59/52FCDF2E SM0603_Capa C37 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52FB3A59/52FCDF30 SM0603_Capa C38 1u
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52FB3A59/5301E345 SM0603_Capa C39 10n_4V
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52FB3A59/5301E321 SM0603_Capa C40 100n_4V
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52FB3A59/5301E300 SM0603_Capa C41 2.2n_50V
+  ( 1 N-000280 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301DE44 SM0603_Capa C42 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301DE48 SM0603_Capa C43 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301DE4B SM0603_Capa C44 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7D7 SM0603_Capa C45 100n
+  ( 1 /Arduino/VDDOUT )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E800 SM0603_Capa C46 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7B8 SM0603_Capa C47 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7D6 SM0603_Capa C48 100n
+  ( 1 /Arduino/VDDOUT )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7B9 SM0603_Capa C49 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7D5 SM0603_Capa C50 100n
+  ( 1 /Arduino/VDDOUT )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7D3 SM0603_Capa C51 100n
+  ( 1 /Arduino/VDDOUT )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E849 SM0603_Capa C52 100n
+  ( 1 /Arduino/AVREF )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E7D2 SM0603_Capa C53 100n
+  ( 1 /Arduino/VDDOUT )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F9E4E9 SM0603_Capa C54 100n
+  ( 1 /Arduino/VDDPLL )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F9E58F CAN_RADIAL-CMS C55 10u
+  ( 1 /Arduino/VDDPLL )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F8D4B3 SM0603_Capa C56 22p
+  ( 1 /Arduino/XIN )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F8D4C9 SM0603_Capa C57 22p
+  ( 1 /Arduino/XOUT )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F8D382 SM0603_Capa C58 22p
+  ( 1 /Arduino/XIN32 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F8F129 SM0603_Capa C59 22pF
+  ( 1 /Arduino/VBG )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F8D386 SM0603_Capa C60 22p
+  ( 1 /Arduino/XOUT32 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA0507 SM0603_Capa C61 22p
+  ( 1 N-000321 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA0509 SM0603_Capa C62 22p
+  ( 1 N-000322 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA0621 SM0603_Capa C63 22p
+  ( 1 N-000326 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA1C41 SM0603_Capa C64 100n
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA1C44 SM0603_Capa C65 100n
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA1C46 SM0603_Capa C66 100n
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FB4BAF SM0603_Capa C67 100n
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301DCC1 SM0603_Capa C68 4.7u
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301DCC4 SM0603_Capa C69 4.7u
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301DCC6 SM0603_Capa C70 4.7u
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301DD3D SM0603_Capa C71 100n
+  ( 1 /Alim/5V )
+  ( 2 GND )
+ )
+ ( /52FB3A59/5302070E SM0603_Capa C72 100n_2V
+  ( 1 N-000281 )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F217B0 VMD2 D1 5.1V
+  ( 1 GND )
+  ( 2 N-000064 )
+ )
+ ( /52F38CA5/5301DF5A LED-0603 D2 LED
+  ( 1 N-000133 )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DEBD LED-0603 D3 LED
+  ( 1 N-000301 )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DECB LED-0603 D4 LED
+  ( 1 N-000297 )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DECD LED-0603 D5 LED
+  ( 1 N-000304 )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DF1A LED-0603 D6 LED
+  ( 1 N-000305 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FBA7B9 LED-0603 D7 LED
+  ( 1 N-000256 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FBA7BE LED-0603 D8 LED
+  ( 1 N-000274 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA078F LED-0603 D10 LED
+  ( 1 N-000307 )
+  ( 2 N-000312 )
+ )
+ ( /52F1F92E/52F8CC5A VMD2 D11 5.1V
+  ( 1 GND )
+  ( 2 N-000032 )
+ )
+ ( /52F38CC0/52FA02CC/52FA0793 LED-0603 D12 LED
+  ( 1 N-000306 )
+  ( 2 N-000314 )
+ )
+ ( /52F265F0/5301E01C LED-0603 D13 LED
+  ( 1 N-000108 )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301E01D LED-0603 D14 LED
+  ( 1 N-000131 )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301E01F LED-0603 D15 LED
+  ( 1 N-000109 )
+  ( 2 GND )
+ )
+ ( /52F265F0/5301E020 LED-0603 D16 LED
+  ( 1 N-000132 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/5301E805 SM0805 FB1 FILTER
+  ( 1 /Alim/3.3V )
+  ( 2 /Arduino/AVREF )
+ )
+ ( /52F38CC0/52F9E496 SM0805 FB2 FILTER
+  ( 1 /Arduino/VDDOUT )
+  ( 2 /Arduino/VDDPLL )
+ )
+ ( /52F225CF/52F8CC60 GS2 GS1 GS2
+  ( 1 N-000065 )
+  ( 2 N-000072 )
+ )
+ ( /52F1F92E/52F2256F GS2 GS2 GS2
+  ( 1 N-000057 )
+  ( 2 N-000062 )
+ )
+ ( /52FC9E63/53031AAE HRS J1 USB_2
+  ( 1 /connectorIn/Vhub )
+  ( 2 /USBHUB/D-hub )
+  ( 3 /USBHUB/D+hub )
+  ( 4 GND )
+ )
+ ( /52FC9E63/53031ACA HRS J2 USB_2
+  ( 1 /connectorIn/Vprog )
+  ( 2 /Arduino/D-prog )
+  ( 3 /Arduino/D+prog )
+  ( 4 GND )
+ )
+ ( /52F225CF/52F8CC5E Molex-3-Broches K1 CONN_3
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 N-000063 )
+ )
+ ( /52F1F92E/52F22427 Molex-3-Broches K2 CONN_3
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 N-000040 )
+ )
+ ( /52FC9E63/52FC9EC3 CONN_JST-2_SMD P1 CONN_2
+  ( 1 /connectorIn/Vext )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FB5333 HE10-6C P2 CONN_6
+  ( 1 /Arduino/MISO )
+  ( 2 ? )
+  ( 3 /Arduino/SCLK )
+  ( 4 /Arduino/MOSI )
+  ( 5 ? )
+  ( 6 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA0658 HE10-6C P3 CONN_6
+  ( 1 /Arduino/programmation/MISO )
+  ( 2 /Alim/5V )
+  ( 3 /Arduino/programmation/SCK )
+  ( 4 /Arduino/programmation/MOSI )
+  ( 5 /Arduino/programmation/Reset )
+  ( 6 GND )
+ )
+ ( /52FC9E63/5305CA6B CONN_JST-2_SMD P4 CONN_2
+  ( 1 /connectorIn/Vext )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5305CA86 CONN_JST-2_SMD P5 CONN_2
+  ( 1 /connectorIn/Vext )
+  ( 2 GND )
+ )
+ ( /52F1F92E/52F8CC4C HC-49 Q1 16MHz
+  ( 1 N-000045 )
+  ( 2 N-000041 )
+ )
+ ( /52F225CF/52F1FB5E HC-49 Q2 16MHz
+  ( 1 N-000090 )
+  ( 2 N-000095 )
+ )
+ ( /52F265F0/52F35CA0 HC-49 Q3 6MHz
+  ( 1 N-000127 )
+  ( 2 N-000128 )
+ )
+ ( /52FC9E63/5301D003 TO92 Q4 PNP
+  ( 1 /connectorIn/Vext )
+  ( 2 N-000302 )
+  ( 3 /Alim/5V )
+ )
+ ( /52FC9E63/5301CFF3 TO92 Q5 PNP
+  ( 1 /connectorIn/Vprog )
+  ( 2 N-000298 )
+  ( 3 /Alim/5V )
+ )
+ ( /52F38CC0/53037E9E SOT23 Q6 MOS_P2
+  ( 1 /Arduino/programmation/EraseCMD )
+  ( 2 /Alim/3.3V )
+  ( 3 /Arduino/ERASE )
+ )
+ ( /52F265F0/52F35E3C SM0603 R1 27R
+  ( 1 /USBHUB/D+hub )
+  ( 2 /USBHUB/USBFilter/DP0 )
+ )
+ ( /52F265F0/52F35E38 SM0603 R2 27R
+  ( 1 /USBHUB/D-hub )
+  ( 2 /USBHUB/USBFilter/DM0 )
+ )
+ ( /52F265F0/52F35E03 SM0603 R3 1.5k
+  ( 1 N-000098 )
+  ( 2 /USBHUB/USBFilter/DP0 )
+ )
+ ( /52F265F0/52F3A8A3 SM0603 R4 10k
+  ( 1 N-000097 )
+  ( 2 /Alim/3.3V )
+ )
+ ( /52F265F0/52F39A7E/52F39AC8 SM0603 R5 27R
+  ( 1 /USBHUB/USBFilter/DP1 )
+  ( 2 /USB2AX2/D+1 )
+ )
+ ( /52F265F0/52F39A7E/52F39B20 SM0603 R6 27R
+  ( 1 /USBHUB/USBFilter/DM1 )
+  ( 2 /USB2AX2/D-1 )
+ )
+ ( /52F265F0/52F39A7E/52F39B2B SM0603 R7 27R
+  ( 1 /USBHUB/USBFilter/DP2 )
+  ( 2 /USB2AX/D+ )
+ )
+ ( /52F265F0/52F39A7E/52F39B24 SM0603 R8 27R
+  ( 1 /USBHUB/USBFilter/DM2 )
+  ( 2 /USB2AX/D- )
+ )
+ ( /52F265F0/52F39A7E/52F39B67 SM0603 R9 27R
+  ( 1 /USBHUB/USBFilter/DP3 )
+  ( 2 /Arduino/D+ )
+ )
+ ( /52F265F0/52F39A7E/52F39B60 SM0603 R10 27R
+  ( 1 /USBHUB/USBFilter/DM3 )
+  ( 2 /Arduino/D- )
+ )
+ ( /52F1F92E/52F8CC4A SM0603 R11 22
+  ( 1 /USB2AX/D- )
+  ( 2 N-000036 )
+ )
+ ( /52F1F92E/52F8CC4B SM0603 R12 22
+  ( 1 /USB2AX/D+ )
+  ( 2 N-000043 )
+ )
+ ( /52F1F92E/52F217D5 SM0603 R13 150
+  ( 1 N-000032 )
+  ( 2 N-000057 )
+ )
+ ( /52F1F92E/52F21653 SM0603 R14 150
+  ( 1 ? )
+  ( 2 N-000062 )
+ )
+ ( /52F1F92E/52F2009E SM0603 R15 150
+  ( 1 N-000037 )
+  ( 2 N-000054 )
+ )
+ ( /52F1F92E/52F20099 SM0603 R16 150
+  ( 1 N-000031 )
+  ( 2 N-000030 )
+ )
+ ( /52F265F0/52F39A7E/52F39B56 SM0603 R17 27R
+  ( 1 /USBHUB/USBFilter/DP4 )
+  ( 2 /connector_out/D+Top )
+ )
+ ( /52F265F0/52F39A7E/52F39B5D SM0603 R18 27R
+  ( 1 /USBHUB/USBFilter/DM4 )
+  ( 2 /connector_out/D-_Top )
+ )
+ ( /52F265F0/52F39A7E/52F39ACD SM0603 R19 15k
+  ( 1 /USB2AX2/D+1 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B1F SM0603 R20 15k
+  ( 1 /USB2AX2/D-1 )
+  ( 2 GND )
+ )
+ ( /52F225CF/52F1FB49 SM0603 R21 22
+  ( 1 /USB2AX2/D-1 )
+  ( 2 N-000075 )
+ )
+ ( /52F225CF/52F1FB4E SM0603 R22 22
+  ( 1 /USB2AX2/D+1 )
+  ( 2 N-000081 )
+ )
+ ( /52F225CF/52F8CC5B SM0603 R23 150
+  ( 1 N-000064 )
+  ( 2 N-000065 )
+ )
+ ( /52F225CF/52F8CC59 SM0603 R24 150
+  ( 1 ? )
+  ( 2 N-000072 )
+ )
+ ( /52F225CF/52F8CC56 SM0603 R25 150
+  ( 1 N-000068 )
+  ( 2 N-000069 )
+ )
+ ( /52F225CF/52F8CC55 SM0603 R26 150
+  ( 1 N-000070 )
+  ( 2 N-000071 )
+ )
+ ( /52F265F0/52F39A7E/52F39B2A SM0603 R27 15k
+  ( 1 /USB2AX/D+ )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B25 SM0603 R28 15k
+  ( 1 /USB2AX/D- )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B66 SM0603 R29 15k
+  ( 1 /Arduino/D+ )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B61 SM0603 R30 15k
+  ( 1 /Arduino/D- )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B57 SM0603 R31 15k
+  ( 1 /connector_out/D+Top )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B5C SM0603 R32 15k
+  ( 1 /connector_out/D-_Top )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B3F SM0603 R33 27R
+  ( 1 /USBHUB/USBFilter/DP5 )
+  ( 2 /connector_out/D+Bot )
+ )
+ ( /52F265F0/52F39A7E/52F39B38 SM0603 R34 27R
+  ( 1 /USBHUB/USBFilter/DM5 )
+  ( 2 /connector_out/D-Bot )
+ )
+ ( /52F265F0/52F39A7E/52F39B2E SM0603 R35 27R
+  ( 1 /USBHUB/USBFilter/DP6 )
+  ( 2 /USBHUB/HDP6 )
+ )
+ ( /52F265F0/52F39A7E/52F39B35 SM0603 R36 27R
+  ( 1 /USBHUB/USBFilter/DM6 )
+  ( 2 /USBHUB/HDM6 )
+ )
+ ( /52F265F0/52F39A7E/52F39B42 SM0603 R37 27R
+  ( 1 /USBHUB/USBFilter/DP7 )
+  ( 2 /USBHUB/HDP7 )
+ )
+ ( /52F265F0/52F39A7E/52F39B49 SM0603 R38 27R
+  ( 1 /USBHUB/USBFilter/DM7 )
+  ( 2 /USBHUB/HDM7 )
+ )
+ ( /52F265F0/52F39A7E/52F39B3E SM0603 R39 15k
+  ( 1 /connector_out/D+Bot )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B39 SM0603 R40 15k
+  ( 1 /connector_out/D-Bot )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B2F SM0603 R41 15k
+  ( 1 /USBHUB/HDP6 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B34 SM0603 R42 15k
+  ( 1 /USBHUB/HDM6 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B43 SM0603 R43 15k
+  ( 1 /USBHUB/HDP7 )
+  ( 2 GND )
+ )
+ ( /52F265F0/52F39A7E/52F39B48 SM0603 R44 15k
+  ( 1 /USBHUB/HDM7 )
+  ( 2 GND )
+ )
+ ( /52F38CA5/5301DF57 SM0603 R45 150
+  ( 1 /Alim/3.3V )
+  ( 2 N-000133 )
+ )
+ ( /52FC9E63/5301D028 SM0603 R46 1k
+  ( 1 N-000302 )
+  ( 2 GND )
+ )
+ ( /52FC9E63/5301DEF7 SM0603 R47 330
+  ( 1 /connectorIn/Vext )
+  ( 2 N-000301 )
+ )
+ ( /52FC9E63/5301DEFA SM0603 R48 330
+  ( 1 /connectorIn/Vprog )
+  ( 2 N-000297 )
+ )
+ ( /52FC9E63/5301DEFD SM0603 R49 330
+  ( 1 /connectorIn/Vhub )
+  ( 2 N-000304 )
+ )
+ ( /52FC9E63/5301DF1C SM0603 R50 330
+  ( 1 /Alim/5V )
+  ( 2 N-000305 )
+ )
+ ( /52FC9E63/5301D023 SM0603 R51 1k
+  ( 1 /connectorIn/Vext )
+  ( 2 N-000298 )
+ )
+ ( /52F38CC0/52F8F181 SM0603 R52 39R_1%
+  ( 1 /Arduino/D- )
+  ( 2 N-000149 )
+ )
+ ( /52F38CC0/52F8F17B SM0603 R53 39R_1%
+  ( 1 /Arduino/D+ )
+  ( 2 N-000172 )
+ )
+ ( /52F38CC0/52F8FCF1 SM0603 R54 100k
+  ( 1 /Alim/3.3V )
+  ( 2 N-000230 )
+ )
+ ( /52F38CC0/52FCE3F2 SM0603 R55 2.2k
+  ( 1 /connector_out/SDA )
+  ( 2 /Alim/3.3V )
+ )
+ ( /52F38CC0/52FCE3F1 SM0603 R56 2.2k
+  ( 1 /connector_out/SCL )
+  ( 2 /Alim/3.3V )
+ )
+ ( /52F38CC0/52F9E7DA SM0603 R57 2.2k
+  ( 1 /Arduino/SDA )
+  ( 2 /Alim/3.3V )
+ )
+ ( /52F38CC0/52F9EE83 SM0603 R58 2.2k
+  ( 1 /Arduino/SCL )
+  ( 2 /Alim/3.3V )
+ )
+ ( /52F38CC0/52F8F1EC SM0603 R59 0
+  ( 1 /Arduino/TST )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FBA7EC SM0603 R60 330
+  ( 1 N-000271 )
+  ( 2 N-000256 )
+ )
+ ( /52F38CC0/52FBA7E6 SM0603 R61 330
+  ( 1 N-000257 )
+  ( 2 N-000274 )
+ )
+ ( /52F38CC0/52F8F18C SM0603 R62 6k8_1%
+  ( 1 /Arduino/VBG )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52FA02CC/52FA0469 SM0603 R63 22R
+  ( 1 /Arduino/D+prog )
+  ( 2 N-000323 )
+ )
+ ( /52F38CC0/52FA02CC/52FA046E SM0603 R64 22R
+  ( 1 N-000320 )
+  ( 2 /Arduino/D-prog )
+ )
+ ( /52F38CC0/52FA02CC/52FA0823 SM0603 R65 22R
+  ( 1 /Alim/5V )
+  ( 2 /Arduino/programmation/Reset )
+ )
+ ( /52F38CC0/52FA02CC/52FA09CF SM0603 R66 1k
+  ( 1 /Arduino/PWR )
+  ( 2 N-000328 )
+ )
+ ( /52F38CC0/52FA02CC/52FA0A44 SM0603 R67 10k
+  ( 1 /Arduino/programmation/ResetCMD )
+  ( 2 N-000309 )
+ )
+ ( /52F38CC0/52FA02CC/52FA09AC SM0603 R68 10k
+  ( 1 GND )
+  ( 2 N-000308 )
+ )
+ ( /52F38CC0/52FA02CC/52FA079E SM0603 R69 22R
+  ( 1 /Alim/5V )
+  ( 2 N-000307 )
+ )
+ ( /52F38CC0/52FA02CC/52FA0799 SM0603 R70 22R
+  ( 1 /Alim/5V )
+  ( 2 N-000306 )
+ )
+ ( /52F265F0/5301E02E SM0603 R71 330
+  ( 1 /Arduino/PWR )
+  ( 2 N-000108 )
+ )
+ ( /52F265F0/5301E032 SM0603 R72 330
+  ( 1 /connector_out/PWR_Top )
+  ( 2 N-000131 )
+ )
+ ( /52F265F0/5301E035 SM0603 R73 330
+  ( 1 /connector_out/PWR_Bot )
+  ( 2 N-000109 )
+ )
+ ( /52F265F0/5301E037 SM0603 R74 330
+  ( 1 /USBHUB/PWR67 )
+  ( 2 N-000132 )
+ )
+ ( /52F38CC0/53037039 SM0603 R75 330
+  ( 1 /Arduino/LED1 )
+  ( 2 N-000253 )
+ )
+ ( /52F38CC0/53037056 SM0603 R76 330
+  ( 1 /Arduino/LED2 )
+  ( 2 N-000275 )
+ )
+ ( /52FC9E63/5304DF7F SM0603 R77 100k
+  ( 1 N-000298 )
+  ( 2 GND )
+ )
+ ( /52F38CC0/52F88AAF LQFP144 SAM3X8E1 AT91SAM3X8E
+  ( 1 ? )
+  ( 2 /Arduino/programmation/TX_ATMEGA )
+  ( 3 /Arduino/RX1 )
+  ( 4 /Arduino/TX1 )
+  ( 5 /Arduino/RX2 )
+  ( 6 /Arduino/TX2 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 /Arduino/VDDOUT )
+  ( 11 /Alim/3.3V )
+  ( 12 GND )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 /Arduino/programmation/RX_ATMEGA )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 GND )
+  ( 34 /Arduino/VDDPLL )
+  ( 35 /Arduino/XOUT )
+  ( 36 /Arduino/XIN )
+  ( 37 N-000172 )
+  ( 38 N-000149 )
+  ( 39 /Arduino/PWR )
+  ( 40 /Arduino/VBG )
+  ( 41 ? )
+  ( 42 /Arduino/D+ )
+  ( 43 /Arduino/D- )
+  ( 44 GND )
+  ( 45 /Arduino/VDDOUT )
+  ( 46 GND )
+  ( 47 /Arduino/programmation/ResetCMD )
+  ( 48 /Arduino/XIN32 )
+  ( 49 /Arduino/XOUT32 )
+  ( 50 ? )
+  ( 51 /Arduino/TST )
+  ( 52 /Alim/3.3V )
+  ( 53 N-000230 )
+  ( 54 GND )
+  ( 55 ? )
+  ( 56 /Arduino/VDDOUT )
+  ( 57 /Alim/3.3V )
+  ( 58 GND )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 /Arduino/VDDOUT )
+  ( 62 /Alim/3.3V )
+  ( 63 ? )
+  ( 64 ? )
+  ( 65 ? )
+  ( 66 ? )
+  ( 67 ? )
+  ( 68 ? )
+  ( 69 ? )
+  ( 70 /connector_out/SCL )
+  ( 71 ? )
+  ( 72 ? )
+  ( 73 ? )
+  ( 74 GND )
+  ( 75 /Arduino/AVREF )
+  ( 76 /Arduino/LED1 )
+  ( 77 /Arduino/LED2 )
+  ( 78 ? )
+  ( 79 ? )
+  ( 80 ? )
+  ( 81 ? )
+  ( 82 ? )
+  ( 83 ? )
+  ( 84 ? )
+  ( 85 ? )
+  ( 86 /Arduino/SDA )
+  ( 87 /Arduino/SCL )
+  ( 88 ? )
+  ( 89 ? )
+  ( 90 ? )
+  ( 91 ? )
+  ( 92 ? )
+  ( 93 ? )
+  ( 94 ? )
+  ( 95 ? )
+  ( 96 ? )
+  ( 97 ? )
+  ( 98 ? )
+  ( 99 ? )
+  ( 100 ? )
+  ( 101 ? )
+  ( 102 /Arduino/DP10 )
+  ( 103 ? )
+  ( 104 /Arduino/VDDOUT )
+  ( 105 /Alim/3.3V )
+  ( 106 GND )
+  ( 107 ? )
+  ( 108 /Arduino/MISO )
+  ( 109 /Arduino/MOSI )
+  ( 110 /Arduino/SCLK )
+  ( 111 /Arduino/DP10 )
+  ( 112 /Arduino/DP4 )
+  ( 113 ? )
+  ( 114 ? )
+  ( 115 ? )
+  ( 116 ? )
+  ( 117 ? )
+  ( 118 ? )
+  ( 119 ? )
+  ( 120 ? )
+  ( 121 ? )
+  ( 122 ? )
+  ( 123 ? )
+  ( 124 /Arduino/VDDOUT )
+  ( 125 /Alim/3.3V )
+  ( 126 GND )
+  ( 127 ? )
+  ( 128 ? )
+  ( 129 ? )
+  ( 130 /Arduino/ERASE )
+  ( 131 ? )
+  ( 132 ? )
+  ( 133 ? )
+  ( 134 ? )
+  ( 135 ? )
+  ( 136 ? )
+  ( 137 /Arduino/DP4 )
+  ( 138 ? )
+  ( 139 ? )
+  ( 140 ? )
+  ( 141 ? )
+  ( 142 ? )
+  ( 143 ? )
+  ( 144 ? )
+ )
+ ( /52F265F0/52F3A928 SW_PUSH_SMD SW1 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000097 )
+ )
+ ( /52F38CC0/52FB4464 SW_PUSH_SMD SW2 SW_PUSH
+  ( 1 /Arduino/ERASE )
+  ( 2 /Alim/3.3V )
+ )
+ ( /52F38CC0/52FBA809 SW_PUSH_SMD SW3 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000273 )
+ )
+ ( /52F225CF/52F8CC5D SM0603 TH1 100
+  ( 1 N-000064 )
+  ( 2 N-000063 )
+ )
+ ( /52F1F92E/52F219B0 SM0603 TH11 100
+  ( 1 N-000032 )
+  ( 2 N-000040 )
+ )
+ ( /52F225CF/52F1F99B TQFP32 U1 ATMEGA32U2
+  ( 1 N-000090 )
+  ( 2 N-000095 )
+  ( 3 GND )
+  ( 4 /Alim/5V )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 N-000072 )
+  ( 9 N-000065 )
+  ( 10 ? )
+  ( 11 N-000069 )
+  ( 12 N-000070 )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 N-000073 )
+  ( 28 GND )
+  ( 29 N-000081 )
+  ( 30 N-000075 )
+  ( 31 /Alim/5V )
+  ( 32 /Alim/5V )
+  ( ~ ? )
+ )
+ ( /52F225CF/52F8CC58 Led_Bicolore U2 LED-BICOLORE
+  ( 1 N-000071 )
+  ( 2 N-000068 )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /52F1F92E/52F8CC49 TQFP32 U3 ATMEGA32U2
+  ( 1 N-000045 )
+  ( 2 N-000041 )
+  ( 3 GND )
+  ( 4 /Alim/5V )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 N-000062 )
+  ( 9 N-000057 )
+  ( 10 ? )
+  ( 11 N-000054 )
+  ( 12 N-000031 )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 N-000034 )
+  ( 28 GND )
+  ( 29 N-000043 )
+  ( 30 N-000036 )
+  ( 31 /Alim/5V )
+  ( 32 /Alim/5V )
+  ( ~ ? )
+ )
+ ( /52F1F92E/52F21634 Led_Bicolore U4 LED-BICOLORE
+  ( 1 N-000030 )
+  ( 2 N-000037 )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /52F265F0/52F359CC LQFP48 U5 TUSB2077
+  ( 2 N-000098 )
+  ( 3 /USBHUB/USBFilter/DP0 )
+  ( 4 /USBHUB/USBFilter/DM0 )
+  ( 5 GND )
+  ( 6 N-000097 )
+  ( 7 ? )
+  ( 8 /Alim/3.3V )
+  ( 9 /Alim/3.3V )
+  ( 10 /Alim/3.3V )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 /USBHUB/USBFilter/DM1 )
+  ( 14 /USBHUB/USBFilter/DP1 )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 /USBHUB/USBFilter/DM2 )
+  ( 18 /USBHUB/USBFilter/DP2 )
+  ( 19 N-000115 )
+  ( 20 N-000116 )
+  ( 21 /USBHUB/USBFilter/DM3 )
+  ( 22 /USBHUB/USBFilter/DP3 )
+  ( 23 N-000121 )
+  ( 24 GND )
+  ( 25 N-000123 )
+  ( 26 /USBHUB/USBFilter/DM4 )
+  ( 27 /USBHUB/USBFilter/DP4 )
+  ( 28 N-000126 )
+  ( 29 N-000107 )
+  ( 30 /USBHUB/USBFilter/DM5 )
+  ( 31 /USBHUB/USBFilter/DP5 )
+  ( 32 N-000124 )
+  ( 33 N-000125 )
+  ( 34 /USBHUB/USBFilter/DM6 )
+  ( 35 /USBHUB/USBFilter/DP6 )
+  ( 36 N-000124 )
+  ( 37 N-000125 )
+  ( 38 /USBHUB/USBFilter/DM7 )
+  ( 39 /USBHUB/USBFilter/DP7 )
+  ( 43 GND )
+  ( 44 N-000128 )
+  ( 45 N-000127 )
+  ( 46 /Alim/3.3V )
+  ( 47 /Alim/3.3V )
+  ( 48 GND )
+ )
+ ( /52F265F0/52F3C1EB SOIC16 U6 TPS2044
+  ( 1 GND )
+  ( 2 /Alim/5V )
+  ( 3 N-000115 )
+  ( 4 N-000121 )
+  ( 5 GND )
+  ( 6 /Alim/5V )
+  ( 7 N-000126 )
+  ( 8 N-000124 )
+  ( 9 N-000125 )
+  ( 10 /USBHUB/PWR67 )
+  ( 11 /connector_out/PWR_Bot )
+  ( 12 N-000107 )
+  ( 13 N-000123 )
+  ( 14 /connector_out/PWR_Top )
+  ( 15 /Arduino/PWR )
+  ( 16 N-000116 )
+ )
+ ( /52F265F0/52F39A7E/52F39D00 TSSOP8 U7 SN75240
+  ( 1 GND )
+  ( 2 /USB2AX/D+ )
+  ( 3 GND )
+  ( 4 /USB2AX/D- )
+  ( 5 GND )
+  ( 6 /USB2AX2/D-1 )
+  ( 7 GND )
+  ( 8 /USB2AX2/D+1 )
+ )
+ ( /52F265F0/52F39A7E/52F39D33 TSSOP8 U8 SN75240
+  ( 1 GND )
+  ( 2 /connector_out/D+Top )
+  ( 3 GND )
+  ( 4 /connector_out/D-_Top )
+  ( 5 GND )
+  ( 6 /Arduino/D- )
+  ( 7 GND )
+  ( 8 /Arduino/D+ )
+ )
+ ( /52F265F0/52F39A7E/52F39D3A TSSOP8 U9 SN75240
+  ( 1 GND )
+  ( 2 /USBHUB/HDP6 )
+  ( 3 GND )
+  ( 4 /USBHUB/HDM6 )
+  ( 5 GND )
+  ( 6 /connector_out/D-Bot )
+  ( 7 GND )
+  ( 8 /connector_out/D+Bot )
+ )
+ ( /52F265F0/52F39A7E/52F39E27 TSSOP8 U10 SN75240
+  ( 1 GND )
+  ( 2 /USBHUB/USBFilter/DP0 )
+  ( 3 GND )
+  ( 4 /USBHUB/USBFilter/DM0 )
+  ( 5 GND )
+  ( 6 /USBHUB/HDM7 )
+  ( 7 GND )
+  ( 8 /USBHUB/HDP7 )
+ )
+ ( /52FCE5C3/52FCF4E1 USB*2 U11 USB*2
+  ( 1 /connector_out/PWR_Top )
+  ( 2 /connector_out/PWR_Bot )
+  ( 3 /connector_out/D-_Top )
+  ( 4 /connector_out/D-Bot )
+  ( 5 /connector_out/D+Top )
+  ( 6 /connector_out/D+Bot )
+  ( 7 GND )
+  ( 8 GND )
+ )
+ ( /52FCE5C3/5301D503 CONN_JST-2_SMD U12 JST
+  ( 1 /connector_out/SCL )
+  ( 2 /connector_out/SDA )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /52F38CA5/5301D3C4 SOT223 U13 AP1117
+  ( 1 /Alim/5V )
+  ( 2 /Alim/3.3V )
+  ( 3 GND )
+ )
+ ( /52FB3A59/52FCD9B1 QFN24 U14 ITG-3200
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 /Alim/3.3V )
+  ( 9 GND )
+  ( 10 N-000281 )
+  ( 11 GND )
+  ( 12 ? )
+  ( 13 /Alim/3.3V )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 GND )
+  ( 19 ? )
+  ( 20 N-000280 )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 /Arduino/SCL )
+  ( 24 /Arduino/SDA )
+ )
+ ( /52F38CC0/5301EDEA JSP_3 U15 JST_3
+  ( 1 /Arduino/RX2 )
+  ( 2 /Arduino/TX2 )
+  ( 3 GND )
+  ( 4 ? )
+  ( 5 ? )
+ )
+ ( /52F38CC0/5301EDEC JSP_3 U16 JST_3
+  ( 1 /Arduino/RX1 )
+  ( 2 /Arduino/TX1 )
+  ( 3 GND )
+  ( 4 ? )
+  ( 5 ? )
+ )
+ ( /52F38CC0/52FBA644 XBee U17 XBEE
+  ( 1 /Alim/3.3V )
+  ( 2 /Arduino/TX1 )
+  ( 3 /Arduino/RX1 )
+  ( 4 ? )
+  ( 5 N-000273 )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 N-000271 )
+  ( 14 ? )
+  ( 15 N-000257 )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+ )
+ ( /52F38CC0/52FA02CC/52FA0441 TQFP32 U18 ATMEGA16U2
+  ( 1 N-000321 )
+  ( 2 N-000322 )
+  ( 3 GND )
+  ( 4 /Alim/5V )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 /Arduino/programmation/RX_ATMEGA )
+  ( 9 N-000316 )
+  ( 10 N-000314 )
+  ( 11 N-000312 )
+  ( 12 ? )
+  ( 13 N-000308 )
+  ( 14 ? )
+  ( 15 /Arduino/programmation/SCK )
+  ( 16 /Arduino/programmation/MOSI )
+  ( 17 /Arduino/programmation/MISO )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 N-000309 )
+  ( 23 /Arduino/programmation/EraseCMD )
+  ( 25 ? )
+  ( 26 N-000328 )
+  ( 27 N-000326 )
+  ( 28 GND )
+  ( 29 N-000323 )
+  ( 30 N-000320 )
+  ( 31 /Alim/5V )
+  ( 32 /Alim/5V )
+  ( ~ /Arduino/programmation/Reset )
+ )
+ ( /52F38CC0/52FA02CC/52FB41B6 SOT23-5 U19 SN74LVC1G125
+  ( 1 GND )
+  ( 2 N-000316 )
+  ( 3 GND )
+  ( 4 /Arduino/programmation/TX_ATMEGA )
+  ( 5 /Alim/3.3V )
+ )
+ ( /52F38CC0/53046ECC Led_Bicolore U20 LED-BICOLORE
+  ( 1 N-000253 )
+  ( 2 N-000275 )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /52FB3A59/5305EA01 LGA14 U21 ADXL345
+  ( 1 /Alim/3.3V )
+  ( 2 GND )
+  ( 3 /Alim/3.3V )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 /Alim/3.3V )
+  ( 7 /Alim/3.3V )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 /Arduino/SDA )
+  ( 14 /Arduino/SCL )
+ )
+ ( /52FC9E63/530B17C6 Light_Pipe_14mm U22 LIGHT_PIPE
+ )
+ ( /52F38CC0/52F8D490 CRYSTAL_ABM3C X1 12MHz
+  ( 1 /Arduino/XIN )
+  ( 3 /Arduino/XOUT )
+ )
+ ( /52F38CC0/52F8CEDA HC-49 X2 32MHz
+  ( 1 /Arduino/XIN32 )
+  ( 2 /Arduino/XOUT32 )
+ )
+ ( /52F38CC0/52FA02CC/52FA05A1 CRYSTAL_ABM3C X3 12MHz_20pF
+  ( 1 N-000321 )
+  ( 3 N-000322 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component C49
+ SM*
+ C?
+ C1-1
+$endlist
+$component C50
+ SM*
+ C?
+ C1-1
+$endlist
+$component C51
+ SM*
+ C?
+ C1-1
+$endlist
+$component C52
+ SM*
+ C?
+ C1-1
+$endlist
+$component C53
+ SM*
+ C?
+ C1-1
+$endlist
+$component C54
+ SM*
+ C?
+ C1-1
+$endlist
+$component C55
+ CP*
+ SM*
+$endlist
+$component C56
+ SM*
+ C?
+ C1-1
+$endlist
+$component C57
+ SM*
+ C?
+ C1-1
+$endlist
+$component C58
+ SM*
+ C?
+ C1-1
+$endlist
+$component C59
+ SM*
+ C?
+ C1-1
+$endlist
+$component C60
+ SM*
+ C?
+ C1-1
+$endlist
+$component C61
+ SM*
+ C?
+ C1-1
+$endlist
+$component C62
+ SM*
+ C?
+ C1-1
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C69
+ SM*
+ C?
+ C1-1
+$endlist
+$component C70
+ SM*
+ C?
+ C1-1
+$endlist
+$component C71
+ SM*
+ C?
+ C1-1
+$endlist
+$component C72
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D13
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D14
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D15
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D16
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R41
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R42
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R43
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R44
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R46
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R47
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R48
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R50
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R51
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R52
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R53
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R55
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R57
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R59
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R60
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R61
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R62
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R63
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R64
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R65
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R66
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R67
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R68
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R69
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R70
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R71
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R72
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R73
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R74
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R75
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R76
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R77
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component TH1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component TH11
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
