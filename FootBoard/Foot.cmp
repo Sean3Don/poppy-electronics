@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 28 Feb 2014 12:03:23 CET
+
+BeginCmp
+TimeStamp = /531054CF;
+Reference = Nano1;
+ValeurCmp = ARDUINO_NANO;
+IdModule  = Arduino_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /53106221;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = CONN_JST-2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /531065B8;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = CONN_JST-2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105C13;
+Reference = R1;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105C0A;
+Reference = R2;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105C07;
+Reference = R3;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105BF5;
+Reference = R4;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105BDD;
+Reference = R5;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105BFD;
+Reference = R6;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105BD2;
+Reference = R7;
+ValeurCmp = PR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B82;
+Reference = Source1;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B85;
+Reference = Source2;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B87;
+Reference = Source3;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B8B;
+Reference = Source4;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B89;
+Reference = Source5;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B8D;
+Reference = Source6;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /53105B8C;
+Reference = Source7;
+ValeurCmp = CURRENTSOURCE;
+IdModule  = SOT353;
+EndCmp
+
+EndListe
