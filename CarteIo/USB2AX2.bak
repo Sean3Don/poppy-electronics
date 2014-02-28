@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date lun. 24 févr. 2014 11:40:45 CET
+EESchema Schematic File Version 2  date Thu 27 Feb 2014 13:41:15 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 11
 Title ""
-Date "24 feb 2014"
+Date "27 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,131 +47,131 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1550 2700 4200 2700
-Connection ~ 9800 1900
-Wire Wire Line
-	10250 1900 9350 1900
-Wire Wire Line
-	10250 1900 10250 1650
-Wire Wire Line
-	9800 850  9800 1250
-Wire Wire Line
-	9350 1250 9350 1000
-Connection ~ 7750 4350
-Wire Wire Line
-	7750 4550 7750 3900
-Wire Wire Line
-	8450 5100 7500 5100
-Wire Wire Line
-	8250 4350 8450 4350
-Wire Wire Line
-	7500 5100 7500 4000
-Wire Wire Line
-	7500 4000 7100 4000
-Wire Wire Line
-	9200 3900 9200 3700
-Wire Wire Line
-	8950 3800 9050 3800
-Wire Wire Line
-	9050 3800 9050 3550
-Wire Wire Line
-	9050 3550 8950 3550
-Wire Wire Line
-	8300 3550 8200 3550
-Wire Wire Line
-	8200 3550 8200 3600
-Wire Wire Line
-	8200 3600 8100 3600
-Wire Wire Line
-	7100 3600 7600 3600
-Wire Wire Line
-	7100 2800 7600 2800
-Wire Wire Line
-	7100 2600 7600 2600
-Wire Wire Line
-	3550 3800 3550 3700
-Wire Wire Line
-	2850 4200 2850 4400
-Connection ~ 2250 3600
-Wire Wire Line
-	2250 3800 2250 2950
-Wire Wire Line
-	4200 3150 2850 3150
-Connection ~ 4050 4200
-Wire Wire Line
-	4200 4200 4050 4200
-Wire Wire Line
-	3550 3700 4200 3700
-Connection ~ 4050 2100
-Wire Wire Line
-	4200 2100 4050 2100
-Wire Wire Line
-	4050 1900 4050 2300
-Wire Wire Line
-	4050 2300 4200 2300
-Wire Wire Line
-	4200 2200 4050 2200
-Connection ~ 4050 2200
-Wire Wire Line
-	4200 3400 3900 3400
-Wire Wire Line
-	4200 4050 4050 4050
-Wire Wire Line
-	4050 4050 4050 4400
-Wire Wire Line
-	2250 2950 4200 2950
-Wire Wire Line
-	2850 3150 2850 3800
-Connection ~ 2850 3600
-Wire Wire Line
-	2250 4200 2250 4400
-Wire Wire Line
-	3550 4200 3550 4400
-Wire Wire Line
-	7100 2500 7600 2500
-Wire Wire Line
-	7100 2700 7600 2700
-Wire Wire Line
-	7100 3500 7600 3500
-Wire Wire Line
-	7100 3700 7600 3700
-Wire Wire Line
-	8100 3700 8200 3700
-Wire Wire Line
-	8200 3700 8200 3800
-Wire Wire Line
-	8200 3800 8300 3800
-Wire Wire Line
-	9200 3700 9050 3700
-Connection ~ 9050 3700
-Wire Wire Line
-	7750 3900 7100 3900
-Wire Wire Line
-	8250 4750 8250 4850
-Wire Wire Line
-	8950 4350 8950 4550
-Wire Wire Line
-	8950 4550 9950 4550
-Wire Wire Line
-	9950 4350 9250 4350
-Wire Wire Line
-	9250 4350 9250 4400
-Wire Wire Line
-	8950 5100 9250 5100
-Wire Wire Line
-	7750 4950 7750 5100
-Connection ~ 7750 5100
-Wire Wire Line
-	9350 1000 10250 1000
-Wire Wire Line
-	10250 1000 10250 1250
-Connection ~ 9800 1000
-Wire Wire Line
-	9350 1900 9350 1650
+	1550 2550 4200 2550
 Wire Wire Line
 	9800 2100 9800 1650
 Wire Wire Line
-	1550 2550 4200 2550
+	9350 1650 9350 1900
+Connection ~ 9800 1000
+Wire Wire Line
+	10250 1250 10250 1000
+Wire Wire Line
+	10250 1000 9350 1000
+Connection ~ 7750 5100
+Wire Wire Line
+	7750 4950 7750 5100
+Wire Wire Line
+	8950 5100 9250 5100
+Wire Wire Line
+	9250 4400 9250 4350
+Wire Wire Line
+	9250 4350 9950 4350
+Wire Wire Line
+	9950 4550 8950 4550
+Wire Wire Line
+	8950 4550 8950 4350
+Wire Wire Line
+	8250 4750 8250 4850
+Wire Wire Line
+	7100 3900 7750 3900
+Connection ~ 9050 3700
+Wire Wire Line
+	9050 3700 9200 3700
+Wire Wire Line
+	8300 3800 8200 3800
+Wire Wire Line
+	8200 3800 8200 3700
+Wire Wire Line
+	8200 3700 8100 3700
+Wire Wire Line
+	7100 3700 7600 3700
+Wire Wire Line
+	7100 3500 7600 3500
+Wire Wire Line
+	7100 2700 7600 2700
+Wire Wire Line
+	7100 2500 7600 2500
+Wire Wire Line
+	3550 4200 3550 4400
+Wire Wire Line
+	2250 4200 2250 4400
+Connection ~ 2850 3600
+Wire Wire Line
+	2850 3800 2850 3150
+Wire Wire Line
+	4200 2950 2250 2950
+Wire Wire Line
+	4050 4400 4050 4050
+Wire Wire Line
+	4050 4050 4200 4050
+Wire Wire Line
+	4200 3400 3900 3400
+Connection ~ 4050 2200
+Wire Wire Line
+	4200 2200 4050 2200
+Wire Wire Line
+	4200 2300 4050 2300
+Wire Wire Line
+	4050 2300 4050 1900
+Wire Wire Line
+	4200 2100 4050 2100
+Connection ~ 4050 2100
+Wire Wire Line
+	4200 3700 3550 3700
+Wire Wire Line
+	4200 4200 4050 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	2850 3150 4200 3150
+Wire Wire Line
+	2250 2950 2250 3800
+Connection ~ 2250 3600
+Wire Wire Line
+	2850 4200 2850 4400
+Wire Wire Line
+	3550 3700 3550 3800
+Wire Wire Line
+	7100 2600 7600 2600
+Wire Wire Line
+	7100 2800 7600 2800
+Wire Wire Line
+	7100 3600 7600 3600
+Wire Wire Line
+	8100 3600 8200 3600
+Wire Wire Line
+	8200 3600 8200 3550
+Wire Wire Line
+	8200 3550 8300 3550
+Wire Wire Line
+	8950 3550 9050 3550
+Wire Wire Line
+	9050 3550 9050 3800
+Wire Wire Line
+	9050 3800 8950 3800
+Wire Wire Line
+	9200 3700 9200 3900
+Wire Wire Line
+	7100 4000 7500 4000
+Wire Wire Line
+	7500 4000 7500 5100
+Wire Wire Line
+	8250 4350 8450 4350
+Wire Wire Line
+	7500 5100 8450 5100
+Wire Wire Line
+	7750 3900 7750 4550
+Connection ~ 7750 4350
+Wire Wire Line
+	9350 1000 9350 1250
+Wire Wire Line
+	9800 850  9800 1250
+Wire Wire Line
+	10250 1650 10250 1900
+Wire Wire Line
+	10250 1900 9350 1900
+Connection ~ 9800 1900
+Wire Wire Line
+	1550 2700 4200 2700
 Text HLabel 9800 850  1    60   Input ~ 0
 5V
 Text HLabel 4050 1900 1    60   Input ~ 0
@@ -196,8 +196,8 @@ L GND #PWR016
 U 1 1 52F22FFD
 P 9800 2100
 AR Path="/52F1F92E/52F22FFD" Ref="#PWR016"  Part="1" 
-AR Path="/52F225CF/52F22FFD" Ref="#PWR41"  Part="1" 
-F 0 "#PWR41" H 9800 2100 30  0001 C CNN
+AR Path="/52F225CF/52F22FFD" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 9800 2100 30  0001 C CNN
 F 1 "GND" H 9800 2030 30  0001 C CNN
 	1    9800 2100
 	1    0    0    -1  
@@ -242,8 +242,8 @@ L GND #PWR017
 U 1 1 52F8CC5F
 P 9250 4400
 AR Path="/52F1F92E/52F8CC5F" Ref="#PWR017"  Part="1" 
-AR Path="/52F225CF/52F8CC5F" Ref="#PWR40"  Part="1" 
-F 0 "#PWR40" H 9250 4400 30  0001 C CNN
+AR Path="/52F225CF/52F8CC5F" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 9250 4400 30  0001 C CNN
 F 1 "GND" H 9250 4330 30  0001 C CNN
 	1    9250 4400
 	1    0    0    -1  
@@ -275,8 +275,8 @@ L GND #PWR018
 U 1 1 52F8CC5C
 P 8250 4850
 AR Path="/52F1F92E/52F8CC5C" Ref="#PWR018"  Part="1" 
-AR Path="/52F225CF/52F8CC5C" Ref="#PWR38"  Part="1" 
-F 0 "#PWR38" H 8250 4850 30  0001 C CNN
+AR Path="/52F225CF/52F8CC5C" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 8250 4850 30  0001 C CNN
 F 1 "GND" H 8250 4780 30  0001 C CNN
 	1    8250 4850
 	1    0    0    -1  
@@ -330,8 +330,8 @@ L GND #PWR019
 U 1 1 52F8CC57
 P 9200 3900
 AR Path="/52F1F92E/52F8CC57" Ref="#PWR019"  Part="1" 
-AR Path="/52F225CF/52F8CC57" Ref="#PWR39"  Part="1" 
-F 0 "#PWR39" H 9200 3900 30  0001 C CNN
+AR Path="/52F225CF/52F8CC57" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 9200 3900 30  0001 C CNN
 F 1 "GND" H 9200 3830 30  0001 C CNN
 	1    9200 3900
 	1    0    0    -1  
@@ -373,8 +373,8 @@ L GND #PWR023
 U 1 1 52F1FBB9
 P 4050 4400
 AR Path="/52F1F92E/52F1FBB9" Ref="#PWR023"  Part="1" 
-AR Path="/52F225CF/52F1FBB9" Ref="#PWR37"  Part="1" 
-F 0 "#PWR37" H 4050 4400 30  0001 C CNN
+AR Path="/52F225CF/52F1FBB9" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 4050 4400 30  0001 C CNN
 F 1 "GND" H 4050 4330 30  0001 C CNN
 	1    4050 4400
 	1    0    0    -1  
@@ -384,8 +384,8 @@ L GND #PWR024
 U 1 1 52F1FBB7
 P 3550 4400
 AR Path="/52F1F92E/52F1FBB7" Ref="#PWR024"  Part="1" 
-AR Path="/52F225CF/52F1FBB7" Ref="#PWR36"  Part="1" 
-F 0 "#PWR36" H 3550 4400 30  0001 C CNN
+AR Path="/52F225CF/52F1FBB7" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 3550 4400 30  0001 C CNN
 F 1 "GND" H 3550 4330 30  0001 C CNN
 	1    3550 4400
 	1    0    0    -1  
@@ -395,8 +395,8 @@ L GND #PWR025
 U 1 1 52F1FBB3
 P 2250 4400
 AR Path="/52F1F92E/52F1FBB3" Ref="#PWR025"  Part="1" 
-AR Path="/52F225CF/52F1FBB3" Ref="#PWR34"  Part="1" 
-F 0 "#PWR34" H 2250 4400 30  0001 C CNN
+AR Path="/52F225CF/52F1FBB3" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 2250 4400 30  0001 C CNN
 F 1 "GND" H 2250 4330 30  0001 C CNN
 	1    2250 4400
 	1    0    0    -1  
@@ -406,8 +406,8 @@ L GND #PWR026
 U 1 1 52F1FBB0
 P 2850 4400
 AR Path="/52F1F92E/52F1FBB0" Ref="#PWR026"  Part="1" 
-AR Path="/52F225CF/52F1FBB0" Ref="#PWR35"  Part="1" 
-F 0 "#PWR35" H 2850 4400 30  0001 C CNN
+AR Path="/52F225CF/52F1FBB0" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 2850 4400 30  0001 C CNN
 F 1 "GND" H 2850 4330 30  0001 C CNN
 	1    2850 4400
 	1    0    0    -1  

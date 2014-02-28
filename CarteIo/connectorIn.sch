@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 24 Feb 2014 17:38:53 CET
+EESchema Schematic File Version 2  date Fri 28 Feb 2014 09:49:20 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 11
 Title ""
-Date "24 feb 2014"
+Date "28 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,15 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L LIGHT_PIPE U22
-U 1 1 530B17C6
-P 3850 6800
-F 0 "U22" H 3850 6800 60  0000 C CNN
-F 1 "LIGHT_PIPE" H 3850 6800 60  0000 C CNN
-	1    3850 6800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 3300 3750 3250
 Wire Wire Line
