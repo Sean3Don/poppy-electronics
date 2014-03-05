@@ -1,5 +1,21 @@
-# EESchema Netlist Version 1.1 created  Fri 28 Feb 2014 12:08:25 CET
+# EESchema Netlist Version 1.1 created  Tue 04 Mar 2014 17:20:21 CET
 (
+ ( /53109866 $noname  P3 CONN_6 {Lib=CONN_6}
+  (    1 /RA0 )
+  (    2 /RA1 )
+  (    3 /RA2 )
+  (    4 /RA3 )
+  (    5 /RA6 )
+  (    6 /RA7 )
+ )
+ ( /5310985E $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 /A0 )
+  (    2 /A1 )
+  (    3 /A2 )
+  (    4 /A3 )
+  (    5 /A6 )
+  (    6 /A7 )
+ )
  ( /531065B8 $noname  P2 CONN_2 {Lib=CONN_2}
   (    1 /SCL )
   (    2 /SDA )
@@ -9,69 +25,69 @@
   (    2 GND )
  )
  ( /53105C13 $noname  R1 PR {Lib=PR}
-  (    1 ? )
-  (    2 N-000033 )
+  (    1 +5V )
+  (    2 N-000038 )
  )
  ( /53105C0A $noname  R2 PR {Lib=PR}
   (    1 +5V )
-  (    2 N-000029 )
+  (    2 N-000036 )
  )
  ( /53105C07 $noname  R3 PR {Lib=PR}
   (    1 +5V )
-  (    2 N-000014 )
+  (    2 N-000033 )
  )
  ( /53105BFD $noname  R6 PR {Lib=PR}
   (    1 +5V )
-  (    2 N-000015 )
+  (    2 N-000003 )
  )
  ( /53105BF5 $noname  R4 PR {Lib=PR}
   (    1 +5V )
-  (    2 N-000008 )
+  (    2 N-000030 )
  )
  ( /53105BD2 $noname  R7 PR {Lib=PR}
   (    1 +5V )
-  (    2 N-000001 )
+  (    2 N-000007 )
  )
  ( /53105B8D $noname  Source6 CURRENTSOURCE {Lib=CURRENTSOURCE}
   (    1 ? )
-  (    2 /A7 )
+  (    2 /RA6 )
   (    3 GND )
-  (    4 N-000015 )
+  (    4 N-000003 )
   (    5 +5V )
  )
  ( /53105B8C $noname  Source7 CURRENTSOURCE {Lib=CURRENTSOURCE}
   (    1 ? )
-  (    2 /A6 )
+  (    2 /RA7 )
   (    3 GND )
-  (    4 N-000001 )
+  (    4 N-000007 )
   (    5 +5V )
  )
  ( /53105B89 $noname  Source5 CURRENTSOURCE {Lib=CURRENTSOURCE}
   (    1 ? )
-  (    2 /A3 )
+  (    2 /RA3 )
   (    3 GND )
-  (    4 N-000008 )
+  (    4 N-000030 )
   (    5 +5V )
  )
  ( /53105B87 $noname  Source3 CURRENTSOURCE {Lib=CURRENTSOURCE}
   (    1 ? )
-  (    2 /A2 )
+  (    2 /RA2 )
   (    3 GND )
-  (    4 N-000014 )
+  (    4 N-000033 )
   (    5 +5V )
  )
  ( /53105B85 $noname  Source2 CURRENTSOURCE {Lib=CURRENTSOURCE}
   (    1 ? )
-  (    2 /A1 )
+  (    2 /RA1 )
   (    3 GND )
-  (    4 N-000029 )
+  (    4 N-000036 )
   (    5 +5V )
  )
  ( /53105B82 $noname  Source1 CURRENTSOURCE {Lib=CURRENTSOURCE}
   (    1 ? )
-  (    2 /A0 )
+  (    2 /RA0 )
   (    3 GND )
-  (    4 N-000033 )
+  (    4 N-000038 )
   (    5 +5V )
  )
  ( /531054CF $noname  Nano1 ARDUINO_NANO {Lib=ARDUINO_NANO}
@@ -154,71 +170,90 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "" ""
- R7 2
- Source7 4
-Net 3 "/A7" "A7"
- Nano1 20
+Net 2 "/RA6" "RA6"
+ P3 5
  Source6 2
-Net 5 "/A6" "A6"
+Net 3 "" ""
+ Source6 4
+ R6 2
+Net 5 "/RA7" "RA7"
  Source7 2
- Nano1 21
-Net 7 "/A3" "A3"
+ P3 6
+Net 6 "GND" "GND"
+ Nano1 4
+ P1 2
+ Source5 3
+ Nano1 17
+ Source2 3
+ Source3 3
+ Source1 3
+ Source6 3
+ Source7 3
+Net 7 "" ""
+ Source7 4
+ R7 2
+Net 8 "/A3" "A3"
  Nano1 24
+ P4 4
+Net 9 "/A1" "A1"
+ Nano1 26
+ P4 2
+Net 18 "/A7" "A7"
+ Nano1 20
+ P4 6
+Net 25 "/A2" "A2"
+ P4 3
+ Nano1 25
+Net 29 "/RA3" "RA3"
+ P3 4
  Source5 2
-Net 8 "" ""
+Net 30 "" ""
  Source5 4
  R4 2
-Net 10 "/A2" "A2"
- Nano1 25
+Net 32 "/RA2" "RA2"
  Source3 2
-Net 11 "GND" "GND"
- Source6 3
- Nano1 4
- Source1 3
- Source2 3
- Source7 3
- Source5 3
- Source3 3
- P1 2
- Nano1 17
-Net 14 "" ""
+ P3 3
+Net 33 "" ""
  Source3 4
  R3 2
-Net 15 "" ""
- R6 2
- Source6 4
-Net 29 "" ""
- Source2 4
- R2 2
-Net 30 "+5V" "+5V"
- R4 1
+Net 34 "+5V" "+5V"
  P1 1
- Source7 5
+ R4 1
  Source6 5
- R7 1
- Source5 5
- R2 1
- R3 1
- R6 1
- Nano1 19
- Source2 5
  Source1 5
  Source3 5
-Net 32 "/A0" "A0"
- Nano1 27
- Source1 2
-Net 33 "" ""
- Source1 4
+ Source2 5
+ Nano1 19
+ Source7 5
+ Source5 5
+ R7 1
+ R6 1
+ R3 1
+ R2 1
+ R1 1
+Net 36 "" ""
+ Source2 4
+ R2 2
+Net 38 "" ""
  R1 2
-Net 34 "/SDA" "SDA"
- Nano1 23
+ Source1 4
+Net 39 "/SDA" "SDA"
  P2 2
-Net 35 "/SCL" "SCL"
+ Nano1 23
+Net 40 "/SCL" "SCL"
  Nano1 22
  P2 1
-Net 42 "/A1" "A1"
+Net 44 "/RA0" "RA0"
+ Source1 2
+ P3 1
+Net 45 "/A0" "A0"
+ P4 1
+ Nano1 27
+Net 46 "/A6" "A6"
+ P4 5
+ Nano1 21
+Net 47 "/RA1" "RA1"
+ P3 2
  Source2 2
- Nano1 26
 }
 #End
