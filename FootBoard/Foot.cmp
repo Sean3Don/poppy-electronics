@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 28 Feb 2014 15:25:31 CET
+Cmp-Mod V01 Genere par PcbNew le Mon 10 Mar 2014 12:30:07 CET
 
 BeginCmp
 TimeStamp = /531054CF;
@@ -25,14 +25,14 @@ BeginCmp
 TimeStamp = /53109866;
 Reference = P3;
 ValeurCmp = CONN_6;
-IdModule  = Molex-6Broches;
+IdModule  = Molex-6BrochesV;
 EndCmp
 
 BeginCmp
 TimeStamp = /5310985E;
 Reference = P4;
 ValeurCmp = CONN_6;
-IdModule  = Molex-6Broches;
+IdModule  = Molex-6BrochesV;
 EndCmp
 
 BeginCmp
