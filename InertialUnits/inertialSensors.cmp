@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = lun. 31 mars 2014 21:55:19 CEST
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C508/530369D7;
+Reference = C10;
+ValeurCmp = 10u;
+IdModule  = CAN_RADIAL-CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C508/5301D3EB;
+Reference = C27;
+ValeurCmp = 22uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/52FCDF2E;
+Reference = C37;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/52FCDF30;
+Reference = C38;
+ValeurCmp = 1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/5301E345;
+Reference = C39;
+ValeurCmp = 10n_4V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/5301E321;
+Reference = C40;
+ValeurCmp = 100n_4V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/5301E300;
+Reference = C41;
+ValeurCmp = 2.2n_50V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/5302070E;
+Reference = C72;
+ValeurCmp = 100n_2V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C508/5301DF5A;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C2A1;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = CONN_JST-2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C2A9;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = CONN_JST-2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C508/5301DF57;
+Reference = R45;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C1B6/5339C508/5301D3C4;
+Reference = U13;
+ValeurCmp = AP1117;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/52FCD9B1;
+Reference = U14;
+ValeurCmp = ITG-3200;
+IdModule  = QFN24;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339C0F8/5305EA01;
+Reference = U21;
+ValeurCmp = ADXL345;
+IdModule  = LGA14;
+EndCmp
+
+EndListe

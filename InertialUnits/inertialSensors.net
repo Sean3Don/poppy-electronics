@@ -1,0 +1,223 @@
+# EESchema Netlist Version 1.1 created  lun. 31 mars 2014 21:58:26 CEST
+(
+ ( /5339C1B6/5339C2A9 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 /Connector/SCL )
+  (    2 /Connector/SDA )
+ )
+ ( /5339C1B6/5339C2A1 $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 /Connector/alim_3.3/5V )
+  (    2 GND )
+ )
+ ( /5339C1B6/5339C508/5301D3EB $noname  C27 22uF {Lib=PC}
+  (    1 /Connector/3.3V )
+  (    2 GND )
+ )
+ ( /5339C1B6/5339C508/530369D7 $noname  C10 10u {Lib=CP1}
+  (    1 /Connector/alim_3.3/5V )
+  (    2 GND )
+ )
+ ( /5339C1B6/5339C508/5301DF5A $noname  D2 LED {Lib=LED}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /5339C1B6/5339C508/5301DF57 $noname  R45 150 {Lib=R}
+  (    1 /Connector/3.3V )
+  (    2 N-000025 )
+ )
+ ( /5339C1B6/5339C508/5301D3C4 $noname  U13 AP1117 {Lib=AP1117}
+  (    1 GND )
+  (    2 /Connector/3.3V )
+  (    3 /Connector/alim_3.3/5V )
+ )
+ ( /5339C0F8/5305EA01 $noname  U21 ADXL345 {Lib=ADXL345}
+  (    1 /Connector/3.3V )
+  (    2 GND )
+  (    3 /Connector/3.3V )
+  (    4 GND )
+  (    5 GND )
+  (    6 /Connector/3.3V )
+  (    7 /Connector/3.3V )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 GND )
+  (   12 GND )
+  (   13 /Connector/SDA )
+  (   14 /Connector/SCL )
+ )
+ ( /5339C0F8/5302070E $noname  C72 100n_2V {Lib=PC}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /5339C0F8/5301E345 $noname  C39 10n_4V {Lib=PC}
+  (    1 /Connector/3.3V )
+  (    2 GND )
+ )
+ ( /5339C0F8/5301E321 $noname  C40 100n_4V {Lib=PC}
+  (    1 /Connector/3.3V )
+  (    2 GND )
+ )
+ ( /5339C0F8/5301E300 $noname  C41 2.2n_50V {Lib=PC}
+  (    1 N-000022 )
+  (    2 GND )
+ )
+ ( /5339C0F8/52FCDF30 $noname  C38 1u {Lib=PC}
+  (    1 /Connector/3.3V )
+  (    2 GND )
+ )
+ ( /5339C0F8/52FCDF2E $noname  C37 100n {Lib=PC}
+  (    1 /Connector/3.3V )
+  (    2 GND )
+ )
+ ( /5339C0F8/52FCD9B1 $noname  U14 ITG-3200 {Lib=ITG-3200}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 /Connector/3.3V )
+  (    9 GND )
+  (   10 N-000008 )
+  (   11 GND )
+  (   12 ? )
+  (   13 /Connector/3.3V )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 GND )
+  (   19 ? )
+  (   20 N-000022 )
+  (   21 ? )
+  (   22 ? )
+  (   23 /Connector/SCL )
+  (   24 /Connector/SDA )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U13
+ SOT223
+ TO252
+ SOT89
+ TO263
+ TO220
+$endlist
+$component C72
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/Connector/3.3V" "3.3V"
+ U21 1
+ C39 1
+ C40 1
+ U14 13
+ R45 1
+ U13 2
+ U21 6
+ C38 1
+ U14 8
+ C27 1
+ C37 1
+ U21 3
+ U21 7
+Net 2 "/Connector/SCL" "SCL"
+ P2 1
+ U14 23
+ U21 14
+Net 3 "/Connector/SDA" "SDA"
+ U14 24
+ P2 2
+ U21 13
+Net 4 "GND" "GND"
+ C10 2
+ C27 2
+ U13 1
+ D2 2
+ P1 2
+ U14 11
+ U14 9
+ U21 5
+ U21 4
+ U21 2
+ C39 2
+ C72 2
+ U21 11
+ U21 12
+ U14 18
+ C38 2
+ C41 2
+ C40 2
+ C37 2
+ U14 1
+Net 8 "" ""
+ C72 1
+ U14 10
+Net 22 "" ""
+ C41 1
+ U14 20
+Net 24 "/Connector/alim 3.3/5V" "5V"
+ P1 1
+ C10 1
+ U13 3
+Net 25 "" ""
+ D2 1
+ R45 2
+}
+#End
