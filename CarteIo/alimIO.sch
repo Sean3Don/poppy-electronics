@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 10 Mar 2014 10:49:40 CET
+EESchema Schematic File Version 2  date Fri 04 Apr 2014 15:11:21 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 11
 Title ""
-Date "28 feb 2014"
+Date "4 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,26 +47,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 2950 2550
+Connection ~ 3050 2550
 Wire Wire Line
-	2950 2600 2950 2550
+	3050 2600 3050 2550
 Wire Wire Line
 	4700 2950 4850 2950
 Wire Wire Line
-	2950 2900 2950 3000
+	3050 2900 3050 3000
 Wire Wire Line
 	1900 2950 1900 3050
 Wire Wire Line
-	2450 2900 2450 3000
-Wire Wire Line
-	1650 2550 2100 2550
+	2100 2550 1650 2550
 Connection ~ 1900 2550
 Wire Wire Line
-	2800 2550 3050 2550
+	3150 2550 2900 2550
 Wire Wire Line
 	4250 2950 4300 2950
 Wire Wire Line
 	3750 2950 3650 2950
+Wire Wire Line
+	2500 2850 2500 3150
 $Comp
 L CP1 C10
 U 1 1 530369D7
@@ -108,31 +108,31 @@ $EndComp
 $Comp
 L GND #PWR013
 U 1 1 5301D3F5
-P 2950 3000
-F 0 "#PWR013" H 2950 3000 30  0001 C CNN
-F 1 "GND" H 2950 2930 30  0001 C CNN
-	1    2950 3000
+P 3050 3000
+F 0 "#PWR013" H 3050 3000 30  0001 C CNN
+F 1 "GND" H 3050 2930 30  0001 C CNN
+	1    3050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L PC C27
 U 1 1 5301D3EB
-P 2950 2750
-F 0 "C27" H 3000 2825 50  0000 L CNN
-F 1 "22uF" H 3000 2625 50  0000 L CNN
-	1    2950 2750
+P 3050 2750
+F 0 "C27" H 3100 2825 50  0000 L CNN
+F 1 "22uF" H 3100 2625 50  0000 L CNN
+	1    3050 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L AP1117 U13
 U 1 1 5301D3C4
-P 2450 2550
-F 0 "U13" H 2000 2050 60  0000 C CNN
-F 1 "AP1117" H 3100 2000 60  0000 C CNN
-	1    2450 2550
+P 2500 2550
+F 0 "U13" H 2050 2050 60  0000 C CNN
+F 1 "AP1117" H 3150 2000 60  0000 C CNN
+	1    2500 2550
 	1    0    0    -1  
 $EndComp
-Text HLabel 3050 2550 2    60   Input ~ 0
+Text HLabel 3150 2550 2    60   Input ~ 0
 3.3V
 Text HLabel 1650 2550 0    60   Input ~ 0
 5V
@@ -148,10 +148,10 @@ $EndComp
 $Comp
 L GND #PWR015
 U 1 1 52FB3715
-P 2450 3000
-F 0 "#PWR015" H 2450 3000 30  0001 C CNN
-F 1 "GND" H 2450 2930 30  0001 C CNN
-	1    2450 3000
+P 2500 3150
+F 0 "#PWR015" H 2500 3150 30  0001 C CNN
+F 1 "GND" H 2500 3080 30  0001 C CNN
+	1    2500 3150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

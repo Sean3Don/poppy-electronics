@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 04 Mar 2014 10:35:23 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 26 Mar 2014 11:39:15 CET
 
 BeginCmp
 TimeStamp = /52F265F0/52F3A963;
@@ -603,17 +603,17 @@ IdModule  = GS2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC9E63/53031AAE;
+TimeStamp = /52FC9E63/532AAB78;
 Reference = J1;
-ValeurCmp = USB_2;
-IdModule  = HRS;
+ValeurCmp = UUSB;
+IdModule  = microUSB;
 EndCmp
 
 BeginCmp
-TimeStamp = /52FC9E63/53031ACA;
+TimeStamp = /52FC9E63/532AAB7E;
 Reference = J2;
-ValeurCmp = USB_2;
-IdModule  = HRS;
+ValeurCmp = UUSB;
+IdModule  = microUSB;
 EndCmp
 
 BeginCmp
@@ -799,6 +799,20 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F265F0/5330374E;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F265F0/53303756;
+Reference = R12;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F1F92E/52F217D5;
 Reference = R13;
 ValeurCmp = 150;
@@ -851,6 +865,20 @@ BeginCmp
 TimeStamp = /52F265F0/52F39A7E/52F39B1F;
 Reference = R20;
 ValeurCmp = 15k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F265F0/5330375A;
+Reference = R21;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F265F0/5330375D;
+Reference = R22;
+ValeurCmp = R;
 IdModule  = SM0603;
 EndCmp
 
@@ -935,6 +963,20 @@ BeginCmp
 TimeStamp = /52F265F0/52F39A7E/52F39B38;
 Reference = R34;
 ValeurCmp = 27R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F265F0/5332AE12;
+Reference = R35;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F265F0/5332AE23;
+Reference = R36;
+ValeurCmp = R;
 IdModule  = SM0603;
 EndCmp
 
@@ -1279,6 +1321,13 @@ TimeStamp = /52F265F0/52F39A7E/52F39D3A;
 Reference = U9;
 ValeurCmp = SN75240;
 IdModule  = TSSOP8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F265F0/53303937;
+Reference = U10;
+ValeurCmp = LED-BICOLORE;
+IdModule  = Led_Bicolore;
 EndCmp
 
 BeginCmp
