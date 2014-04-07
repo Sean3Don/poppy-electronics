@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 06 Mar 2014 15:41:55 CET
+EESchema-DOCLIB  Version 2.0  Date: Mon 24 Mar 2014 14:50:17 CET
 #
 $CMP 7SEGM
 D Afficheur Leds 7 segments
@@ -228,6 +228,11 @@ K DEV DIODE
 $ENDCMP
 #
 $CMP USB_2
+D USB Connector
+K USB usb CONNECTOR connector
+$ENDCMP
+#
+$CMP uUSB
 D USB Connector
 K USB usb CONNECTOR connector
 $ENDCMP
