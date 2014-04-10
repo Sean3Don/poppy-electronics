@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 01 Apr 2014 17:02:37 CEST
+EESchema Schematic File Version 2  date Fri 04 Apr 2014 15:11:21 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 9 11
 Title ""
-Date "1 apr 2014"
+Date "4 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -437,7 +437,7 @@ L QUARTZCMS4 X3
 U 1 1 52FA05A1
 P 3700 3150
 F 0 "X3" H 3700 3300 60  0000 C CNN
-F 1 "12MHz 20pF" H 3700 3000 60  0000 C CNN
+F 1 "16MHz 20pF" H 3700 3000 60  0000 C CNN
 	1    3700 3150
 	1    0    0    -1  
 $EndComp

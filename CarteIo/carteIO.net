@@ -1,3058 +1,2729 @@
-# EESchema Netlist Version 1.1 created  Wed 26 Mar 2014 12:02:35 CET
-(
- ( /52FCE5C3/5301D503 $noname  U12 JST {Lib=JST}
-  (    1 /connector_out/SCL )
-  (    2 /connector_out/SDA )
-  (    3 GND )
-  (    4 GND )
- )
- ( /52FCE5C3/52FCF4E1 $noname  U11 USB*2 {Lib=USB*2}
-  (    1 /connector_out/PWR_Top )
-  (    2 /connector_out/PWR_Bot )
-  (    3 /connector_out/D-_Top )
-  (    4 /connector_out/D-Bot )
-  (    5 /connector_out/D+Top )
-  (    6 /connector_out/D+Bot )
-  (    7 GND )
-  (    8 GND )
- )
- ( /52F1F92E/52F8CC67 $noname  C16 100n {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F1F92E/52F8CC62 $noname  C19 100n {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F1F92E/52F22FC2 $noname  C18 4.7u {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F1F92E/52F2256F $noname  GS2 GS2 {Lib=GS2}
-  (    1 N-000043 )
-  (    2 N-000060 )
- )
- ( /52F1F92E/52F22427 $noname  K2 CONN_3 {Lib=CONN_3}
-  (    1 GND )
-  (    2 ? )
-  (    3 N-000037 )
- )
- ( /52F1F92E/52F219B0 $noname  TH11 100 {Lib=THERMISTOR}
-  (    1 N-000029 )
-  (    2 N-000037 )
- )
- ( /52F1F92E/52F217D5 $noname  R13 150 {Lib=R}
-  (    1 N-000029 )
-  (    2 N-000043 )
- )
- ( /52F1F92E/52F8CC5A $noname  D11 5.1V {Lib=DIODESCH}
-  (    1 GND )
-  (    2 N-000029 )
- )
- ( /52F1F92E/52F21653 $noname  R14 150 {Lib=R}
-  (    1 ? )
-  (    2 N-000060 )
- )
- ( /52F1F92E/52F21634 $noname  U4 LED-BICOLORE {Lib=LED-BICOLORE}
-  (    1 N-000035 )
-  (    2 N-000036 )
-  (    3 GND )
-  (    4 GND )
- )
- ( /52F1F92E/52F2009E $noname  R15 150 {Lib=R}
-  (    1 N-000036 )
-  (    2 N-000047 )
- )
- ( /52F1F92E/52F20099 $noname  R16 150 {Lib=R}
-  (    1 N-000034 )
-  (    2 N-000035 )
- )
- ( /52F1F92E/52F8CC4F $noname  C13 1u {Lib=C}
-  (    1 N-000032 )
-  (    2 GND )
- )
- ( /52F1F92E/52F8CC4E $noname  C12 18p {Lib=C}
-  (    1 N-000048 )
-  (    2 GND )
- )
- ( /52F1F92E/52F1FB75 $noname  C11 18p {Lib=C}
-  (    1 N-000049 )
-  (    2 GND )
- )
- ( /52F1F92E/52F8CC4C $noname  Q1 16MHz {Lib=CRYSTAL}
-  (    1 N-000049 )
-  (    2 N-000048 )
- )
- ( /52F1F92E/52F8CC49 $noname  U3 ATMEGA32U2 {Lib=ATMEGA32U2}
-  (    1 N-000049 )
-  (    2 N-000048 )
-  (    3 GND )
-  (    4 /Alim/5V )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 N-000060 )
-  (    9 N-000043 )
-  (   10 ? )
-  (   11 N-000047 )
-  (   12 N-000034 )
-  (   13 ? )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 ? )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 N-000032 )
-  (   28 GND )
-  (   29 /USB2AX/D+ )
-  (   30 /USB2AX/D- )
-  (   31 /Alim/5V )
-  (   32 /Alim/5V )
- )
- ( /52F38CA5/530369D7 $noname  C10 10u {Lib=CP1}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F38CA5/5301DF5A $noname  D2 LED {Lib=LED}
-  (    1 N-000131 )
-  (    2 GND )
- )
- ( /52F38CA5/5301DF57 $noname  R45 150 {Lib=R}
-  (    1 /Alim/3.3V )
-  (    2 N-000131 )
- )
- ( /52F38CA5/5301D3EB $noname  C27 22uF {Lib=PC}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CA5/5301D3C4 $noname  U13 AP1117 {Lib=AP1117}
-  (    1 GND )
-  (    2 /Alim/3.3V )
-  (    3 /Alim/5V )
- )
- ( /52FC9E63/532AAB7E $noname  J2 UUSB {Lib=UUSB}
-  (    1 /connectorIn/Vprog )
-  (    2 /Arduino/D-prog )
-  (    3 /Arduino/D+prog )
-  (    4 GND )
-  (    5 GND )
- )
- ( /52FC9E63/532AAB78 $noname  J1 UUSB {Lib=UUSB}
-  (    1 /connectorIn/Vhub )
-  (    2 /USBHUB/D-hub )
-  (    3 /USBHUB/D+hub )
-  (    4 GND )
-  (    5 GND )
- )
- ( /52FC9E63/5305CA86 $noname  P5 CONN_2 {Lib=CONN_2}
-  (    1 /connectorIn/Vext )
-  (    2 GND )
- )
- ( /52FC9E63/5305CA6B $noname  P4 CONN_2 {Lib=CONN_2}
-  (    1 /connectorIn/Vext )
-  (    2 GND )
- )
- ( /52FC9E63/5304DF7F $noname  R77 100k {Lib=R}
-  (    1 N-000293 )
-  (    2 GND )
- )
- ( /52FC9E63/5301DF1C $noname  R50 330 {Lib=R}
-  (    1 /Alim/5V )
-  (    2 N-000297 )
- )
- ( /52FC9E63/5301DF1A $noname  D6 LED {Lib=LED}
-  (    1 N-000297 )
-  (    2 GND )
- )
- ( /52FC9E63/5301DEFD $noname  R49 330 {Lib=R}
-  (    1 /connectorIn/Vhub )
-  (    2 N-000298 )
- )
- ( /52FC9E63/5301DEFA $noname  R48 330 {Lib=R}
-  (    1 /connectorIn/Vprog )
-  (    2 N-000294 )
- )
- ( /52FC9E63/5301DEF7 $noname  R47 330 {Lib=R}
-  (    1 /connectorIn/Vext )
-  (    2 N-000299 )
- )
- ( /52FC9E63/5301DECD $noname  D5 LED {Lib=LED}
-  (    1 N-000298 )
-  (    2 GND )
- )
- ( /52FC9E63/5301DECB $noname  D4 LED {Lib=LED}
-  (    1 N-000294 )
-  (    2 GND )
- )
- ( /52FC9E63/5301DEBD $noname  D3 LED {Lib=LED}
-  (    1 N-000299 )
-  (    2 GND )
- )
- ( /52FC9E63/5301DAC2 $noname  C35 4.7u {Lib=PC}
-  (    1 /connectorIn/Vprog )
-  (    2 GND )
- )
- ( /52FC9E63/5301DABE $noname  C36 4.7u {Lib=PC}
-  (    1 /connectorIn/Vhub )
-  (    2 GND )
- )
- ( /52FC9E63/5301D028 $noname  R46 1k {Lib=R}
-  (    1 N-000295 )
-  (    2 GND )
- )
- ( /52FC9E63/5301D023 $noname  R51 1k {Lib=R}
-  (    1 /connectorIn/Vext )
-  (    2 N-000293 )
- )
- ( /52FC9E63/5301D003 $noname  Q4 PNP {Lib=PNP}
-  (    1 /connectorIn/Vext )
-  (    2 N-000295 )
-  (    3 /Alim/5V )
- )
- ( /52FC9E63/5301CFF3 $noname  Q5 PNP {Lib=PNP}
-  (    1 /connectorIn/Vprog )
-  (    2 N-000293 )
-  (    3 /Alim/5V )
- )
- ( /52FC9E63/52FCC6B3 $noname  C34 4.7u {Lib=PC}
-  (    1 /connectorIn/Vext )
-  (    2 GND )
- )
- ( /52FC9E63/52FC9EC3 $noname  P1 CONN_2 {Lib=CONN_2}
-  (    1 /connectorIn/Vext )
-  (    2 GND )
- )
- ( /52FB3A59/5305EA01 $noname  U21 ADXL345 {Lib=ADXL345}
-  (    1 /Alim/3.3V )
-  (    2 GND )
-  (    3 /Alim/3.3V )
-  (    4 GND )
-  (    5 GND )
-  (    6 /Alim/3.3V )
-  (    7 /Alim/3.3V )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
-  (   11 GND )
-  (   12 GND )
-  (   13 /Arduino/SDA )
-  (   14 /Arduino/SCL )
- )
- ( /52FB3A59/5302070E $noname  C72 100n_2V {Lib=PC}
-  (    1 N-000276 )
-  (    2 GND )
- )
- ( /52FB3A59/5301E345 $noname  C39 10n_4V {Lib=PC}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52FB3A59/5301E321 $noname  C40 100n_4V {Lib=PC}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52FB3A59/5301E300 $noname  C41 2.2n_50V {Lib=PC}
-  (    1 N-000279 )
-  (    2 GND )
- )
- ( /52FB3A59/52FCDF30 $noname  C38 1u {Lib=PC}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52FB3A59/52FCDF2E $noname  C37 100n {Lib=PC}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52FB3A59/52FCD9B1 $noname  U14 ITG-3200 {Lib=ITG-3200}
-  (    1 GND )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 /Alim/3.3V )
-  (    9 GND )
-  (   10 N-000276 )
-  (   11 GND )
-  (   12 ? )
-  (   13 /Alim/3.3V )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 GND )
-  (   19 ? )
-  (   20 N-000279 )
-  (   21 ? )
-  (   22 ? )
-  (   23 /Arduino/SCL )
-  (   24 /Arduino/SDA )
- )
- ( /52F225CF/52F23127 $noname  C26 0.1u {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F225CF/52F22FC6 $noname  C25 0.1u {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F225CF/52F8CC61 $noname  C24 4.7u {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F225CF/52F8CC60 $noname  GS1 GS2 {Lib=GS2}
-  (    1 N-000063 )
-  (    2 N-000074 )
- )
- ( /52F225CF/52F8CC5E $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 GND )
-  (    2 ? )
-  (    3 N-000062 )
- )
- ( /52F225CF/52F8CC5D $noname  TH1 100 {Lib=THERMISTOR}
-  (    1 N-000061 )
-  (    2 N-000062 )
- )
- ( /52F225CF/52F8CC5B $noname  R23 150 {Lib=R}
-  (    1 N-000061 )
-  (    2 N-000063 )
- )
- ( /52F225CF/52F217B0 $noname  D1 5.1V {Lib=DIODESCH}
-  (    1 GND )
-  (    2 N-000061 )
- )
- ( /52F225CF/52F8CC59 $noname  R24 150 {Lib=R}
-  (    1 ? )
-  (    2 N-000074 )
- )
- ( /52F225CF/52F8CC58 $noname  U2 LED-BICOLORE {Lib=LED-BICOLORE}
-  (    1 N-000064 )
-  (    2 N-000065 )
-  (    3 GND )
-  (    4 GND )
- )
- ( /52F225CF/52F8CC56 $noname  R25 150 {Lib=R}
-  (    1 N-000065 )
-  (    2 N-000066 )
- )
- ( /52F225CF/52F8CC55 $noname  R26 150 {Lib=R}
-  (    1 N-000067 )
-  (    2 N-000064 )
- )
- ( /52F225CF/52F1FB7B $noname  C23 1u {Lib=C}
-  (    1 N-000076 )
-  (    2 GND )
- )
- ( /52F225CF/52F1FB79 $noname  C22 18p {Lib=C}
-  (    1 N-000088 )
-  (    2 GND )
- )
- ( /52F225CF/52F8CC4D $noname  C21 18p {Lib=C}
-  (    1 N-000087 )
-  (    2 GND )
- )
- ( /52F225CF/52F1FB5E $noname  Q2 16MHz {Lib=CRYSTAL}
-  (    1 N-000087 )
-  (    2 N-000088 )
- )
- ( /52F225CF/52F1F99B $noname  U1 ATMEGA32U2 {Lib=ATMEGA32U2}
-  (    1 N-000087 )
-  (    2 N-000088 )
-  (    3 GND )
-  (    4 /Alim/5V )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 N-000074 )
-  (    9 N-000063 )
-  (   10 ? )
-  (   11 N-000066 )
-  (   12 N-000067 )
-  (   13 ? )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 ? )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 N-000076 )
-  (   28 GND )
-  (   29 /USB2AX2/D+1 )
-  (   30 /USB2AX2/D-1 )
-  (   31 /Alim/5V )
-  (   32 /Alim/5V )
- )
- ( /52F38CC0/530E0E0B $noname  P6 CONN_8X2 {Lib=CONN_8X2}
-  (    1 GND )
-  (    2 ? )
-  (    3 /Arduino/PWM8 )
-  (    4 /Arduino/PWM2 )
-  (    5 /Arduino/PWM9 )
-  (    6 /Arduino/PWM3 )
-  (    7 /Arduino/NCPSO )
-  (    8 /Arduino/PWM4 )
-  (    9 /Arduino/PWM11 )
-  (   10 /Arduino/PWM5 )
-  (   11 /Arduino/PWM12 )
-  (   12 /Arduino/PWM6 )
-  (   13 /Arduino/PWM13 )
-  (   14 /Arduino/PWM7 )
-  (   15 /connector_out/SDA )
-  (   16 /connector_out/SCL )
- )
- ( /52F38CC0/530E0D33 $noname  P7 CONN_8X2 {Lib=CONN_8X2}
-  (    1 GND )
-  (    2 ? )
-  (    3 /Arduino/AI5 )
-  (    4 /Arduino/AI6 )
-  (    5 /Arduino/AI4 )
-  (    6 /Arduino/AI7 )
-  (    7 /Arduino/AI3 )
-  (    8 /Arduino/AI8 )
-  (    9 /Arduino/AI2 )
-  (   10 /Arduino/AI9 )
-  (   11 /Arduino/AI1 )
-  (   12 /Arduino/AI10 )
-  (   13 /Arduino/AI0 )
-  (   14 /Arduino/AI11 )
-  (   15 /Arduino/DAC0 )
-  (   16 /Arduino/DAC1 )
- )
- ( /52F38CC0/530E01A6 $noname  P8 COMMUNICATION {Lib=CONN_8}
-  (    1 GND )
-  (    2 ? )
-  (    3 /Arduino/RX1 )
-  (    4 /Arduino/TX1 )
-  (    5 /Arduino/RX2 )
-  (    6 /Arduino/TX2 )
-  (    7 /Alim/3.3V )
-  (    8 /Alim/5V )
- )
- ( /52F38CC0/53046ECC $noname  U20 LED-BICOLORE {Lib=LED-BICOLORE}
-  (    1 N-000257 )
-  (    2 N-000263 )
-  (    3 GND )
-  (    4 GND )
- )
- ( /52F38CC0/53037E9E $noname  Q6 MOS_P2 {Lib=MOS_P2}
-  (    1 /Arduino/programmation/EraseCMD )
-  (    2 /Alim/3.3V )
-  (    3 /Arduino/ERASE )
- )
- ( /52F38CC0/53037056 $noname  R76 330 {Lib=R}
-  (    1 /Arduino/LED1 )
-  (    2 N-000263 )
- )
- ( /52F38CC0/53037039 $noname  R75 330 {Lib=R}
-  (    1 /Arduino/LED2 )
-  (    2 N-000257 )
- )
- ( /52F38CC0/5301E849 $noname  C52 100n {Lib=C}
-  (    1 /Arduino/AVREF )
-  (    2 GND )
- )
- ( /52F38CC0/5301E805 $noname  FB1 FILTER {Lib=FILTER}
-  (    1 /Alim/3.3V )
-  (    2 /Arduino/AVREF )
- )
- ( /52F38CC0/5301E800 $noname  C46 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7D7 $noname  C45 100n {Lib=C}
-  (    1 /Arduino/VDDOUT )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7D6 $noname  C48 100n {Lib=C}
-  (    1 /Arduino/VDDOUT )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7D5 $noname  C50 100n {Lib=C}
-  (    1 /Arduino/VDDOUT )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7D3 $noname  C51 100n {Lib=C}
-  (    1 /Arduino/VDDOUT )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7D2 $noname  C53 100n {Lib=C}
-  (    1 /Arduino/VDDOUT )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7B9 $noname  C49 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/5301E7B8 $noname  C47 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/5301DE4B $noname  C44 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/5301DE48 $noname  C43 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/5301DE44 $noname  C42 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/52FCE3F2 $noname  R55 2.2k {Lib=R}
-  (    1 /connector_out/SDA )
-  (    2 /Alim/3.3V )
- )
- ( /52F38CC0/52FCE3F1 $noname  R56 2.2k {Lib=R}
-  (    1 /connector_out/SCL )
-  (    2 /Alim/3.3V )
- )
- ( /52F38CC0/52FBA809 $noname  SW3 SW_PUSH {Lib=SW_PUSH}
-  (    1 GND )
-  (    2 N-000150 )
- )
- ( /52F38CC0/52FBA7EC $noname  R60 330 {Lib=PR}
-  (    1 N-000145 )
-  (    2 N-000153 )
- )
- ( /52F38CC0/52FBA7E6 $noname  R61 330 {Lib=PR}
-  (    1 N-000151 )
-  (    2 N-000152 )
- )
- ( /52F38CC0/52FBA7BE $noname  D8 LED {Lib=LED}
-  (    1 N-000152 )
-  (    2 GND )
- )
- ( /52F38CC0/52FBA7B9 $noname  D7 LED {Lib=LED}
-  (    1 N-000153 )
-  (    2 GND )
- )
- ( /52F38CC0/52FBA644 $noname  U17 XBEE {Lib=XBEE}
-  (    1 /Alim/3.3V )
-  (    2 /Arduino/TX1 )
-  (    3 /Arduino/RX1 )
-  (    4 ? )
-  (    5 N-000150 )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 GND )
-  (   11 ? )
-  (   12 ? )
-  (   13 N-000145 )
-  (   14 ? )
-  (   15 N-000151 )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
- )
- ( /52F38CC0/52FB5333 $noname  P2 CONN_6 {Lib=CONN_6}
-  (    1 /Arduino/MISO )
-  (    2 ? )
-  (    3 /Arduino/SCLK )
-  (    4 /Arduino/MOSI )
-  (    5 /Arduino/programmation/ResetCMD )
-  (    6 GND )
- )
- ( /52F38CC0/52FB4464 $noname  SW2 SW_PUSH {Lib=SW_PUSH}
-  (    1 /Arduino/ERASE )
-  (    2 /Alim/3.3V )
- )
- ( /52F38CC0/52F9EE83 $noname  R58 2.2k {Lib=R}
-  (    1 /Arduino/SCL )
-  (    2 /Alim/3.3V )
- )
- ( /52F38CC0/52F9E7DA $noname  R57 2.2k {Lib=R}
-  (    1 /Arduino/SDA )
-  (    2 /Alim/3.3V )
- )
- ( /52F38CC0/52F9E58F $noname  C55 10u {Lib=CP1}
-  (    1 /Arduino/VDDPLL )
-  (    2 GND )
- )
- ( /52F38CC0/52F9E4E9 $noname  C54 100n {Lib=C}
-  (    1 /Arduino/VDDPLL )
-  (    2 GND )
- )
- ( /52F38CC0/52F9E496 $noname  FB2 FILTER {Lib=FILTER}
-  (    1 /Arduino/VDDOUT )
-  (    2 /Arduino/VDDPLL )
- )
- ( /52F38CC0/52F8FCF1 $noname  R54 100k {Lib=R}
-  (    1 /Alim/3.3V )
-  (    2 N-000232 )
- )
- ( /52F38CC0/52F8F1EC $noname  R59 0 {Lib=R}
-  (    1 /Arduino/TST )
-  (    2 GND )
- )
- ( /52F38CC0/52F8F18C $noname  R62 6k8_1% {Lib=R}
-  (    1 /Arduino/VBG )
-  (    2 GND )
- )
- ( /52F38CC0/52F8F181 $noname  R52 39R_1% {Lib=R}
-  (    1 /Arduino/D- )
-  (    2 N-000160 )
- )
- ( /52F38CC0/52F8F17B $noname  R53 39R_1% {Lib=R}
-  (    1 /Arduino/D+ )
-  (    2 N-000163 )
- )
- ( /52F38CC0/52F8F129 $noname  C59 22pF {Lib=C}
-  (    1 /Arduino/VBG )
-  (    2 GND )
- )
- ( /52F38CC0/52F8D4C9 $noname  C57 22p {Lib=C}
-  (    1 /Arduino/XOUT )
-  (    2 GND )
- )
- ( /52F38CC0/52F8D4B3 $noname  C56 22p {Lib=C}
-  (    1 /Arduino/XIN )
-  (    2 GND )
- )
- ( /52F38CC0/52F8D490 $noname  X1 12MHz {Lib=QUARTZCMS4}
-  (    1 /Arduino/XIN )
-  (    3 /Arduino/XOUT )
- )
- ( /52F38CC0/52F8D386 $noname  C60 22p {Lib=C}
-  (    1 /Arduino/XOUT32 )
-  (    2 GND )
- )
- ( /52F38CC0/52F8D382 $noname  C58 22p {Lib=C}
-  (    1 /Arduino/XIN32 )
-  (    2 GND )
- )
- ( /52F38CC0/52F8CEDA $noname  X2 32MHz {Lib=CRYSTAL}
-  (    1 /Arduino/XIN32 )
-  (    2 /Arduino/XOUT32 )
- )
- ( /52F38CC0/52F88AAF $noname  SAM3X8E1 AT91SAM3X8E {Lib=AT91SAM3X8E}
-  (    1 ? )
-  (    2 /Arduino/programmation/TX_ATMEGA )
-  (    3 /Arduino/RX1 )
-  (    4 /Arduino/TX1 )
-  (    5 /Arduino/RX2 )
-  (    6 /Arduino/TX2 )
-  (    7 ? )
-  (    8 ? )
-  (    9 /connector_out/SDA )
-  (   10 /Arduino/VDDOUT )
-  (   11 /Alim/3.3V )
-  (   12 GND )
-  (   13 ? )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 /Arduino/PWM11 )
-  (   21 /Arduino/PWM12 )
-  (   22 ? )
-  (   23 ? )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 /Arduino/programmation/RX_ATMEGA )
-  (   28 ? )
-  (   29 ? )
-  (   30 ? )
-  (   31 ? )
-  (   32 ? )
-  (   33 GND )
-  (   34 /Arduino/VDDPLL )
-  (   35 /Arduino/XOUT )
-  (   36 /Arduino/XIN )
-  (   37 N-000163 )
-  (   38 N-000160 )
-  (   39 /Arduino/PWR )
-  (   40 /Arduino/VBG )
-  (   41 ? )
-  (   42 /Arduino/D+ )
-  (   43 /Arduino/D- )
-  (   44 GND )
-  (   45 /Arduino/VDDOUT )
-  (   46 GND )
-  (   47 /Arduino/programmation/ResetCMD )
-  (   48 /Arduino/XIN32 )
-  (   49 /Arduino/XOUT32 )
-  (   50 ? )
-  (   51 /Arduino/TST )
-  (   52 /Alim/3.3V )
-  (   53 N-000232 )
-  (   54 GND )
-  (   55 ? )
-  (   56 /Arduino/VDDOUT )
-  (   57 /Alim/3.3V )
-  (   58 GND )
-  (   59 ? )
-  (   60 ? )
-  (   61 /Arduino/VDDOUT )
-  (   62 /Alim/3.3V )
-  (   63 ? )
-  (   64 ? )
-  (   65 ? )
-  (   66 ? )
-  (   67 ? )
-  (   68 /Arduino/PWM13 )
-  (   69 ? )
-  (   70 /connector_out/SCL )
-  (   71 ? )
-  (   72 ? )
-  (   73 ? )
-  (   74 GND )
-  (   75 /Arduino/AVREF )
-  (   76 /Arduino/DAC0 )
-  (   77 /Arduino/DAC1 )
-  (   78 /Arduino/AI0 )
-  (   79 /Arduino/AI1 )
-  (   80 /Arduino/AI2 )
-  (   81 /Arduino/AI3 )
-  (   82 /Arduino/AI4 )
-  (   83 /Arduino/AI5 )
-  (   84 /Arduino/AI6 )
-  (   85 /Arduino/AI7 )
-  (   86 /Arduino/SDA )
-  (   87 /Arduino/SCL )
-  (   88 /Arduino/AI8 )
-  (   89 /Arduino/AI9 )
-  (   90 /Arduino/AI10 )
-  (   91 /Arduino/AI11 )
-  (   92 ? )
-  (   93 ? )
-  (   94 ? )
-  (   95 ? )
-  (   96 ? )
-  (   97 ? )
-  (   98 ? )
-  (   99 ? )
-  (  100 ? )
-  (  101 ? )
-  (  102 /Arduino/NCPSO )
-  (  103 ? )
-  (  104 /Arduino/VDDOUT )
-  (  105 /Alim/3.3V )
-  (  106 GND )
-  (  107 ? )
-  (  108 /Arduino/MISO )
-  (  109 /Arduino/MOSI )
-  (  110 /Arduino/SCLK )
-  (  111 /Arduino/NCPSO )
-  (  112 /Arduino/PWM4 )
-  (  113 /Arduino/LED1 )
-  (  114 /Arduino/LED2 )
-  (  115 ? )
-  (  116 ? )
-  (  117 ? )
-  (  118 ? )
-  (  119 ? )
-  (  120 ? )
-  (  121 ? )
-  (  122 ? )
-  (  123 ? )
-  (  124 /Arduino/VDDOUT )
-  (  125 /Alim/3.3V )
-  (  126 GND )
-  (  127 ? )
-  (  128 ? )
-  (  129 ? )
-  (  130 /Arduino/ERASE )
-  (  131 ? )
-  (  132 /Arduino/PWM9 )
-  (  133 /Arduino/PWM8 )
-  (  134 /Arduino/PWM7 )
-  (  135 /Arduino/PWM6 )
-  (  136 /Arduino/PWM5 )
-  (  137 /Arduino/PWM4 )
-  (  138 ? )
-  (  139 /Arduino/PWM3 )
-  (  140 ? )
-  (  141 ? )
-  (  142 ? )
-  (  143 ? )
-  (  144 /Arduino/PWM2 )
- )
- ( /52F38CC0/52FA02CC/52FB41B6 $noname  U19 SN74LVC1G125 {Lib=SN74LVC1G125}
-  (    1 GND )
-  (    2 N-000305 )
-  (    3 GND )
-  (    4 /Arduino/programmation/TX_ATMEGA )
-  (    5 /Alim/3.3V )
- )
- ( /52F38CC0/52FA02CC/52FB4BAF $noname  C67 100n {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA1C46 $noname  C66 100n {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA1C44 $noname  C65 100n {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA1C41 $noname  C64 100n {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA0A44 $noname  R67 10k {Lib=R}
-  (    1 /Arduino/programmation/ResetCMD )
-  (    2 N-000311 )
- )
- ( /52F38CC0/52FA02CC/52FA09CF $noname  R66 1k {Lib=R}
-  (    1 /Arduino/PWR )
-  (    2 N-000321 )
- )
- ( /52F38CC0/52FA02CC/52FA09AC $noname  R68 10k {Lib=R}
-  (    1 GND )
-  (    2 N-000312 )
- )
- ( /52F38CC0/52FA02CC/52FA0823 $noname  R65 22R {Lib=R}
-  (    1 /Alim/5V )
-  (    2 /Arduino/programmation/Reset )
- )
- ( /52F38CC0/52FA02CC/52FA079E $noname  R69 22R {Lib=R}
-  (    1 /Alim/5V )
-  (    2 N-000303 )
- )
- ( /52F38CC0/52FA02CC/52FA0799 $noname  R70 22R {Lib=R}
-  (    1 /Alim/5V )
-  (    2 N-000302 )
- )
- ( /52F38CC0/52FA02CC/52FA0793 $noname  D12 LED {Lib=LED}
-  (    1 N-000302 )
-  (    2 N-000306 )
- )
- ( /52F38CC0/52FA02CC/52FA078F $noname  D10 LED {Lib=LED}
-  (    1 N-000303 )
-  (    2 N-000308 )
- )
- ( /52F38CC0/52FA02CC/52FA0658 $noname  P3 CONN_6 {Lib=CONN_6}
-  (    1 /Arduino/programmation/MISO )
-  (    2 /Alim/5V )
-  (    3 /Arduino/programmation/SCK )
-  (    4 /Arduino/programmation/MOSI )
-  (    5 /Arduino/programmation/Reset )
-  (    6 GND )
- )
- ( /52F38CC0/52FA02CC/52FA0621 $noname  C63 22p {Lib=C}
-  (    1 N-000319 )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA05A1 $noname  X3 12MHz_20pF {Lib=QUARTZCMS4}
-  (    1 N-000323 )
-  (    3 N-000325 )
- )
- ( /52F38CC0/52FA02CC/52FA0509 $noname  C62 22p {Lib=C}
-  (    1 N-000325 )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA0507 $noname  C61 22p {Lib=C}
-  (    1 N-000323 )
-  (    2 GND )
- )
- ( /52F38CC0/52FA02CC/52FA046E $noname  R64 22R {Lib=R}
-  (    1 N-000324 )
-  (    2 /Arduino/D-prog )
- )
- ( /52F38CC0/52FA02CC/52FA0469 $noname  R63 22R {Lib=R}
-  (    1 /Arduino/D+prog )
-  (    2 N-000316 )
- )
- ( /52F38CC0/52FA02CC/52FA0441 $noname  U18 ATMEGA16U2 {Lib=ATMEGA32U2}
-  (    1 N-000323 )
-  (    2 N-000325 )
-  (    3 GND )
-  (    4 /Alim/5V )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 /Arduino/programmation/RX_ATMEGA )
-  (    9 N-000305 )
-  (   10 N-000306 )
-  (   11 N-000308 )
-  (   12 ? )
-  (   13 N-000312 )
-  (   14 ? )
-  (   15 /Arduino/programmation/SCK )
-  (   16 /Arduino/programmation/MOSI )
-  (   17 /Arduino/programmation/MISO )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 N-000311 )
-  (   23 /Arduino/programmation/EraseCMD )
-  (   24 /Arduino/programmation/Reset )
-  (   25 ? )
-  (   26 N-000321 )
-  (   27 N-000319 )
-  (   28 GND )
-  (   29 N-000316 )
-  (   30 N-000324 )
-  (   31 /Alim/5V )
-  (   32 /Alim/5V )
- )
- ( /52F265F0/5332AE23 $noname  R36 R {Lib=R}
-  (    1 /Alim/3.3V )
-  (    2 N-000126 )
- )
- ( /52F265F0/5332AE12 $noname  R35 R {Lib=R}
-  (    1 /USBHUB/hubstatus )
-  (    2 N-000107 )
- )
- ( /52F265F0/53303937 $noname  U10 LED-BICOLORE {Lib=LED-BICOLORE}
-  (    1 N-000107 )
-  (    2 N-000126 )
-  (    3 GND )
-  (    4 /USBHUB/hubstatus )
- )
- ( /52F265F0/5330375D $noname  R22 R {Lib=R}
-  (    1 N-000121 )
-  (    2 /Alim/3.3V )
- )
- ( /52F265F0/5330375A $noname  R21 R {Lib=R}
-  (    1 N-000106 )
-  (    2 /Alim/3.3V )
- )
- ( /52F265F0/53303756 $noname  R12 R {Lib=R}
-  (    1 N-000128 )
-  (    2 /Alim/3.3V )
- )
- ( /52F265F0/5330374E $noname  R11 R {Lib=R}
-  (    1 N-000105 )
-  (    2 /Alim/3.3V )
- )
- ( /52F265F0/5301E035 $noname  R73 330 {Lib=R}
-  (    1 /connector_out/PWR_Bot )
-  (    2 N-000103 )
- )
- ( /52F265F0/5301E032 $noname  R72 330 {Lib=R}
-  (    1 /connector_out/PWR_Top )
-  (    2 N-000129 )
- )
- ( /52F265F0/5301E02E $noname  R71 330 {Lib=R}
-  (    1 /Arduino/PWR )
-  (    2 N-000104 )
- )
- ( /52F265F0/5301E01F $noname  D15 LED {Lib=LED}
-  (    1 N-000103 )
-  (    2 GND )
- )
- ( /52F265F0/5301E01D $noname  D14 LED {Lib=LED}
-  (    1 N-000129 )
-  (    2 GND )
- )
- ( /52F265F0/5301E01C $noname  D13 LED {Lib=LED}
-  (    1 N-000104 )
-  (    2 GND )
- )
- ( /52F265F0/5301DD3D $noname  C71 100n {Lib=C}
-  (    1 /Alim/5V )
-  (    2 GND )
- )
- ( /52F265F0/5301DCC6 $noname  C70 4.7u {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F265F0/5301DCC4 $noname  C69 4.7u {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F265F0/5301DCC1 $noname  C68 4.7u {Lib=C}
-  (    1 /Alim/3.3V )
-  (    2 GND )
- )
- ( /52F265F0/52F3C1EB $noname  U6 TPS2044 {Lib=TPS2044}
-  (    1 GND )
-  (    2 /Alim/5V )
-  (    3 N-000115 )
-  (    4 N-000099 )
-  (    5 GND )
-  (    6 /Alim/5V )
-  (    7 N-000101 )
-  (    8 /Alim/3.3V )
-  (    9 N-000121 )
-  (   10 ? )
-  (   11 /connector_out/PWR_Bot )
-  (   12 N-000106 )
-  (   13 N-000128 )
-  (   14 /connector_out/PWR_Top )
-  (   15 /Arduino/PWR )
-  (   16 N-000105 )
- )
- ( /52F265F0/52F3A9FF $noname  C4 100n {Lib=C}
-  (    1 GND )
-  (    2 N-000100 )
- )
- ( /52F265F0/52F3A963 $noname  C1 22p {Lib=C}
-  (    1 /USBHUB/D+hub )
-  (    2 GND )
- )
- ( /52F265F0/52F3A928 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
-  (    1 GND )
-  (    2 N-000100 )
- )
- ( /52F265F0/52F3A8A3 $noname  R4 10k {Lib=R}
-  (    1 N-000100 )
-  (    2 /Alim/3.3V )
- )
- ( /52F265F0/52F35E88 $noname  C3 27p {Lib=C}
-  (    1 N-000122 )
-  (    2 GND )
- )
- ( /52F265F0/52F35E86 $noname  C5 27p {Lib=C}
-  (    1 N-000123 )
-  (    2 GND )
- )
- ( /52F265F0/52F35E44 $noname  C2 22p {Lib=C}
-  (    1 /USBHUB/D-hub )
-  (    2 GND )
- )
- ( /52F265F0/52F35E3C $noname  R1 27R {Lib=R}
-  (    1 /USBHUB/D+hub )
-  (    2 /USBHUB/USBFilter/DP0 )
- )
- ( /52F265F0/52F35E38 $noname  R2 27R {Lib=R}
-  (    1 /USBHUB/D-hub )
-  (    2 /USBHUB/USBFilter/DM0 )
- )
- ( /52F265F0/52F35E03 $noname  R3 1.5k {Lib=R}
-  (    1 N-000102 )
-  (    2 /USBHUB/USBFilter/DP0 )
- )
- ( /52F265F0/52F35CA0 $noname  Q3 6MHz {Lib=CRYSTAL}
-  (    1 N-000122 )
-  (    2 N-000123 )
- )
- ( /52F265F0/52F359CC $noname  U5 TUSB2077 {Lib=TUSB2077}
-  (    2 N-000102 )
-  (    3 /USBHUB/USBFilter/DP0 )
-  (    4 /USBHUB/USBFilter/DM0 )
-  (    5 GND )
-  (    6 N-000100 )
-  (    7 ? )
-  (    8 /Alim/3.3V )
-  (    9 /Alim/3.3V )
-  (   10 /Alim/3.3V )
-  (   11 ? )
-  (   12 /Alim/3.3V )
-  (   13 /USBHUB/USBFilter/DM1 )
-  (   14 /USBHUB/USBFilter/DP1 )
-  (   15 ? )
-  (   16 /Alim/3.3V )
-  (   17 /USBHUB/USBFilter/DM2 )
-  (   18 /USBHUB/USBFilter/DP2 )
-  (   19 N-000115 )
-  (   20 N-000105 )
-  (   21 /USBHUB/USBFilter/DM3 )
-  (   22 /USBHUB/USBFilter/DP3 )
-  (   23 N-000099 )
-  (   24 GND )
-  (   25 N-000128 )
-  (   26 /USBHUB/USBFilter/DM4 )
-  (   27 /USBHUB/USBFilter/DP4 )
-  (   28 N-000101 )
-  (   29 N-000106 )
-  (   30 /USBHUB/USBFilter/DM5 )
-  (   31 /USBHUB/USBFilter/DP5 )
-  (   32 ? )
-  (   33 N-000121 )
-  (   34 ? )
-  (   35 ? )
-  (   36 ? )
-  (   37 N-000121 )
-  (   38 ? )
-  (   39 ? )
-  (   40 /USBHUB/hubstatus )
-  (   43 GND )
-  (   44 N-000123 )
-  (   45 N-000122 )
-  (   46 /Alim/3.3V )
-  (   47 /Alim/3.3V )
-  (   48 GND )
- )
- ( /52F265F0/52F39A7E/52F39D3A $noname  U9 SN75240 {Lib=SN75240}
-  (    1 GND )
-  (    2 ? )
-  (    3 GND )
-  (    4 ? )
-  (    5 GND )
-  (    6 /connector_out/D-Bot )
-  (    7 GND )
-  (    8 /connector_out/D+Bot )
- )
- ( /52F265F0/52F39A7E/52F39D33 $noname  U8 SN75240 {Lib=SN75240}
-  (    1 GND )
-  (    2 /connector_out/D+Top )
-  (    3 GND )
-  (    4 /connector_out/D-_Top )
-  (    5 GND )
-  (    6 /Arduino/D- )
-  (    7 GND )
-  (    8 /Arduino/D+ )
- )
- ( /52F265F0/52F39A7E/52F39D00 $noname  U7 SN75240 {Lib=SN75240}
-  (    1 GND )
-  (    2 /USB2AX/D+ )
-  (    3 GND )
-  (    4 /USB2AX/D- )
-  (    5 GND )
-  (    6 /USB2AX2/D-1 )
-  (    7 GND )
-  (    8 /USB2AX2/D+1 )
- )
- ( /52F265F0/52F39A7E/52F39B68 $noname  C14 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DP3 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B67 $noname  R9 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DP3 )
-  (    2 /Arduino/D+ )
- )
- ( /52F265F0/52F39A7E/52F39B66 $noname  R29 15k {Lib=R}
-  (    1 /Arduino/D+ )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B61 $noname  R30 15k {Lib=R}
-  (    1 /Arduino/D- )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B60 $noname  R10 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DM3 )
-  (    2 /Arduino/D- )
- )
- ( /52F265F0/52F39A7E/52F39B5F $noname  C15 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DM3 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B5E $noname  C20 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DM4 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B5D $noname  R18 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DM4 )
-  (    2 /connector_out/D-_Top )
- )
- ( /52F265F0/52F39A7E/52F39B5C $noname  R32 15k {Lib=R}
-  (    1 /connector_out/D-_Top )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B57 $noname  R31 15k {Lib=R}
-  (    1 /connector_out/D+Top )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B56 $noname  R17 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DP4 )
-  (    2 /connector_out/D+Top )
- )
- ( /52F265F0/52F39A7E/52F39B55 $noname  C17 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DP4 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B40 $noname  C28 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DP5 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B3F $noname  R33 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DP5 )
-  (    2 /connector_out/D+Bot )
- )
- ( /52F265F0/52F39A7E/52F39B3E $noname  R39 15k {Lib=R}
-  (    1 /connector_out/D+Bot )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B39 $noname  R40 15k {Lib=R}
-  (    1 /connector_out/D-Bot )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B38 $noname  R34 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DM5 )
-  (    2 /connector_out/D-Bot )
- )
- ( /52F265F0/52F39A7E/52F39B37 $noname  C29 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DM5 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B2C $noname  C8 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DP2 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B2B $noname  R7 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DP2 )
-  (    2 /USB2AX/D+ )
- )
- ( /52F265F0/52F39A7E/52F39B2A $noname  R27 15k {Lib=R}
-  (    1 /USB2AX/D+ )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B25 $noname  R28 15k {Lib=R}
-  (    1 /USB2AX/D- )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B24 $noname  R8 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DM2 )
-  (    2 /USB2AX/D- )
- )
- ( /52F265F0/52F39A7E/52F39B23 $noname  C9 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DM2 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B21 $noname  C7 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DM1 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39B20 $noname  R6 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DM1 )
-  (    2 /USB2AX2/D-1 )
- )
- ( /52F265F0/52F39A7E/52F39B1F $noname  R20 15k {Lib=R}
-  (    1 /USB2AX2/D-1 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39ACD $noname  R19 15k {Lib=R}
-  (    1 /USB2AX2/D+1 )
-  (    2 GND )
- )
- ( /52F265F0/52F39A7E/52F39AC8 $noname  R5 27R {Lib=R}
-  (    1 /USBHUB/USBFilter/DP1 )
-  (    2 /USB2AX2/D+1 )
- )
- ( /52F265F0/52F39A7E/52F39AC1 $noname  C6 22pF {Lib=C}
-  (    1 /USBHUB/USBFilter/DP1 )
-  (    2 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component C16
- SM*
- C?
- C1-1
-$endlist
-$component C19
- SM*
- C?
- C1-1
-$endlist
-$component C18
- SM*
- C?
- C1-1
-$endlist
-$component TH11
- R?
- SM0603
- SM0805
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D11
- D?
- S*
-$endlist
-$component R14
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R16
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C13
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C10
- CP*
- SM*
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R45
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C27
- SM*
- C?
- C1-1
-$endlist
-$component U13
- SOT223
- TO252
- SOT89
- TO263
- TO220
-$endlist
-$component J2
- USB
- microUSB
-$endlist
-$component J1
- USB
- microUSB
-$endlist
-$component R77
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R50
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R49
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R48
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R47
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C35
- SM*
- C?
- C1-1
-$endlist
-$component C36
- SM*
- C?
- C1-1
-$endlist
-$component R46
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R51
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C34
- SM*
- C?
- C1-1
-$endlist
-$component C72
- SM*
- C?
- C1-1
-$endlist
-$component C39
- SM*
- C?
- C1-1
-$endlist
-$component C40
- SM*
- C?
- C1-1
-$endlist
-$component C41
- SM*
- C?
- C1-1
-$endlist
-$component C38
- SM*
- C?
- C1-1
-$endlist
-$component C37
- SM*
- C?
- C1-1
-$endlist
-$component C26
- SM*
- C?
- C1-1
-$endlist
-$component C25
- SM*
- C?
- C1-1
-$endlist
-$component C24
- SM*
- C?
- C1-1
-$endlist
-$component TH1
- R?
- SM0603
- SM0805
-$endlist
-$component R23
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component R24
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R25
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R26
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C23
- SM*
- C?
- C1-1
-$endlist
-$component C22
- SM*
- C?
- C1-1
-$endlist
-$component C21
- SM*
- C?
- C1-1
-$endlist
-$component R76
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R75
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C52
- SM*
- C?
- C1-1
-$endlist
-$component C46
- SM*
- C?
- C1-1
-$endlist
-$component C45
- SM*
- C?
- C1-1
-$endlist
-$component C48
- SM*
- C?
- C1-1
-$endlist
-$component C50
- SM*
- C?
- C1-1
-$endlist
-$component C51
- SM*
- C?
- C1-1
-$endlist
-$component C53
- SM*
- C?
- C1-1
-$endlist
-$component C49
- SM*
- C?
- C1-1
-$endlist
-$component C47
- SM*
- C?
- C1-1
-$endlist
-$component C44
- SM*
- C?
- C1-1
-$endlist
-$component C43
- SM*
- C?
- C1-1
-$endlist
-$component C42
- SM*
- C?
- C1-1
-$endlist
-$component R55
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R56
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R60
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R61
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D8
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R58
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R57
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C55
- CP*
- SM*
-$endlist
-$component C54
- SM*
- C?
- C1-1
-$endlist
-$component R54
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R59
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R62
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R52
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R53
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C59
- SM*
- C?
- C1-1
-$endlist
-$component C57
- SM*
- C?
- C1-1
-$endlist
-$component C56
- SM*
- C?
- C1-1
-$endlist
-$component C60
- SM*
- C?
- C1-1
-$endlist
-$component C58
- SM*
- C?
- C1-1
-$endlist
-$component C67
- SM*
- C?
- C1-1
-$endlist
-$component C66
- SM*
- C?
- C1-1
-$endlist
-$component C65
- SM*
- C?
- C1-1
-$endlist
-$component C64
- SM*
- C?
- C1-1
-$endlist
-$component R67
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R66
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R68
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R65
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R69
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R70
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D12
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D10
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C63
- SM*
- C?
- C1-1
-$endlist
-$component C62
- SM*
- C?
- C1-1
-$endlist
-$component C61
- SM*
- C?
- C1-1
-$endlist
-$component R64
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R63
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R36
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R35
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R22
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R21
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R73
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R72
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R71
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D15
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D14
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D13
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C71
- SM*
- C?
- C1-1
-$endlist
-$component C70
- SM*
- C?
- C1-1
-$endlist
-$component C69
- SM*
- C?
- C1-1
-$endlist
-$component C68
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R29
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R30
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component C20
- SM*
- C?
- C1-1
-$endlist
-$component R18
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R32
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R31
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R17
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C17
- SM*
- C?
- C1-1
-$endlist
-$component C28
- SM*
- C?
- C1-1
-$endlist
-$component R33
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R39
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R40
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R34
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C29
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R27
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R28
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R20
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R19
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 2 "/Alim/5V" "5V"
- C25 1
- U3 31
- U13 3
- R69 1
- P8 8
- Q4 3
- C26 1
- C19 1
- Q5 3
- C16 1
- U3 32
- U1 4
- U18 32
- R65 1
- U6 6
- C18 1
- U1 32
- C64 1
- U1 31
- C65 1
- C66 1
- U6 2
- U18 31
- P3 2
- U3 4
- C24 1
- U18 4
- C71 1
- R70 1
- C10 1
- R50 1
-Net 3 "/USB2AX/D+" "D+"
- R27 1
- R7 2
- U7 2
- U3 29
-Net 4 "/Arduino/SCL" "SCL"
- U14 23
- SAM3X8E1 87
- U21 14
- R58 1
-Net 5 "/Arduino/D-prog" "D-prog"
- R64 2
- J2 2
-Net 6 "/connector out/SCL" "SCL"
- SAM3X8E1 70
- U12 1
- P6 16
- R56 1
-Net 9 "/USBHUB/D-hub" "D-hub"
- R2 1
- C2 1
- J1 2
-Net 10 "/connector out/D-Bot" "D-Bot"
- U9 6
- R34 2
- R40 1
- U11 4
-Net 12 "/Arduino/D+prog" "D+prog"
- R63 1
- J2 3
-Net 13 "/USBHUB/D+hub" "D+hub"
- J1 3
- C1 1
- R1 1
-Net 14 "/Alim/3.3V" "3.3V"
- SAM3X8E1 125
- SAM3X8E1 105
- SAM3X8E1 11
- C67 1
- U19 5
- SAM3X8E1 62
- SAM3X8E1 52
- R57 2
- R58 2
- C68 1
- C69 1
- C70 1
- U13 2
- R45 1
- R54 1
- C27 1
- R11 2
- U6 8
- SAM3X8E1 57
- SW2 2
- R56 2
- R55 2
- C44 1
- U17 1
- U14 13
- U5 10
- U14 8
- U5 9
- U5 8
- FB1 1
- R36 1
- R4 2
- U5 46
- U5 16
- U21 1
- U21 3
- U5 12
- U21 6
- U21 7
- U5 47
- C39 1
- C40 1
- C38 1
- C37 1
- R22 2
- R21 2
- R12 2
- Q6 2
- C42 1
- C46 1
- C49 1
- C43 1
- C47 1
- P8 7
-Net 15 "/Arduino/SDA" "SDA"
- U14 24
- U21 13
- R57 1
- SAM3X8E1 86
-Net 16 "/connector out/SDA" "SDA"
- SAM3X8E1 9
- P6 15
- R55 1
- U12 2
-Net 17 "/USB2AX2/D-1" "D-1"
- U7 6
- R20 1
- U1 30
- R6 2
-Net 19 "/USB2AX2/D+1" "D+1"
- U1 29
- R19 1
- U7 8
- R5 2
-Net 20 "/connector out/PWR Top" "PWR Top"
- U11 1
- R72 1
- U6 14
-Net 21 "/connector out/D+Top" "D+Top"
- U8 2
- U11 5
- R31 1
- R17 2
-Net 22 "/Arduino/D+" "D+"
- SAM3X8E1 42
- R53 1
- R9 2
- R29 1
- U8 8
-Net 23 "/USB2AX/D-" "D-"
- R28 1
- R8 2
- U7 4
- U3 30
-Net 24 "/Arduino/D-" "D-"
- R52 1
- SAM3X8E1 43
- U8 6
- R10 2
- R30 1
-Net 25 "/Arduino/PWR" "PWR"
- R66 1
- R71 1
- U6 15
- SAM3X8E1 39
-Net 26 "/connector out/D- Top" "D- Top"
- U11 3
- R18 2
- R32 1
- U8 4
-Net 27 "/connector out/D+Bot" "D+Bot"
- U9 8
- R33 2
- R39 1
- U11 6
-Net 28 "/connector out/PWR Bot" "PWR Bot"
- U6 11
- U11 2
- R73 1
-Net 29 "" ""
- D11 2
- R13 1
- TH11 1
-Net 32 "" ""
- C13 1
- U3 27
-Net 34 "" ""
- R16 1
- U3 12
-Net 35 "" ""
- R16 2
- U4 1
-Net 36 "" ""
- U4 2
- R15 1
-Net 37 "" ""
- K2 3
- TH11 2
-Net 38 "GND" "GND"
- U12 3
- U3 28
- C13 2
- C42 2
- U11 7
- C12 2
- P8 1
- C11 2
- U11 8
- U9 3
- U18 3
- U9 1
- U12 4
- R39 2
- SAM3X8E1 33
- C28 2
- C17 2
- R31 2
- SAM3X8E1 12
- K1 1
- R32 2
- C20 2
- C15 2
- C57 2
- R30 2
- R46 2
- C56 2
- R29 2
- C14 2
- U2 3
- U19 1
- C6 2
- D1 1
- U2 4
- C25 2
- C24 2
- C26 2
- C34 2
- U14 11
- U14 18
- C16 2
- C19 2
- P6 1
- U14 9
- U14 1
- C38 2
- U21 2
- U21 4
- U21 5
- C37 2
- U21 11
- U21 12
- J2 4
- J2 5
- J1 4
- J1 5
- P5 2
- C72 2
- C39 2
- C40 2
- C41 2
- C44 2
- C43 2
- U20 3
- U20 4
- U9 7
- R68 1
- U8 1
- D11 1
- U8 3
- C64 2
- C52 2
- K2 1
- U3 3
- U9 5
- C62 2
- C63 2
- U18 28
- C46 2
- C45 2
- C48 2
- C50 2
- C51 2
- C53 2
- C49 2
- C47 2
- P4 2
- P3 6
- P7 1
- U4 4
- U4 3
- U8 7
- C65 2
- C66 2
- C61 2
- C18 2
- U8 5
- C59 2
- R62 2
- U7 1
- C55 2
- C54 2
- R59 2
- D5 2
- SAM3X8E1 58
- C10 2
- R27 2
- R77 2
- U7 7
- D6 2
- D2 2
- C27 2
- U13 1
- U7 3
- D7 2
- D8 2
- U7 5
- SW3 1
- U17 10
- U1 28
- C21 2
- D3 2
- D4 2
- P2 6
- P1 2
- C58 2
- U1 3
- C22 2
- C23 2
- R20 2
- U5 5
- C67 2
- U10 3
- R19 2
- SW1 1
- C1 2
- C4 1
- C3 2
- U5 43
- R28 2
- C60 2
- U5 24
- U19 3
- U5 48
- C9 2
- C5 2
- C2 2
- C7 2
- C29 2
- U6 5
- C8 2
- D15 2
- U6 1
- D14 2
- D13 2
- SAM3X8E1 46
- SAM3X8E1 44
- SAM3X8E1 54
- C35 2
- SAM3X8E1 74
- C36 2
- C69 2
- C70 2
- C68 2
- SAM3X8E1 106
- C71 2
- SAM3X8E1 126
- R40 2
-Net 43 "" ""
- GS2 1
- R13 2
- U3 9
-Net 47 "" ""
- R15 2
- U3 11
-Net 48 "" ""
- U3 2
- Q1 2
- C12 1
-Net 49 "" ""
- U3 1
- Q1 1
- C11 1
-Net 60 "" ""
- R14 2
- GS2 2
- U3 8
-Net 61 "" ""
- D1 2
- TH1 1
- R23 1
-Net 62 "" ""
- TH1 2
- K1 3
-Net 63 "" ""
- U1 9
- GS1 1
- R23 2
-Net 64 "" ""
- U2 1
- R26 2
-Net 65 "" ""
- U2 2
- R25 1
-Net 66 "" ""
- R25 2
- U1 11
-Net 67 "" ""
- U1 12
- R26 1
-Net 74 "" ""
- GS1 2
- U1 8
- R24 2
-Net 76 "" ""
- U1 27
- C23 1
-Net 87 "" ""
- C21 1
- Q2 1
- U1 1
-Net 88 "" ""
- C22 1
- Q2 2
- U1 2
-Net 92 "/USBHUB/USBFilter/DP5" "DP5"
- R33 1
- C28 1
- U5 31
-Net 95 "/USBHUB/USBFilter/DP4" "DP4"
- R17 1
- U5 27
- C17 1
-Net 96 "/USBHUB/USBFilter/DP3" "DP3"
- U5 22
- R9 1
- C14 1
-Net 97 "/USBHUB/USBFilter/DP2" "DP2"
- C8 1
- R7 1
- U5 18
-Net 98 "/USBHUB/USBFilter/DP1" "DP1"
- R5 1
- C6 1
- U5 14
-Net 99 "" ""
- U6 4
- U5 23
-Net 100 "" ""
- U5 6
- R4 1
- C4 2
- SW1 2
-Net 101 "" ""
- U5 28
- U6 7
-Net 102 "" ""
- R3 1
- U5 2
-Net 103 "" ""
- D15 1
- R73 2
-Net 104 "" ""
- D13 1
- R71 2
-Net 105 "" ""
- U6 16
- R11 1
- U5 20
-Net 106 "" ""
- R21 1
- U6 12
- U5 29
-Net 107 "" ""
- R35 2
- U10 1
-Net 108 "/USBHUB/USBFilter/DM1" "DM1"
- R6 1
- C7 1
- U5 13
-Net 109 "/USBHUB/USBFilter/DM2" "DM2"
- R8 1
- U5 17
- C9 1
-Net 110 "/USBHUB/USBFilter/DM3" "DM3"
- R10 1
- C15 1
- U5 21
-Net 111 "/USBHUB/USBFilter/DM4" "DM4"
- C20 1
- R18 1
- U5 26
-Net 112 "/USBHUB/USBFilter/DM5" "DM5"
- U5 30
- R34 1
- C29 1
-Net 115 "" ""
- U6 3
- U5 19
-Net 116 "/USBHUB/USBFilter/DM0" "DM0"
- R2 2
- U5 4
-Net 117 "/USBHUB/USBFilter/DP0" "DP0"
- R1 2
- U5 3
- R3 2
-Net 121 "" ""
- U5 37
- R22 1
- U6 9
- U5 33
-Net 122 "" ""
- Q3 1
- U5 45
- C3 1
-Net 123 "" ""
- U5 44
- Q3 2
- C5 1
-Net 126 "" ""
- U10 2
- R36 2
-Net 127 "/USBHUB/hubstatus" "hubstatus"
- R35 1
- U5 40
- U10 4
-Net 128 "" ""
- U5 25
- R12 1
- U6 13
-Net 129 "" ""
- R72 2
- D14 1
-Net 131 "" ""
- D2 1
- R45 2
-Net 132 "/Arduino/VBG" "VBG"
- C59 1
- R62 1
- SAM3X8E1 40
-Net 133 "/Arduino/VDDPLL" "VDDPLL"
- C54 1
- C55 1
- FB2 2
- SAM3X8E1 34
-Net 134 "/Arduino/VDDOUT" "VDDOUT"
- C50 1
- C48 1
- C45 1
- C53 1
- C51 1
- SAM3X8E1 104
- SAM3X8E1 10
- SAM3X8E1 124
- SAM3X8E1 56
- SAM3X8E1 45
- SAM3X8E1 61
- FB2 1
-Net 136 "/Arduino/TX1" "TX1"
- P8 4
- U17 2
- SAM3X8E1 4
-Net 137 "/Arduino/RX1" "RX1"
- P8 3
- U17 3
- SAM3X8E1 3
-Net 145 "" ""
- U17 13
- R60 1
-Net 150 "" ""
- U17 5
- SW3 2
-Net 151 "" ""
- R61 1
- U17 15
-Net 152 "" ""
- D8 1
- R61 2
-Net 153 "" ""
- R60 2
- D7 1
-Net 154 "/Arduino/programmation/EraseCMD" "EraseCMD"
- U18 23
- Q6 1
-Net 155 "/Arduino/programmation/ResetCMD" "ResetCMD"
- SAM3X8E1 47
- R67 1
- P2 5
-Net 158 "/Arduino/programmation/RX ATMEGA" "RX ATMEGA"
- SAM3X8E1 27
- U18 8
-Net 159 "/Arduino/programmation/TX ATMEGA" "TX ATMEGA"
- SAM3X8E1 2
- U19 4
-Net 160 "" ""
- SAM3X8E1 38
- R52 2
-Net 163 "" ""
- R53 2
- SAM3X8E1 37
-Net 165 "/Arduino/DAC1" "DAC1"
- SAM3X8E1 77
- P7 16
-Net 169 "/Arduino/AI0" "AI0"
- P7 13
- SAM3X8E1 78
-Net 170 "/Arduino/AI8" "AI8"
- SAM3X8E1 88
- P7 8
-Net 177 "/Arduino/AI6" "AI6"
- P7 4
- SAM3X8E1 84
-Net 183 "/Arduino/AI7" "AI7"
- P7 6
- SAM3X8E1 85
-Net 193 "/Arduino/MISO" "MISO"
- P2 1
- SAM3X8E1 108
-Net 197 "/Arduino/MOSI" "MOSI"
- SAM3X8E1 109
- P2 4
-Net 201 "/Arduino/AI1" "AI1"
- SAM3X8E1 79
- P7 11
-Net 202 "/Arduino/AI9" "AI9"
- SAM3X8E1 89
- P7 10
-Net 205 "/Arduino/SCLK" "SCLK"
- SAM3X8E1 110
- P2 3
-Net 217 "/Arduino/PWM2" "PWM2"
- SAM3X8E1 144
- P6 4
-Net 218 "/Arduino/XIN" "XIN"
- X1 1
- C56 1
- SAM3X8E1 36
-Net 219 "/Arduino/XOUT" "XOUT"
- SAM3X8E1 35
- X1 3
- C57 1
-Net 220 "/Arduino/AI4" "AI4"
- P7 5
- SAM3X8E1 82
-Net 221 "/Arduino/TST" "TST"
- R59 1
- SAM3X8E1 51
-Net 223 "/Arduino/AI3" "AI3"
- P7 7
- SAM3X8E1 81
-Net 224 "/Arduino/AI11" "AI11"
- SAM3X8E1 91
- P7 14
-Net 232 "" ""
- SAM3X8E1 53
- R54 2
-Net 235 "/Arduino/AI5" "AI5"
- P7 3
- SAM3X8E1 83
-Net 238 "/Arduino/XIN32" "XIN32"
- SAM3X8E1 48
- X2 1
- C58 1
-Net 239 "/Arduino/XOUT32" "XOUT32"
- X2 2
- C60 1
- SAM3X8E1 49
-Net 241 "/Arduino/RX2" "RX2"
- P8 5
- SAM3X8E1 5
-Net 242 "/Arduino/TX2" "TX2"
- P8 6
- SAM3X8E1 6
-Net 248 "/Arduino/AI2" "AI2"
- SAM3X8E1 80
- P7 9
-Net 249 "/Arduino/AI10" "AI10"
- SAM3X8E1 90
- P7 12
-Net 252 "/Arduino/PWM8" "PWM8"
- P6 3
- SAM3X8E1 133
-Net 253 "/Arduino/PWM3" "PWM3"
- P6 6
- SAM3X8E1 139
-Net 254 "/Arduino/PWM11" "PWM11"
- SAM3X8E1 20
- P6 9
-Net 255 "/Arduino/PWM6" "PWM6"
- SAM3X8E1 135
- P6 12
-Net 256 "/Arduino/PWM13" "PWM13"
- SAM3X8E1 68
- P6 13
-Net 257 "" ""
- U20 1
- R75 2
-Net 258 "/Arduino/ERASE" "ERASE"
- SAM3X8E1 130
- Q6 3
- SW2 1
-Net 260 "/Arduino/DAC0" "DAC0"
- P7 15
- SAM3X8E1 76
-Net 261 "/Arduino/AVREF" "AVREF"
- C52 1
- SAM3X8E1 75
- FB1 2
-Net 262 "/Arduino/LED1" "LED1"
- R76 1
- SAM3X8E1 113
-Net 263 "" ""
- R76 2
- U20 2
-Net 264 "/Arduino/LED2" "LED2"
- R75 1
- SAM3X8E1 114
-Net 265 "/Arduino/NCPSO" "NCPSO"
- SAM3X8E1 111
- SAM3X8E1 102
- P6 7
-Net 266 "/Arduino/PWM4" "PWM4"
- SAM3X8E1 137
- P6 8
- SAM3X8E1 112
-Net 267 "/Arduino/PWM5" "PWM5"
- SAM3X8E1 136
- P6 10
-Net 268 "/Arduino/PWM12" "PWM12"
- P6 11
- SAM3X8E1 21
-Net 269 "/Arduino/PWM7" "PWM7"
- P6 14
- SAM3X8E1 134
-Net 271 "/Arduino/PWM9" "PWM9"
- SAM3X8E1 132
- P6 5
-Net 276 "" ""
- C72 1
- U14 10
-Net 279 "" ""
- U14 20
- C41 1
-Net 291 "/connectorIn/Vext" "Vext"
- P1 1
- R47 1
- R51 1
- Q4 1
- P5 1
- P4 1
- C34 1
-Net 292 "/connectorIn/Vprog" "Vprog"
- J2 1
- Q5 1
- C35 1
- R48 1
-Net 293 "" ""
- Q5 2
- R77 1
- R51 2
-Net 294 "" ""
- R48 2
- D4 1
-Net 295 "" ""
- Q4 2
- R46 1
-Net 296 "/connectorIn/Vhub" "Vhub"
- J1 1
- C36 1
- R49 1
-Net 297 "" ""
- D6 1
- R50 2
-Net 298 "" ""
- D5 1
- R49 2
-Net 299 "" ""
- D3 1
- R47 2
-Net 302 "" ""
- R70 2
- D12 1
-Net 303 "" ""
- D10 1
- R69 2
-Net 304 "/Arduino/programmation/Reset" "Reset"
- R65 2
- U18 24
- P3 5
-Net 305 "" ""
- U18 9
- U19 2
-Net 306 "" ""
- U18 10
- D12 2
-Net 308 "" ""
- U18 11
- D10 2
-Net 311 "" ""
- U18 22
- R67 2
-Net 312 "" ""
- R68 2
- U18 13
-Net 315 "/Arduino/programmation/SCK" "SCK"
- P3 3
- U18 15
-Net 316 "" ""
- U18 29
- R63 2
-Net 319 "" ""
- U18 27
- C63 1
-Net 320 "/Arduino/programmation/MISO" "MISO"
- P3 1
- U18 17
-Net 321 "" ""
- R66 2
- U18 26
-Net 322 "/Arduino/programmation/MOSI" "MOSI"
- U18 16
- P3 4
-Net 323 "" ""
- U18 1
- X3 1
- C61 1
-Net 324 "" ""
- R64 1
- U18 30
-Net 325 "" ""
- X3 3
- U18 2
- C62 1
-}
-#End
+(export (version D)
+  (design
+    (source /home/flowers/PoppyElectronic/CarteIo/carteIO.sch)
+    (date "Wed 09 Apr 2014 16:42:44 CEST")
+    (tool "eeschema (2013-09-18 BZR 4305)-stable"))
+  (components
+    (comp (ref U12)
+      (value JST)
+      (libsource (lib jst) (part JST))
+      (sheetpath (names "/connector out/") (tstamps /52FCE5C3/))
+      (tstamp 5301D503))
+    (comp (ref U11)
+      (value USB*2)
+      (libsource (lib perso) (part USB*2))
+      (sheetpath (names "/connector out/") (tstamps /52FCE5C3/))
+      (tstamp 52FCF4E1))
+    (comp (ref C16)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC67))
+    (comp (ref C19)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC62))
+    (comp (ref C18)
+      (value 4.7u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F22FC2))
+    (comp (ref GS2)
+      (value GS2)
+      (libsource (lib conn) (part GS2))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F2256F))
+    (comp (ref K2)
+      (value CONN_3)
+      (libsource (lib conn) (part CONN_3))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F22427))
+    (comp (ref TH11)
+      (value 100)
+      (libsource (lib device) (part THERMISTOR))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F219B0))
+    (comp (ref R13)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F217D5))
+    (comp (ref D11)
+      (value 5.1V)
+      (libsource (lib device) (part DIODESCH))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC5A))
+    (comp (ref R14)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F21653))
+    (comp (ref U4)
+      (value LED-BICOLORE)
+      (libsource (lib perso) (part LED-BICOLORE))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F21634))
+    (comp (ref R15)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F2009E))
+    (comp (ref R16)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F20099))
+    (comp (ref C13)
+      (value 1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC4F))
+    (comp (ref C12)
+      (value 18p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC4E))
+    (comp (ref C11)
+      (value 18p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F1FB75))
+    (comp (ref Q1)
+      (value 16MHz)
+      (libsource (lib device) (part CRYSTAL))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC4C))
+    (comp (ref U3)
+      (value ATMEGA32U2)
+      (libsource (lib perso) (part ATMEGA32U2))
+      (sheetpath (names /USB2AX/) (tstamps /52F1F92E/))
+      (tstamp 52F8CC49))
+    (comp (ref C10)
+      (value 10u)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /Alim/) (tstamps /52F38CA5/))
+      (tstamp 530369D7))
+    (comp (ref D2)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /Alim/) (tstamps /52F38CA5/))
+      (tstamp 5301DF5A))
+    (comp (ref R45)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Alim/) (tstamps /52F38CA5/))
+      (tstamp 5301DF57))
+    (comp (ref C27)
+      (value 22uF)
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Alim/) (tstamps /52F38CA5/))
+      (tstamp 5301D3EB))
+    (comp (ref U13)
+      (value AP1117)
+      (libsource (lib open-project) (part AP1117))
+      (sheetpath (names /Alim/) (tstamps /52F38CA5/))
+      (tstamp 5301D3C4))
+    (comp (ref J2)
+      (value UUSB)
+      (fields
+        (field (name VCC) VCC)
+        (field (name Data+) D+)
+        (field (name Data-) D-)
+        (field (name Ground) GND)
+        (field (name Id) Id))
+      (libsource (lib perso) (part UUSB))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 532AAB7E))
+    (comp (ref J1)
+      (value UUSB)
+      (fields
+        (field (name VCC) VCC)
+        (field (name Data+) D+)
+        (field (name Data-) D-)
+        (field (name Ground) GND)
+        (field (name Id) Id))
+      (libsource (lib perso) (part UUSB))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 532AAB78))
+    (comp (ref R77)
+      (value 100k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5304DF7F))
+    (comp (ref R50)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DF1C))
+    (comp (ref D6)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DF1A))
+    (comp (ref R49)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DEFD))
+    (comp (ref R48)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DEFA))
+    (comp (ref R47)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DEF7))
+    (comp (ref D5)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DECD))
+    (comp (ref D4)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DECB))
+    (comp (ref D3)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DEBD))
+    (comp (ref C35)
+      (value 4.7u)
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DAC2))
+    (comp (ref C36)
+      (value 4.7u)
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301DABE))
+    (comp (ref R46)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301D028))
+    (comp (ref R51)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301D023))
+    (comp (ref Q4)
+      (value PNP)
+      (libsource (lib device) (part PNP))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301D003))
+    (comp (ref Q5)
+      (value PNP)
+      (libsource (lib device) (part PNP))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5301CFF3))
+    (comp (ref C34)
+      (value 4.7u)
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 52FCC6B3))
+    (comp (ref P1)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 52FC9EC3))
+    (comp (ref P4)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5305CA6B))
+    (comp (ref P5)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 5305CA86))
+    (comp (ref P9)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /connectorIn/) (tstamps /52FC9E63/))
+      (tstamp 53456982))
+    (comp (ref U21)
+      (value ADXL345)
+      (libsource (lib perso) (part ADXL345))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 5305EA01))
+    (comp (ref C72)
+      (value "100n 2V")
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 5302070E))
+    (comp (ref C39)
+      (value "10n 4V")
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 5301E345))
+    (comp (ref C40)
+      (value "100n 4V")
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 5301E321))
+    (comp (ref C41)
+      (value "2.2n 50V")
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 5301E300))
+    (comp (ref C38)
+      (value 1u)
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 52FCDF30))
+    (comp (ref C37)
+      (value 100n)
+      (libsource (lib perso) (part PC))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 52FCDF2E))
+    (comp (ref U14)
+      (value ITG-3200)
+      (libsource (lib perso) (part ITG-3200))
+      (sheetpath (names /Sensors/) (tstamps /52FB3A59/))
+      (tstamp 52FCD9B1))
+    (comp (ref C26)
+      (value 0.1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F23127))
+    (comp (ref C25)
+      (value 0.1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F22FC6))
+    (comp (ref C24)
+      (value 4.7u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC61))
+    (comp (ref GS1)
+      (value GS2)
+      (libsource (lib conn) (part GS2))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC60))
+    (comp (ref K1)
+      (value CONN_3)
+      (libsource (lib conn) (part CONN_3))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC5E))
+    (comp (ref TH1)
+      (value 100)
+      (libsource (lib device) (part THERMISTOR))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC5D))
+    (comp (ref R23)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC5B))
+    (comp (ref D1)
+      (value 5.1V)
+      (libsource (lib device) (part DIODESCH))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F217B0))
+    (comp (ref R24)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC59))
+    (comp (ref U2)
+      (value LED-BICOLORE)
+      (libsource (lib perso) (part LED-BICOLORE))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC58))
+    (comp (ref R25)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC56))
+    (comp (ref R26)
+      (value 150)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC55))
+    (comp (ref C23)
+      (value 1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F1FB7B))
+    (comp (ref C22)
+      (value 18p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F1FB79))
+    (comp (ref C21)
+      (value 18p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F8CC4D))
+    (comp (ref Q2)
+      (value 16MHz)
+      (libsource (lib device) (part CRYSTAL))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F1FB5E))
+    (comp (ref U1)
+      (value ATMEGA32U2)
+      (libsource (lib perso) (part ATMEGA32U2))
+      (sheetpath (names /USB2AX2/) (tstamps /52F225CF/))
+      (tstamp 52F1F99B))
+    (comp (ref P6)
+      (value CONN_8X2)
+      (libsource (lib conn) (part CONN_8X2))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 530E0E0B))
+    (comp (ref P7)
+      (value CONN_8X2)
+      (libsource (lib conn) (part CONN_8X2))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 530E0D33))
+    (comp (ref P8)
+      (value COMMUNICATION)
+      (libsource (lib conn) (part CONN_8))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 530E01A6))
+    (comp (ref U20)
+      (value LED-BICOLORE)
+      (libsource (lib perso) (part LED-BICOLORE))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 53046ECC))
+    (comp (ref Q6)
+      (value MOS_P2)
+      (libsource (lib perso) (part MOS_P2))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 53037E9E))
+    (comp (ref R76)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 53037056))
+    (comp (ref R75)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 53037039))
+    (comp (ref C52)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E849))
+    (comp (ref FB1)
+      (value FILTER)
+      (libsource (lib device) (part FILTER))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E805))
+    (comp (ref C46)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E800))
+    (comp (ref C45)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7D7))
+    (comp (ref C48)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7D6))
+    (comp (ref C50)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7D5))
+    (comp (ref C51)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7D3))
+    (comp (ref C53)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7D2))
+    (comp (ref C49)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7B9))
+    (comp (ref C47)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301E7B8))
+    (comp (ref C44)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301DE4B))
+    (comp (ref C43)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301DE48))
+    (comp (ref C42)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 5301DE44))
+    (comp (ref R55)
+      (value 2.2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52FCE3F2))
+    (comp (ref R56)
+      (value 2.2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52FCE3F1))
+    (comp (ref P2)
+      (value CONN_6)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52FB5333))
+    (comp (ref SW2)
+      (value SW_PUSH)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52FB4464))
+    (comp (ref R58)
+      (value 2.2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F9EE83))
+    (comp (ref R57)
+      (value 2.2k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F9E7DA))
+    (comp (ref C55)
+      (value 10u)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F9E58F))
+    (comp (ref C54)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F9E4E9))
+    (comp (ref FB2)
+      (value FILTER)
+      (libsource (lib device) (part FILTER))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F9E496))
+    (comp (ref R54)
+      (value 100k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8FCF1))
+    (comp (ref R59)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8F1EC))
+    (comp (ref R62)
+      (value "6k8 1%")
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8F18C))
+    (comp (ref R52)
+      (value "39R 1%")
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8F181))
+    (comp (ref R53)
+      (value "39R 1%")
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8F17B))
+    (comp (ref C59)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8F129))
+    (comp (ref C57)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8D4C9))
+    (comp (ref C56)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8D4B3))
+    (comp (ref X1)
+      (value 12MHz)
+      (libsource (lib device) (part QUARTZCMS4))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8D490))
+    (comp (ref C60)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8D386))
+    (comp (ref C58)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8D382))
+    (comp (ref X2)
+      (value 32MHz)
+      (libsource (lib device) (part CRYSTAL))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F8CEDA))
+    (comp (ref SAM3X8E1)
+      (value AT91SAM3X8E)
+      (libsource (lib perso) (part AT91SAM3X8E))
+      (sheetpath (names /Arduino/) (tstamps /52F38CC0/))
+      (tstamp 52F88AAF))
+    (comp (ref U19)
+      (value SN74LVC1G125)
+      (libsource (lib perso) (part SN74LVC1G125))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FB41B6))
+    (comp (ref C67)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FB4BAF))
+    (comp (ref C66)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA1C46))
+    (comp (ref C65)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA1C44))
+    (comp (ref C64)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA1C41))
+    (comp (ref R67)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0A44))
+    (comp (ref R66)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA09CF))
+    (comp (ref R68)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA09AC))
+    (comp (ref R65)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0823))
+    (comp (ref R69)
+      (value 22R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA079E))
+    (comp (ref R70)
+      (value 22R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0799))
+    (comp (ref D12)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0793))
+    (comp (ref D10)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA078F))
+    (comp (ref P3)
+      (value CONN_6)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0658))
+    (comp (ref C63)
+      (value 1u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0621))
+    (comp (ref X3)
+      (value "16MHz 20pF")
+      (libsource (lib device) (part QUARTZCMS4))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA05A1))
+    (comp (ref C62)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0509))
+    (comp (ref C61)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0507))
+    (comp (ref R64)
+      (value 22R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA046E))
+    (comp (ref R63)
+      (value 22R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0469))
+    (comp (ref U18)
+      (value ATMEGA16U2)
+      (libsource (lib perso) (part ATMEGA32U2))
+      (sheetpath (names /Arduino/programmation/) (tstamps /52F38CC0/52FA02CC/))
+      (tstamp 52FA0441))
+    (comp (ref R36)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5332AE23))
+    (comp (ref R35)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5332AE12))
+    (comp (ref U10)
+      (value LED-BICOLORE)
+      (libsource (lib perso) (part LED-BICOLORE))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 53303937))
+    (comp (ref R22)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5330375D))
+    (comp (ref R21)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5330375A))
+    (comp (ref R12)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 53303756))
+    (comp (ref R11)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5330374E))
+    (comp (ref R73)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301E035))
+    (comp (ref R72)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301E032))
+    (comp (ref R71)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301E02E))
+    (comp (ref D15)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301E01F))
+    (comp (ref D14)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301E01D))
+    (comp (ref D13)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301E01C))
+    (comp (ref C71)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301DD3D))
+    (comp (ref C70)
+      (value 4.7u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301DCC6))
+    (comp (ref C69)
+      (value 4.7u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301DCC4))
+    (comp (ref C68)
+      (value 4.7u)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 5301DCC1))
+    (comp (ref U6)
+      (value TPS2044)
+      (libsource (lib perso) (part TPS2044))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F3C1EB))
+    (comp (ref C4)
+      (value 100n)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F3A9FF))
+    (comp (ref C1)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F3A963))
+    (comp (ref SW1)
+      (value SW_PUSH)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F3A928))
+    (comp (ref R4)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F3A8A3))
+    (comp (ref C3)
+      (value 27p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35E88))
+    (comp (ref C5)
+      (value 27p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35E86))
+    (comp (ref C2)
+      (value 22p)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35E44))
+    (comp (ref R1)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35E3C))
+    (comp (ref R2)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35E38))
+    (comp (ref R3)
+      (value 1.5k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35E03))
+    (comp (ref Q3)
+      (value 6MHz)
+      (libsource (lib device) (part CRYSTAL))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F35CA0))
+    (comp (ref U5)
+      (value TUSB2077)
+      (libsource (lib perso) (part TUSB2077))
+      (sheetpath (names /USBHUB/) (tstamps /52F265F0/))
+      (tstamp 52F359CC))
+    (comp (ref U9)
+      (value SN75240)
+      (libsource (lib perso) (part SN75240))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39D3A))
+    (comp (ref U8)
+      (value SN75240)
+      (libsource (lib perso) (part SN75240))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39D33))
+    (comp (ref U7)
+      (value SN75240)
+      (libsource (lib perso) (part SN75240))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39D00))
+    (comp (ref C14)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B68))
+    (comp (ref R9)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B67))
+    (comp (ref R29)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B66))
+    (comp (ref R30)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B61))
+    (comp (ref R10)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B60))
+    (comp (ref C15)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B5F))
+    (comp (ref C20)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B5E))
+    (comp (ref R18)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B5D))
+    (comp (ref R32)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B5C))
+    (comp (ref R31)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B57))
+    (comp (ref R17)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B56))
+    (comp (ref C17)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B55))
+    (comp (ref C28)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B40))
+    (comp (ref R33)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B3F))
+    (comp (ref R39)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B3E))
+    (comp (ref R40)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B39))
+    (comp (ref R34)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B38))
+    (comp (ref C29)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B37))
+    (comp (ref C8)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B2C))
+    (comp (ref R7)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B2B))
+    (comp (ref R27)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B2A))
+    (comp (ref R28)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B25))
+    (comp (ref R8)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B24))
+    (comp (ref C9)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B23))
+    (comp (ref C7)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B21))
+    (comp (ref R6)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B20))
+    (comp (ref R20)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39B1F))
+    (comp (ref R19)
+      (value 15k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39ACD))
+    (comp (ref R5)
+      (value 27R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39AC8))
+    (comp (ref C6)
+      (value 22pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /USBHUB/USBFilter/) (tstamps /52F265F0/52F39A7E/))
+      (tstamp 52F39AC1)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part DIODESCH)
+      (description "Diode schottky")
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODESCH))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part FILTER)
+      (description "Filtre EMI")
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FILTER))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part PNP)
+      (docs transistors/bipolar/*.*)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) PNP))
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name B) (type input))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib device) (part QUARTZCMS4)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) QUARTZCMS4))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part SW_PUSH)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part THERMISTOR)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805))
+      (fields
+        (field (name Reference) TH)
+        (field (name Value) THERMISTOR))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib conn) (part CONN_3)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) K)
+        (field (name Value) CONN_3))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib conn) (part CONN_6)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib conn) (part CONN_8)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_8))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))))
+    (libpart (lib conn) (part CONN_8X2)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_8X2))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))
+        (pin (num 9) (name ~) (type passive))
+        (pin (num 10) (name ~) (type passive))
+        (pin (num 11) (name ~) (type passive))
+        (pin (num 12) (name ~) (type passive))
+        (pin (num 13) (name ~) (type passive))
+        (pin (num 14) (name ~) (type passive))
+        (pin (num 15) (name ~) (type passive))
+        (pin (num 16) (name ~) (type passive))))
+    (libpart (lib conn) (part GS2)
+      (fields
+        (field (name Reference) GS)
+        (field (name Value) GS2))
+      (pins
+        (pin (num 1) (name G1) (type passive))
+        (pin (num 2) (name G2) (type passive))))
+    (libpart (lib jst) (part JST)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) JST))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name SG) (type input))
+        (pin (num 4) (name SD) (type input))))
+    (libpart (lib open-project) (part AP1117)
+      (description "LDO linear regulator")
+      (footprints
+        (fp SOT223)
+        (fp TO252)
+        (fp SOT89)
+        (fp TO263)
+        (fp TO220))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) AP1117))
+      (pins
+        (pin (num 1) (name ADJ/GND) (type input))
+        (pin (num 2) (name VOUT) (type power_out))
+        (pin (num 3) (name VIN) (type input))))
+    (libpart (lib perso) (part ADXL345)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) ADXL345))
+      (pins
+        (pin (num 1) (name VDD_I/O) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name Reserved) (type input))
+        (pin (num 4) (name GND) (type input))
+        (pin (num 5) (name GND) (type input))
+        (pin (num 6) (name Vs) (type input))
+        (pin (num 7) (name CS/) (type input))
+        (pin (num 8) (name Int1) (type input))
+        (pin (num 9) (name Int2) (type input))
+        (pin (num 10) (name NC) (type NotConnected))
+        (pin (num 11) (name Reserved) (type input))
+        (pin (num 12) (name SDO/ALT) (type input))
+        (pin (num 13) (name SDA/SDI/SDIO) (type input))
+        (pin (num 14) (name SCL/SCLK) (type input))))
+    (libpart (lib perso) (part AT91SAM3X8E)
+      (fields
+        (field (name Reference) SAM3X8E)
+        (field (name Value) AT91SAM3X8E))
+      (pins
+        (pin (num 1) (name PB26) (type input))
+        (pin (num 2) (name PA9) (type input))
+        (pin (num 3) (name PA10) (type input))
+        (pin (num 4) (name PA11) (type input))
+        (pin (num 5) (name PA12) (type input))
+        (pin (num 6) (name PA13) (type input))
+        (pin (num 7) (name PA14) (type input))
+        (pin (num 8) (name PA15) (type input))
+        (pin (num 9) (name PA17) (type input))
+        (pin (num 10) (name VDDCORE) (type input))
+        (pin (num 11) (name VDDIO) (type input))
+        (pin (num 12) (name GND) (type input))
+        (pin (num 13) (name PD0) (type input))
+        (pin (num 14) (name PD1) (type input))
+        (pin (num 15) (name PD2) (type input))
+        (pin (num 16) (name PD3) (type input))
+        (pin (num 17) (name PD4) (type input))
+        (pin (num 18) (name PD5) (type input))
+        (pin (num 19) (name PD6) (type input))
+        (pin (num 20) (name PD7) (type input))
+        (pin (num 21) (name PD8) (type input))
+        (pin (num 22) (name PD9) (type input))
+        (pin (num 23) (name PA0) (type input))
+        (pin (num 24) (name PA1) (type input))
+        (pin (num 25) (name PA5) (type input))
+        (pin (num 26) (name PA7) (type input))
+        (pin (num 27) (name PA8) (type input))
+        (pin (num 28) (name PB28) (type input))
+        (pin (num 29) (name PB29) (type input))
+        (pin (num 30) (name PB30) (type input))
+        (pin (num 31) (name PB31) (type input))
+        (pin (num 32) (name PD10) (type input))
+        (pin (num 33) (name GNDPLL) (type input))
+        (pin (num 34) (name VDDPLL) (type input))
+        (pin (num 35) (name XOUT) (type input))
+        (pin (num 36) (name XIN) (type input))
+        (pin (num 37) (name DHSDP) (type input))
+        (pin (num 38) (name DHSDM) (type input))
+        (pin (num 39) (name VBUS) (type input))
+        (pin (num 40) (name VBG) (type input))
+        (pin (num 41) (name VDDUTMI) (type input))
+        (pin (num 42) (name DFSDP) (type input))
+        (pin (num 43) (name DFSDM) (type input))
+        (pin (num 44) (name GNDUTMI) (type input))
+        (pin (num 45) (name VDDCORE) (type input))
+        (pin (num 46) (name JTAGSEL) (type input))
+        (pin (num 47) (name NRSTB) (type input))
+        (pin (num 48) (name XIN32) (type input))
+        (pin (num 49) (name XOUT32) (type input))
+        (pin (num 50) (name SHDN) (type input))
+        (pin (num 51) (name TST) (type input))
+        (pin (num 52) (name VDDBU) (type input))
+        (pin (num 53) (name FWUP) (type input))
+        (pin (num 54) (name GNDBU) (type input))
+        (pin (num 55) (name PC1) (type input))
+        (pin (num 56) (name VDDOUT) (type input))
+        (pin (num 57) (name VDDIN) (type input))
+        (pin (num 58) (name GND) (type input))
+        (pin (num 59) (name PC2) (type input))
+        (pin (num 60) (name PC3) (type input))
+        (pin (num 61) (name VDDCORE) (type input))
+        (pin (num 62) (name VDDIO) (type input))
+        (pin (num 63) (name PC5) (type input))
+        (pin (num 64) (name PC6) (type input))
+        (pin (num 65) (name PC7) (type input))
+        (pin (num 66) (name PC8) (type input))
+        (pin (num 67) (name PC9) (type input))
+        (pin (num 68) (name PB27) (type input))
+        (pin (num 69) (name NRST) (type input))
+        (pin (num 70) (name PA18) (type input))
+        (pin (num 71) (name PA19) (type input))
+        (pin (num 72) (name PA20) (type input))
+        (pin (num 73) (name VDDANA) (type input))
+        (pin (num 74) (name GNDANA) (type input))
+        (pin (num 75) (name ADVREF) (type input))
+        (pin (num 76) (name PB15) (type input))
+        (pin (num 77) (name PB16) (type input))
+        (pin (num 78) (name PA16) (type input))
+        (pin (num 79) (name PA24) (type input))
+        (pin (num 80) (name PA23) (type input))
+        (pin (num 81) (name PA22) (type input))
+        (pin (num 82) (name PA6) (type input))
+        (pin (num 83) (name PA4) (type input))
+        (pin (num 84) (name PA3) (type input))
+        (pin (num 85) (name PA2) (type input))
+        (pin (num 86) (name PB12) (type input))
+        (pin (num 87) (name PB13) (type input))
+        (pin (num 88) (name PB17) (type input))
+        (pin (num 89) (name PB18) (type input))
+        (pin (num 90) (name PB19) (type input))
+        (pin (num 91) (name PB20) (type input))
+        (pin (num 92) (name PB21) (type input))
+        (pin (num 93) (name PC11) (type input))
+        (pin (num 94) (name PC12) (type input))
+        (pin (num 95) (name PC13) (type input))
+        (pin (num 96) (name PC14) (type input))
+        (pin (num 97) (name PC15) (type input))
+        (pin (num 98) (name PC16) (type input))
+        (pin (num 99) (name PC17) (type input))
+        (pin (num 100) (name PC18) (type input))
+        (pin (num 101) (name PC19) (type input))
+        (pin (num 102) (name PC29) (type input))
+        (pin (num 103) (name PC30) (type input))
+        (pin (num 104) (name VDDCORE) (type input))
+        (pin (num 105) (name VDDIO) (type input))
+        (pin (num 106) (name GND) (type input))
+        (pin (num 107) (name PA21) (type input))
+        (pin (num 108) (name PA25) (type input))
+        (pin (num 109) (name PA26) (type input))
+        (pin (num 110) (name PA27) (type input))
+        (pin (num 111) (name PA28) (type input))
+        (pin (num 112) (name PA29) (type input))
+        (pin (num 113) (name PB0) (type input))
+        (pin (num 114) (name PB1) (type input))
+        (pin (num 115) (name PB2) (type input))
+        (pin (num 116) (name PC4) (type input))
+        (pin (num 117) (name PC10) (type input))
+        (pin (num 118) (name PB3) (type input))
+        (pin (num 119) (name PB4) (type input))
+        (pin (num 120) (name PB5) (type input))
+        (pin (num 121) (name PB6) (type input))
+        (pin (num 122) (name PB7) (type input))
+        (pin (num 123) (name PB8) (type input))
+        (pin (num 124) (name VDDCORE) (type input))
+        (pin (num 125) (name VDDIO) (type input))
+        (pin (num 126) (name GND) (type input))
+        (pin (num 127) (name PB9) (type input))
+        (pin (num 128) (name PB10) (type input))
+        (pin (num 129) (name PB11) (type input))
+        (pin (num 130) (name PC0) (type input))
+        (pin (num 131) (name PC20) (type input))
+        (pin (num 132) (name PC21) (type input))
+        (pin (num 133) (name PC22) (type input))
+        (pin (num 134) (name PC23) (type input))
+        (pin (num 135) (name PC24) (type input))
+        (pin (num 136) (name PC25) (type input))
+        (pin (num 137) (name PC26) (type input))
+        (pin (num 138) (name PC27) (type input))
+        (pin (num 139) (name PC28) (type input))
+        (pin (num 140) (name PB14) (type input))
+        (pin (num 141) (name PB22) (type input))
+        (pin (num 142) (name PB23) (type input))
+        (pin (num 143) (name PB24) (type input))
+        (pin (num 144) (name PB25) (type input))))
+    (libpart (lib perso) (part ATMEGA32U2)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) ATMEGA32U2))
+      (pins
+        (pin (num 1) (name XTAL1) (type input))
+        (pin (num 2) (name "XTAL2(PC0)") (type input))
+        (pin (num 3) (name GND) (type input))
+        (pin (num 4) (name VCC) (type input))
+        (pin (num 5) (name "PC2(PCINT11/AIN2)") (type input))
+        (pin (num 6) (name "PD0(OC.0B/INT0)") (type input))
+        (pin (num 7) (name "PD1(AIN0/INT1)") (type input))
+        (pin (num 8) (name "PD2(RXD1/AIN1/INT2)") (type input))
+        (pin (num 9) (name "PD3(TXD1/INT3)") (type input))
+        (pin (num 10) (name "PD4(INT5/AIN3)") (type input))
+        (pin (num 11) (name "PD5(XCK/AIN4/PCINT12)") (type input))
+        (pin (num 12) (name "PD6(RTS//AIN5/INT6)") (type input))
+        (pin (num 13) (name "PD7(CTS//HWB//AIN6/T0/INT7)") (type input))
+        (pin (num 14) (name "PB0(SS//PCINT0)") (type input))
+        (pin (num 15) (name "PB1(SCLK/PCINT1)") (type input))
+        (pin (num 16) (name "PB2(PDI/MOSI/PCINT2)") (type input))
+        (pin (num 17) (name "PB3(PDO/MISO/PCINT3)") (type input))
+        (pin (num 18) (name "PB3(T1/PCINT4)") (type input))
+        (pin (num 19) (name "PB5(PCINT5)") (type input))
+        (pin (num 20) (name "PB6(PCINT6)") (type input))
+        (pin (num 21) (name "PB7(OC0A/OC1C/PCINT7)") (type input))
+        (pin (num 22) (name "PC7(ICP1/INT4/CLK0)") (type input))
+        (pin (num 23) (name "PC6(PCINT8/OC1A)") (type input))
+        (pin (num 24) (name "RESET/(PC1/DW)") (type input))
+        (pin (num 25) (name "PC5(PCINT9/OC1B)") (type input))
+        (pin (num 26) (name "PC4(PCINT10)") (type input))
+        (pin (num 27) (name UCAP) (type input))
+        (pin (num 28) (name UGND) (type input))
+        (pin (num 29) (name D+) (type input))
+        (pin (num 30) (name D-) (type input))
+        (pin (num 31) (name UVCC) (type input))
+        (pin (num 32) (name AVCC) (type input))))
+    (libpart (lib perso) (part ITG-3200)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) ITG-3200))
+      (pins
+        (pin (num 1) (name CLKIN) (type input))
+        (pin (num 2) (name NC) (type NotConnected))
+        (pin (num 3) (name NC) (type NotConnected))
+        (pin (num 4) (name NC) (type NotConnected))
+        (pin (num 5) (name NC) (type NotConnected))
+        (pin (num 6) (name Resv) (type input))
+        (pin (num 7) (name Resv) (type input))
+        (pin (num 8) (name Vlogic) (type input))
+        (pin (num 9) (name AD0) (type input))
+        (pin (num 10) (name RegOut) (type output))
+        (pin (num 11) (name Resv-G) (type input))
+        (pin (num 12) (name INT) (type input))
+        (pin (num 13) (name VDD) (type input))
+        (pin (num 14) (name NC) (type NotConnected))
+        (pin (num 15) (name NC) (type NotConnected))
+        (pin (num 16) (name NC) (type NotConnected))
+        (pin (num 17) (name NC) (type NotConnected))
+        (pin (num 18) (name GND) (type input))
+        (pin (num 19) (name Resv) (type input))
+        (pin (num 20) (name CPout) (type input))
+        (pin (num 21) (name Resv) (type input))
+        (pin (num 22) (name Resv) (type input))
+        (pin (num 23) (name SCL) (type input))
+        (pin (num 24) (name SDA) (type input))))
+    (libpart (lib perso) (part LED-BICOLORE)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LED-BICOLORE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))))
+    (libpart (lib perso) (part MOS_P2)
+      (docs transistors/mos/*.*)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOS_P2))
+      (pins
+        (pin (num 1) (name G) (type input))
+        (pin (num 2) (name S) (type passive))
+        (pin (num 3) (name D) (type passive))))
+    (libpart (lib perso) (part pC)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) pC))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib perso) (part SN74LVC1G125)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) SN74LVC1G125))
+      (pins
+        (pin (num 1) (name OE) (type input))
+        (pin (num 2) (name IN) (type input))
+        (pin (num 3) (name GND) (type input))
+        (pin (num 4) (name OUT) (type input))
+        (pin (num 5) (name VCC) (type input))))
+    (libpart (lib perso) (part SN75240)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) SN75240))
+      (pins
+        (pin (num 1) (name GND) (type input))
+        (pin (num 2) (name C) (type input))
+        (pin (num 3) (name GND) (type input))
+        (pin (num 4) (name D) (type input))
+        (pin (num 5) (name GND) (type input))
+        (pin (num 6) (name B) (type input))
+        (pin (num 7) (name GND) (type input))
+        (pin (num 8) (name A) (type input))))
+    (libpart (lib perso) (part TPS2044)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TPS2044))
+      (pins
+        (pin (num 1) (name GND) (type BiDi))
+        (pin (num 2) (name IN1) (type BiDi))
+        (pin (num 3) (name EN1) (type BiDi))
+        (pin (num 4) (name EN2) (type BiDi))
+        (pin (num 5) (name GND) (type BiDi))
+        (pin (num 6) (name IN2) (type BiDi))
+        (pin (num 7) (name EN3) (type BiDi))
+        (pin (num 8) (name EN4) (type BiDi))
+        (pin (num 9) (name OC4) (type BiDi))
+        (pin (num 10) (name OUT4) (type BiDi))
+        (pin (num 11) (name OUT3) (type BiDi))
+        (pin (num 12) (name OC3) (type BiDi))
+        (pin (num 13) (name OC2) (type BiDi))
+        (pin (num 14) (name OUT2) (type BiDi))
+        (pin (num 15) (name OUT1) (type BiDi))
+        (pin (num 16) (name OC1) (type BiDi))))
+    (libpart (lib perso) (part TUSB2077)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TUSB2077))
+      (pins
+        (pin (num 2) (name DP0PUR) (type input))
+        (pin (num 3) (name DP0) (type BiDi))
+        (pin (num 4) (name DM0) (type BiDi))
+        (pin (num 5) (name GND) (type BiDi))
+        (pin (num 6) (name Reset) (type output))
+        (pin (num 7) (name ECLK) (type BiDi))
+        (pin (num 8) (name EEDATA) (type BiDi))
+        (pin (num 9) (name VCC) (type BiDi))
+        (pin (num 10) (name BUSPWR) (type input))
+        (pin (num 11) (name PWRON1) (type input))
+        (pin (num 12) (name OVRCUR1) (type input))
+        (pin (num 13) (name DM1) (type BiDi))
+        (pin (num 14) (name DP1) (type BiDi))
+        (pin (num 15) (name PWRON2) (type input))
+        (pin (num 16) (name OVRCUR2) (type input))
+        (pin (num 17) (name DM2) (type BiDi))
+        (pin (num 18) (name DP2) (type BiDi))
+        (pin (num 19) (name PWRON3) (type input))
+        (pin (num 20) (name OVRCUR3) (type input))
+        (pin (num 21) (name DM3) (type BiDi))
+        (pin (num 22) (name DP3) (type BiDi))
+        (pin (num 23) (name PWRON4) (type input))
+        (pin (num 24) (name GND) (type BiDi))
+        (pin (num 25) (name OVRCUR4) (type input))
+        (pin (num 26) (name DM4) (type BiDi))
+        (pin (num 27) (name DP4) (type BiDi))
+        (pin (num 28) (name PWRON5) (type input))
+        (pin (num 29) (name OVRCUR5) (type input))
+        (pin (num 30) (name DM5) (type BiDi))
+        (pin (num 31) (name DP5) (type BiDi))
+        (pin (num 32) (name PWRON6) (type input))
+        (pin (num 33) (name OVRCUR6) (type input))
+        (pin (num 34) (name DM6) (type BiDi))
+        (pin (num 35) (name DP6) (type BiDi))
+        (pin (num 36) (name PWRON7) (type input))
+        (pin (num 37) (name OVRCUR7) (type input))
+        (pin (num 38) (name DM7) (type BiDi))
+        (pin (num 39) (name DP7) (type BiDi))
+        (pin (num 40) (name HUBCFG) (type output))
+        (pin (num 43) (name GND) (type BiDi))
+        (pin (num 44) (name XTAL2) (type output))
+        (pin (num 45) (name XTAL1) (type input))
+        (pin (num 46) (name VCC) (type BiDi))
+        (pin (num 47) (name EXTMEM) (type output))
+        (pin (num 48) (name MODE) (type BiDi))))
+    (libpart (lib perso) (part USB*2)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) USB*2))
+      (pins
+        (pin (num 1) (name VCC1) (type input))
+        (pin (num 2) (name VCC2) (type input))
+        (pin (num 3) (name D-1) (type input))
+        (pin (num 4) (name D-2) (type input))
+        (pin (num 5) (name D+1) (type input))
+        (pin (num 6) (name D+2) (type input))
+        (pin (num 7) (name GND1) (type input))
+        (pin (num 8) (name GND2) (type input))))
+    (libpart (lib perso) (part uUSB)
+      (description "USB Connector")
+      (footprints
+        (fp USB)
+        (fp microUSB))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) uUSB)
+        (field (name VCC) VCC)
+        (field (name Data+) D+)
+        (field (name Data-) D-)
+        (field (name Ground) GND)
+        (field (name Id) Id))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))
+        (pin (num 5) (name ~) (type input)))))
+  (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical jst)
+      (uri ../LibKicad/jst.lib))
+    (library (logical perso)
+      (uri ../LibKicad/perso.lib))
+    (library (logical open-project)
+      (uri ../LibKicad/open-project.lib)))
+  (nets
+    (net (code 1) (name "/connector out/SCL")
+      (node (ref P6) (pin 16))
+      (node (ref SAM3X8E1) (pin 70))
+      (node (ref U12) (pin 1))
+      (node (ref R56) (pin 1)))
+    (net (code 2) (name "/connector out/D+Bot")
+      (node (ref R33) (pin 2))
+      (node (ref R39) (pin 1))
+      (node (ref U11) (pin 6))
+      (node (ref U9) (pin 8)))
+    (net (code 3) (name "/connector out/PWR Top")
+      (node (ref U6) (pin 14))
+      (node (ref R72) (pin 1))
+      (node (ref U11) (pin 1)))
+    (net (code 4) (name /Arduino/SCL)
+      (node (ref U21) (pin 14))
+      (node (ref SAM3X8E1) (pin 87))
+      (node (ref U14) (pin 23))
+      (node (ref R58) (pin 1)))
+    (net (code 5) (name /Alim/5V)
+      (node (ref U6) (pin 6))
+      (node (ref U6) (pin 2))
+      (node (ref C71) (pin 1))
+      (node (ref U1) (pin 4))
+      (node (ref U3) (pin 31))
+      (node (ref U3) (pin 4))
+      (node (ref C19) (pin 1))
+      (node (ref C18) (pin 1))
+      (node (ref U18) (pin 31))
+      (node (ref C16) (pin 1))
+      (node (ref C65) (pin 1))
+      (node (ref C10) (pin 1))
+      (node (ref U13) (pin 3))
+      (node (ref C26) (pin 1))
+      (node (ref C25) (pin 1))
+      (node (ref C24) (pin 1))
+      (node (ref Q5) (pin 3))
+      (node (ref R70) (pin 1))
+      (node (ref R69) (pin 1))
+      (node (ref U3) (pin 32))
+      (node (ref U1) (pin 32))
+      (node (ref C66) (pin 1))
+      (node (ref U1) (pin 31))
+      (node (ref C64) (pin 1))
+      (node (ref Q4) (pin 3))
+      (node (ref R65) (pin 1))
+      (node (ref R50) (pin 1))
+      (node (ref U18) (pin 32))
+      (node (ref P3) (pin 2))
+      (node (ref U18) (pin 4))
+      (node (ref P8) (pin 8)))
+    (net (code 6) (name /Arduino/D+prog)
+      (node (ref R63) (pin 1))
+      (node (ref J2) (pin 3)))
+    (net (code 7) (name "/connector out/D- Top")
+      (node (ref U11) (pin 3))
+      (node (ref R18) (pin 2))
+      (node (ref U8) (pin 4))
+      (node (ref R32) (pin 1)))
+    (net (code 9) (name /Arduino/D-prog)
+      (node (ref R64) (pin 2))
+      (node (ref J2) (pin 2)))
+    (net (code 10) (name "/connector out/D+Top")
+      (node (ref U11) (pin 5))
+      (node (ref R17) (pin 2))
+      (node (ref U8) (pin 2))
+      (node (ref R31) (pin 1)))
+    (net (code 11) (name /USB2AX/D-)
+      (node (ref U7) (pin 4))
+      (node (ref R8) (pin 2))
+      (node (ref R28) (pin 1))
+      (node (ref U3) (pin 30)))
+    (net (code 12) (name /Arduino/SDA)
+      (node (ref R57) (pin 1))
+      (node (ref U14) (pin 24))
+      (node (ref SAM3X8E1) (pin 86))
+      (node (ref U21) (pin 13)))
+    (net (code 13) (name /Arduino/D-)
+      (node (ref SAM3X8E1) (pin 43))
+      (node (ref R52) (pin 1))
+      (node (ref R30) (pin 1))
+      (node (ref R10) (pin 2))
+      (node (ref U8) (pin 6)))
+    (net (code 14) (name /Alim/3.3V)
+      (node (ref U5) (pin 8))
+      (node (ref U5) (pin 9))
+      (node (ref U5) (pin 10))
+      (node (ref R45) (pin 1))
+      (node (ref FB1) (pin 1))
+      (node (ref U5) (pin 46))
+      (node (ref U5) (pin 47))
+      (node (ref U5) (pin 16))
+      (node (ref U5) (pin 12))
+      (node (ref Q6) (pin 2))
+      (node (ref R4) (pin 2))
+      (node (ref P8) (pin 7))
+      (node (ref C46) (pin 1))
+      (node (ref SAM3X8E1) (pin 11))
+      (node (ref C49) (pin 1))
+      (node (ref C47) (pin 1))
+      (node (ref C44) (pin 1))
+      (node (ref C43) (pin 1))
+      (node (ref C42) (pin 1))
+      (node (ref R54) (pin 1))
+      (node (ref R36) (pin 1))
+      (node (ref C39) (pin 1))
+      (node (ref U21) (pin 1))
+      (node (ref C40) (pin 1))
+      (node (ref SAM3X8E1) (pin 57))
+      (node (ref SAM3X8E1) (pin 62))
+      (node (ref SAM3X8E1) (pin 52))
+      (node (ref SAM3X8E1) (pin 105))
+      (node (ref SAM3X8E1) (pin 125))
+      (node (ref SW2) (pin 2))
+      (node (ref R58) (pin 2))
+      (node (ref R57) (pin 2))
+      (node (ref U21) (pin 7))
+      (node (ref U21) (pin 6))
+      (node (ref R56) (pin 2))
+      (node (ref U21) (pin 3))
+      (node (ref R55) (pin 2))
+      (node (ref C37) (pin 1))
+      (node (ref C38) (pin 1))
+      (node (ref U14) (pin 8))
+      (node (ref U14) (pin 13))
+      (node (ref C68) (pin 1))
+      (node (ref U19) (pin 5))
+      (node (ref R22) (pin 2))
+      (node (ref C69) (pin 1))
+      (node (ref R21) (pin 2))
+      (node (ref R12) (pin 2))
+      (node (ref C67) (pin 1))
+      (node (ref U13) (pin 2))
+      (node (ref C27) (pin 1))
+      (node (ref C70) (pin 1))
+      (node (ref U6) (pin 8))
+      (node (ref R11) (pin 2)))
+    (net (code 15) (name /USB2AX2/D-1)
+      (node (ref R6) (pin 2))
+      (node (ref R20) (pin 1))
+      (node (ref U7) (pin 6))
+      (node (ref U1) (pin 30)))
+    (net (code 16) (name "/connector out/PWR Bot")
+      (node (ref R73) (pin 1))
+      (node (ref U6) (pin 11))
+      (node (ref U11) (pin 2)))
+    (net (code 17) (name /Arduino/PWR)
+      (node (ref R66) (pin 1))
+      (node (ref U6) (pin 15))
+      (node (ref R71) (pin 1))
+      (node (ref SAM3X8E1) (pin 39)))
+    (net (code 19) (name /USB2AX/D+)
+      (node (ref U3) (pin 29))
+      (node (ref R7) (pin 2))
+      (node (ref U7) (pin 2))
+      (node (ref R27) (pin 1)))
+    (net (code 20) (name "/connector out/SDA")
+      (node (ref U12) (pin 2))
+      (node (ref P6) (pin 15))
+      (node (ref SAM3X8E1) (pin 9))
+      (node (ref R55) (pin 1)))
+    (net (code 21) (name "/connector out/D-Bot")
+      (node (ref U9) (pin 6))
+      (node (ref R40) (pin 1))
+      (node (ref R34) (pin 2))
+      (node (ref U11) (pin 4)))
+    (net (code 22) (name /Arduino/D+)
+      (node (ref SAM3X8E1) (pin 42))
+      (node (ref R29) (pin 1))
+      (node (ref R9) (pin 2))
+      (node (ref R53) (pin 1))
+      (node (ref U8) (pin 8)))
+    (net (code 23) (name /USBHUB/D+hub)
+      (node (ref R1) (pin 1))
+      (node (ref J1) (pin 3))
+      (node (ref C1) (pin 1)))
+    (net (code 24) (name /USBHUB/D-hub)
+      (node (ref R2) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref J1) (pin 2)))
+    (net (code 25) (name /USB2AX2/D+1)
+      (node (ref R5) (pin 2))
+      (node (ref U7) (pin 8))
+      (node (ref U1) (pin 29))
+      (node (ref R19) (pin 1)))
+    (net (code 29) (name "")
+      (node (ref TH11) (pin 1))
+      (node (ref D11) (pin 2))
+      (node (ref R13) (pin 1)))
+    (net (code 30) (name "")
+      (node (ref U3) (pin 27))
+      (node (ref C13) (pin 1)))
+    (net (code 31) (name /USB2AX/MOSI)
+      (node (ref U3) (pin 16)))
+    (net (code 32) (name /USB2AX/SS)
+      (node (ref U3) (pin 14)))
+    (net (code 33) (name "")
+      (node (ref R16) (pin 1))
+      (node (ref U3) (pin 12)))
+    (net (code 34) (name "")
+      (node (ref R16) (pin 2))
+      (node (ref U4) (pin 1)))
+    (net (code 35) (name "")
+      (node (ref R15) (pin 1))
+      (node (ref U4) (pin 2)))
+    (net (code 36) (name /USB2AX/SCK)
+      (node (ref U3) (pin 15)))
+    (net (code 37) (name /USB2AX/MISO)
+      (node (ref U3) (pin 17)))
+    (net (code 38) (name /USB2AX/RX)
+      (node (ref R14) (pin 1)))
+    (net (code 39) (name "")
+      (node (ref K2) (pin 2)))
+    (net (code 40) (name "")
+      (node (ref TH11) (pin 2))
+      (node (ref K2) (pin 3)))
+    (net (code 41) (name "")
+      (node (ref Q1) (pin 2))
+      (node (ref C12) (pin 1))
+      (node (ref U3) (pin 2)))
+    (net (code 42) (name "")
+      (node (ref U3) (pin 19)))
+    (net (code 43) (name "")
+      (node (ref U3) (pin 18)))
+    (net (code 44) (name "")
+      (node (ref R13) (pin 2))
+      (node (ref GS2) (pin 1))
+      (node (ref U3) (pin 9)))
+    (net (code 45) (name /USB2AX/HWB)
+      (node (ref U3) (pin 13)))
+    (net (code 46) (name "")
+      (node (ref U3) (pin 22)))
+    (net (code 47) (name "")
+      (node (ref U3) (pin 21)))
+    (net (code 48) (name "")
+      (node (ref R15) (pin 2))
+      (node (ref U3) (pin 11)))
+    (net (code 49) (name "")
+      (node (ref U3) (pin 20)))
+    (net (code 50) (name "")
+      (node (ref U3) (pin 10)))
+    (net (code 51) (name "")
+      (node (ref U3) (pin 7)))
+    (net (code 52) (name "")
+      (node (ref U3) (pin 6)))
+    (net (code 53) (name "")
+      (node (ref U3) (pin 5)))
+    (net (code 54) (name "")
+      (node (ref Q1) (pin 1))
+      (node (ref C11) (pin 1))
+      (node (ref U3) (pin 1)))
+    (net (code 55) (name GND)
+      (node (ref U7) (pin 5))
+      (node (ref C57) (pin 2))
+      (node (ref C56) (pin 2))
+      (node (ref C29) (pin 2))
+      (node (ref C8) (pin 2))
+      (node (ref U7) (pin 7))
+      (node (ref U7) (pin 3))
+      (node (ref U7) (pin 1))
+      (node (ref R27) (pin 2))
+      (node (ref C41) (pin 2))
+      (node (ref SAM3X8E1) (pin 12))
+      (node (ref C72) (pin 2))
+      (node (ref C40) (pin 2))
+      (node (ref C39) (pin 2))
+      (node (ref C60) (pin 2))
+      (node (ref C58) (pin 2))
+      (node (ref SAM3X8E1) (pin 33))
+      (node (ref SAM3X8E1) (pin 44))
+      (node (ref SAM3X8E1) (pin 54))
+      (node (ref U21) (pin 11))
+      (node (ref U21) (pin 12))
+      (node (ref U21) (pin 4))
+      (node (ref U21) (pin 2))
+      (node (ref U21) (pin 5))
+      (node (ref R46) (pin 2))
+      (node (ref P6) (pin 1))
+      (node (ref C51) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref P9) (pin 2))
+      (node (ref P4) (pin 2))
+      (node (ref P1) (pin 2))
+      (node (ref R31) (pin 2))
+      (node (ref P7) (pin 1))
+      (node (ref R32) (pin 2))
+      (node (ref C34) (pin 2))
+      (node (ref C36) (pin 2))
+      (node (ref C52) (pin 2))
+      (node (ref C46) (pin 2))
+      (node (ref U20) (pin 4))
+      (node (ref C45) (pin 2))
+      (node (ref C48) (pin 2))
+      (node (ref C50) (pin 2))
+      (node (ref U20) (pin 3))
+      (node (ref P8) (pin 1))
+      (node (ref U12) (pin 3))
+      (node (ref U12) (pin 4))
+      (node (ref U11) (pin 7))
+      (node (ref U11) (pin 8))
+      (node (ref C7) (pin 2))
+      (node (ref C9) (pin 2))
+      (node (ref R28) (pin 2))
+      (node (ref C20) (pin 2))
+      (node (ref C15) (pin 2))
+      (node (ref R30) (pin 2))
+      (node (ref J1) (pin 4))
+      (node (ref J1) (pin 5))
+      (node (ref R40) (pin 2))
+      (node (ref R19) (pin 2))
+      (node (ref R20) (pin 2))
+      (node (ref U14) (pin 1))
+      (node (ref C35) (pin 2))
+      (node (ref C14) (pin 2))
+      (node (ref R39) (pin 2))
+      (node (ref J2) (pin 4))
+      (node (ref J2) (pin 5))
+      (node (ref C28) (pin 2))
+      (node (ref C17) (pin 2))
+      (node (ref P5) (pin 2))
+      (node (ref D5) (pin 2))
+      (node (ref U14) (pin 9))
+      (node (ref R77) (pin 2))
+      (node (ref U14) (pin 11))
+      (node (ref D6) (pin 2))
+      (node (ref U14) (pin 18))
+      (node (ref D4) (pin 2))
+      (node (ref R29) (pin 2))
+      (node (ref C38) (pin 2))
+      (node (ref C37) (pin 2))
+      (node (ref D3) (pin 2))
+      (node (ref C68) (pin 2))
+      (node (ref C22) (pin 2))
+      (node (ref C23) (pin 2))
+      (node (ref C69) (pin 2))
+      (node (ref C70) (pin 2))
+      (node (ref C71) (pin 2))
+      (node (ref D13) (pin 2))
+      (node (ref D14) (pin 2))
+      (node (ref U2) (pin 4))
+      (node (ref U2) (pin 3))
+      (node (ref C21) (pin 2))
+      (node (ref U3) (pin 3))
+      (node (ref C10) (pin 2))
+      (node (ref U3) (pin 28))
+      (node (ref D2) (pin 2))
+      (node (ref C27) (pin 2))
+      (node (ref U13) (pin 1))
+      (node (ref U6) (pin 5))
+      (node (ref D15) (pin 2))
+      (node (ref U6) (pin 1))
+      (node (ref U5) (pin 48))
+      (node (ref C5) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref U5) (pin 43))
+      (node (ref SW1) (pin 1))
+      (node (ref U5) (pin 24))
+      (node (ref C1) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref C24) (pin 2))
+      (node (ref C26) (pin 2))
+      (node (ref C25) (pin 2))
+      (node (ref K1) (pin 1))
+      (node (ref U10) (pin 3))
+      (node (ref D1) (pin 1))
+      (node (ref U1) (pin 28))
+      (node (ref C4) (pin 1))
+      (node (ref U5) (pin 5))
+      (node (ref U1) (pin 3))
+      (node (ref SAM3X8E1) (pin 58))
+      (node (ref D11) (pin 1))
+      (node (ref C66) (pin 2))
+      (node (ref P3) (pin 6))
+      (node (ref C65) (pin 2))
+      (node (ref C55) (pin 2))
+      (node (ref C16) (pin 2))
+      (node (ref C43) (pin 2))
+      (node (ref C42) (pin 2))
+      (node (ref C63) (pin 2))
+      (node (ref C54) (pin 2))
+      (node (ref U4) (pin 4))
+      (node (ref U4) (pin 3))
+      (node (ref U18) (pin 28))
+      (node (ref R68) (pin 1))
+      (node (ref C64) (pin 2))
+      (node (ref U8) (pin 7))
+      (node (ref U8) (pin 5))
+      (node (ref U8) (pin 3))
+      (node (ref U8) (pin 1))
+      (node (ref U9) (pin 7))
+      (node (ref U9) (pin 5))
+      (node (ref U9) (pin 3))
+      (node (ref U9) (pin 1))
+      (node (ref SAM3X8E1) (pin 74))
+      (node (ref SAM3X8E1) (pin 46))
+      (node (ref SAM3X8E1) (pin 106))
+      (node (ref SAM3X8E1) (pin 126))
+      (node (ref R62) (pin 2))
+      (node (ref C12) (pin 2))
+      (node (ref C11) (pin 2))
+      (node (ref R59) (pin 2))
+      (node (ref C59) (pin 2))
+      (node (ref K2) (pin 1))
+      (node (ref C67) (pin 2))
+      (node (ref U19) (pin 3))
+      (node (ref C13) (pin 2))
+      (node (ref C61) (pin 2))
+      (node (ref C62) (pin 2))
+      (node (ref C18) (pin 2))
+      (node (ref C19) (pin 2))
+      (node (ref U18) (pin 3))
+      (node (ref P2) (pin 6))
+      (node (ref C44) (pin 2))
+      (node (ref C53) (pin 2))
+      (node (ref C49) (pin 2))
+      (node (ref C47) (pin 2))
+      (node (ref U19) (pin 1)))
+    (net (code 56) (name "")
+      (node (ref U3) (pin 26)))
+    (net (code 57) (name "")
+      (node (ref U3) (pin 25)))
+    (net (code 58) (name /USB2AX/Reset)
+      (node (ref U3) (pin 24)))
+    (net (code 59) (name "")
+      (node (ref U3) (pin 23)))
+    (net (code 60) (name "")
+      (node (ref R14) (pin 2))
+      (node (ref GS2) (pin 2))
+      (node (ref U3) (pin 8)))
+    (net (code 61) (name "")
+      (node (ref U1) (pin 12))
+      (node (ref R26) (pin 1)))
+    (net (code 62) (name "")
+      (node (ref C21) (pin 1))
+      (node (ref Q2) (pin 1))
+      (node (ref U1) (pin 1)))
+    (net (code 63) (name "")
+      (node (ref Q2) (pin 2))
+      (node (ref U1) (pin 2))
+      (node (ref C22) (pin 1)))
+    (net (code 64) (name /USB2AX2/Reset)
+      (node (ref U1) (pin 24)))
+    (net (code 65) (name /USB2AX2/MOSI)
+      (node (ref U1) (pin 16)))
+    (net (code 66) (name "")
+      (node (ref R25) (pin 2))
+      (node (ref U1) (pin 11)))
+    (net (code 67) (name "")
+      (node (ref R26) (pin 2))
+      (node (ref U2) (pin 1)))
+    (net (code 68) (name "")
+      (node (ref R25) (pin 1))
+      (node (ref U2) (pin 2)))
+    (net (code 69) (name /USB2AX2/HWB)
+      (node (ref U1) (pin 13)))
+    (net (code 70) (name /USB2AX2/SS)
+      (node (ref U1) (pin 14)))
+    (net (code 71) (name /USB2AX2/SCK)
+      (node (ref U1) (pin 15)))
+    (net (code 72) (name /USB2AX2/MISO)
+      (node (ref U1) (pin 17)))
+    (net (code 73) (name "")
+      (node (ref R23) (pin 1))
+      (node (ref TH1) (pin 1))
+      (node (ref D1) (pin 2)))
+    (net (code 74) (name "")
+      (node (ref R23) (pin 2))
+      (node (ref U1) (pin 9))
+      (node (ref GS1) (pin 1)))
+    (net (code 75) (name "")
+      (node (ref K1) (pin 3))
+      (node (ref TH1) (pin 2)))
+    (net (code 76) (name "")
+      (node (ref K1) (pin 2)))
+    (net (code 77) (name /USB2AX2/RX)
+      (node (ref R24) (pin 1)))
+    (net (code 78) (name "")
+      (node (ref GS1) (pin 2))
+      (node (ref R24) (pin 2))
+      (node (ref U1) (pin 8)))
+    (net (code 79) (name "")
+      (node (ref U1) (pin 23)))
+    (net (code 80) (name "")
+      (node (ref U1) (pin 22)))
+    (net (code 81) (name "")
+      (node (ref U1) (pin 21)))
+    (net (code 82) (name "")
+      (node (ref U1) (pin 20)))
+    (net (code 83) (name "")
+      (node (ref U1) (pin 10)))
+    (net (code 84) (name "")
+      (node (ref U1) (pin 7)))
+    (net (code 85) (name "")
+      (node (ref U1) (pin 6)))
+    (net (code 86) (name "")
+      (node (ref U1) (pin 5)))
+    (net (code 87) (name "")
+      (node (ref C23) (pin 1))
+      (node (ref U1) (pin 27)))
+    (net (code 88) (name "")
+      (node (ref U1) (pin 18)))
+    (net (code 89) (name "")
+      (node (ref U1) (pin 26)))
+    (net (code 90) (name "")
+      (node (ref U1) (pin 25)))
+    (net (code 91) (name "")
+      (node (ref U1) (pin 19)))
+    (net (code 92) (name "")
+      (node (ref U6) (pin 4))
+      (node (ref U5) (pin 23)))
+    (net (code 93) (name "")
+      (node (ref U5) (pin 2))
+      (node (ref R3) (pin 1)))
+    (net (code 94) (name "")
+      (node (ref SW1) (pin 2))
+      (node (ref U5) (pin 6))
+      (node (ref C4) (pin 2))
+      (node (ref R4) (pin 1)))
+    (net (code 95) (name /USBHUB/USBFilter/DP1)
+      (node (ref U5) (pin 14))
+      (node (ref R5) (pin 1))
+      (node (ref C6) (pin 1)))
+    (net (code 96) (name /USBHUB/USBFilter/DP2)
+      (node (ref U5) (pin 18))
+      (node (ref C8) (pin 1))
+      (node (ref R7) (pin 1)))
+    (net (code 97) (name /USBHUB/USBFilter/DP3)
+      (node (ref U5) (pin 22))
+      (node (ref C14) (pin 1))
+      (node (ref R9) (pin 1)))
+    (net (code 98) (name /USBHUB/USBFilter/DP4)
+      (node (ref C17) (pin 1))
+      (node (ref U5) (pin 27))
+      (node (ref R17) (pin 1)))
+    (net (code 99) (name /USBHUB/USBFilter/DP5)
+      (node (ref U5) (pin 31))
+      (node (ref R33) (pin 1))
+      (node (ref C28) (pin 1)))
+    (net (code 100) (name "")
+      (node (ref U5) (pin 35)))
+    (net (code 101) (name "")
+      (node (ref U5) (pin 39)))
+    (net (code 102) (name "")
+      (node (ref U5) (pin 28))
+      (node (ref U6) (pin 7)))
+    (net (code 103) (name "")
+      (node (ref D15) (pin 1))
+      (node (ref R73) (pin 2)))
+    (net (code 104) (name "")
+      (node (ref D13) (pin 1))
+      (node (ref R71) (pin 2)))
+    (net (code 105) (name "")
+      (node (ref R11) (pin 1))
+      (node (ref U5) (pin 20))
+      (node (ref U6) (pin 16)))
+    (net (code 106) (name "")
+      (node (ref U6) (pin 12))
+      (node (ref R21) (pin 1))
+      (node (ref U5) (pin 29)))
+    (net (code 107) (name "")
+      (node (ref R35) (pin 2))
+      (node (ref U10) (pin 1)))
+    (net (code 108) (name /USBHUB/USBFilter/DM1)
+      (node (ref C7) (pin 1))
+      (node (ref R6) (pin 1))
+      (node (ref U5) (pin 13)))
+    (net (code 109) (name /USBHUB/USBFilter/DM2)
+      (node (ref R8) (pin 1))
+      (node (ref C9) (pin 1))
+      (node (ref U5) (pin 17)))
+    (net (code 110) (name /USBHUB/USBFilter/DM3)
+      (node (ref R10) (pin 1))
+      (node (ref U5) (pin 21))
+      (node (ref C15) (pin 1)))
+    (net (code 111) (name /USBHUB/USBFilter/DM4)
+      (node (ref C20) (pin 1))
+      (node (ref U5) (pin 26))
+      (node (ref R18) (pin 1)))
+    (net (code 112) (name /USBHUB/USBFilter/DM5)
+      (node (ref C29) (pin 1))
+      (node (ref R34) (pin 1))
+      (node (ref U5) (pin 30)))
+    (net (code 113) (name "")
+      (node (ref U5) (pin 34)))
+    (net (code 114) (name "")
+      (node (ref U5) (pin 38)))
+    (net (code 115) (name "")
+      (node (ref U6) (pin 3))
+      (node (ref U5) (pin 19)))
+    (net (code 116) (name /USBHUB/USBFilter/DM0)
+      (node (ref R2) (pin 2))
+      (node (ref U5) (pin 4)))
+    (net (code 117) (name /USBHUB/USBFilter/DP0)
+      (node (ref R3) (pin 2))
+      (node (ref R1) (pin 2))
+      (node (ref U5) (pin 3)))
+    (net (code 118) (name "")
+      (node (ref U5) (pin 32)))
+    (net (code 119) (name "")
+      (node (ref U5) (pin 15)))
+    (net (code 120) (name "")
+      (node (ref U5) (pin 36)))
+    (net (code 121) (name "")
+      (node (ref R22) (pin 1))
+      (node (ref U5) (pin 33))
+      (node (ref U6) (pin 9))
+      (node (ref U5) (pin 37)))
+    (net (code 122) (name "")
+      (node (ref C3) (pin 1))
+      (node (ref U5) (pin 45))
+      (node (ref Q3) (pin 1)))
+    (net (code 123) (name "")
+      (node (ref U5) (pin 44))
+      (node (ref C5) (pin 1))
+      (node (ref Q3) (pin 2)))
+    (net (code 124) (name "")
+      (node (ref U5) (pin 7)))
+    (net (code 125) (name "")
+      (node (ref U5) (pin 11)))
+    (net (code 126) (name "")
+      (node (ref R36) (pin 2))
+      (node (ref U10) (pin 2)))
+    (net (code 127) (name /USBHUB/hubstatus)
+      (node (ref U5) (pin 40))
+      (node (ref R35) (pin 1))
+      (node (ref U10) (pin 4)))
+    (net (code 128) (name "")
+      (node (ref R12) (pin 1))
+      (node (ref U5) (pin 25))
+      (node (ref U6) (pin 13)))
+    (net (code 129) (name "")
+      (node (ref R72) (pin 2))
+      (node (ref D14) (pin 1)))
+    (net (code 130) (name "")
+      (node (ref U6) (pin 10)))
+    (net (code 131) (name "")
+      (node (ref D2) (pin 1))
+      (node (ref R45) (pin 2)))
+    (net (code 132) (name /Arduino/TST)
+      (node (ref R59) (pin 1))
+      (node (ref SAM3X8E1) (pin 51)))
+    (net (code 133) (name /Arduino/VBG)
+      (node (ref R62) (pin 1))
+      (node (ref C59) (pin 1))
+      (node (ref SAM3X8E1) (pin 40)))
+    (net (code 134) (name "")
+      (node (ref P2) (pin 2)))
+    (net (code 135) (name /Arduino/VDDOUT)
+      (node (ref SAM3X8E1) (pin 61))
+      (node (ref SAM3X8E1) (pin 10))
+      (node (ref SAM3X8E1) (pin 104))
+      (node (ref SAM3X8E1) (pin 124))
+      (node (ref SAM3X8E1) (pin 56))
+      (node (ref SAM3X8E1) (pin 45))
+      (node (ref FB2) (pin 1))
+      (node (ref C45) (pin 1))
+      (node (ref C53) (pin 1))
+      (node (ref C50) (pin 1))
+      (node (ref C48) (pin 1))
+      (node (ref C51) (pin 1)))
+    (net (code 136) (name /Arduino/programmation/ResetCMD)
+      (node (ref P2) (pin 5))
+      (node (ref SAM3X8E1) (pin 47))
+      (node (ref R67) (pin 1)))
+    (net (code 137) (name /Arduino/DP41)
+      (node (ref SAM3X8E1) (pin 67)))
+    (net (code 138) (name /Arduino/DP48)
+      (node (ref SAM3X8E1) (pin 97)))
+    (net (code 139) (name /Arduino/RX3)
+      (node (ref SAM3X8E1) (pin 18)))
+    (net (code 140) (name "")
+      (node (ref SAM3X8E1) (pin 28)))
+    (net (code 141) (name "")
+      (node (ref R52) (pin 2))
+      (node (ref SAM3X8E1) (pin 38)))
+    (net (code 142) (name "")
+      (node (ref R53) (pin 2))
+      (node (ref SAM3X8E1) (pin 37)))
+    (net (code 143) (name /Arduino/AI0)
+      (node (ref P7) (pin 13))
+      (node (ref SAM3X8E1) (pin 78)))
+    (net (code 144) (name /Arduino/AI8)
+      (node (ref P7) (pin 8))
+      (node (ref SAM3X8E1) (pin 88)))
+    (net (code 145) (name /Arduino/DP47)
+      (node (ref SAM3X8E1) (pin 98)))
+    (net (code 146) (name /Arduino/DP29)
+      (node (ref SAM3X8E1) (pin 19)))
+    (net (code 147) (name "")
+      (node (ref SAM3X8E1) (pin 29)))
+    (net (code 148) (name /Arduino/DP34)
+      (node (ref SAM3X8E1) (pin 59)))
+    (net (code 149) (name "")
+      (node (ref SAM3X8E1) (pin 69)))
+    (net (code 150) (name /Arduino/AI1)
+      (node (ref SAM3X8E1) (pin 79))
+      (node (ref P7) (pin 11)))
+    (net (code 151) (name /Arduino/AI9)
+      (node (ref SAM3X8E1) (pin 89))
+      (node (ref P7) (pin 10)))
+    (net (code 152) (name /Arduino/DP28)
+      (node (ref SAM3X8E1) (pin 16)))
+    (net (code 153) (name /Arduino/AI6)
+      (node (ref SAM3X8E1) (pin 84))
+      (node (ref P7) (pin 4)))
+    (net (code 154) (name /Arduino/DP51)
+      (node (ref SAM3X8E1) (pin 94)))
+    (net (code 155) (name /Arduino/DP27)
+      (node (ref SAM3X8E1) (pin 15)))
+    (net (code 156) (name "")
+      (node (ref SAM3X8E1) (pin 25)))
+    (net (code 157) (name "")
+      (node (ref SAM3X8E1) (pin 55)))
+    (net (code 158) (name /Arduino/DP39)
+      (node (ref SAM3X8E1) (pin 65)))
+    (net (code 159) (name /Arduino/AVREF)
+      (node (ref C52) (pin 1))
+      (node (ref FB1) (pin 2))
+      (node (ref SAM3X8E1) (pin 75)))
+    (net (code 160) (name /Arduino/AI7)
+      (node (ref P7) (pin 6))
+      (node (ref SAM3X8E1) (pin 85)))
+    (net (code 161) (name /Arduino/DP50)
+      (node (ref SAM3X8E1) (pin 95)))
+    (net (code 162) (name /Arduino/DP46)
+      (node (ref SAM3X8E1) (pin 99)))
+    (net (code 163) (name /Arduino/DP31)
+      (node (ref SAM3X8E1) (pin 26)))
+    (net (code 164) (name /Arduino/DP40)
+      (node (ref SAM3X8E1) (pin 66)))
+    (net (code 165) (name /Arduino/DP49)
+      (node (ref SAM3X8E1) (pin 96)))
+    (net (code 166) (name /Arduino/TX3)
+      (node (ref SAM3X8E1) (pin 17)))
+    (net (code 167) (name "/Arduino/programmation/RX ATMEGA")
+      (node (ref SAM3X8E1) (pin 27))
+      (node (ref U18) (pin 8)))
+    (net (code 168) (name "")
+      (node (ref SAM3X8E1) (pin 117)))
+    (net (code 169) (name /Arduino/PWM7)
+      (node (ref SAM3X8E1) (pin 134))
+      (node (ref P6) (pin 14)))
+    (net (code 170) (name /Arduino/PWM2)
+      (node (ref SAM3X8E1) (pin 144))
+      (node (ref P6) (pin 4)))
+    (net (code 171) (name "")
+      (node (ref SAM3X8E1) (pin 115)))
+    (net (code 172) (name /Arduino/PWM6)
+      (node (ref P6) (pin 12))
+      (node (ref SAM3X8E1) (pin 135)))
+    (net (code 173) (name /Arduino/DP36)
+      (node (ref SAM3X8E1) (pin 116)))
+    (net (code 174) (name /Arduino/LedTX)
+      (node (ref SAM3X8E1) (pin 107)))
+    (net (code 175) (name "")
+      (node (ref SAM3X8E1) (pin 127)))
+    (net (code 176) (name /Arduino/PWM4)
+      (node (ref SAM3X8E1) (pin 137))
+      (node (ref SAM3X8E1) (pin 112))
+      (node (ref P6) (pin 8)))
+    (net (code 177) (name /Arduino/MISO)
+      (node (ref SAM3X8E1) (pin 108))
+      (node (ref P2) (pin 1)))
+    (net (code 178) (name "")
+      (node (ref SAM3X8E1) (pin 118)))
+    (net (code 179) (name /Arduino/VBOF)
+      (node (ref SAM3X8E1) (pin 128)))
+    (net (code 180) (name "")
+      (node (ref SAM3X8E1) (pin 138)))
+    (net (code 181) (name /Arduino/MOSI)
+      (node (ref SAM3X8E1) (pin 109))
+      (node (ref P2) (pin 4)))
+    (net (code 182) (name "")
+      (node (ref SAM3X8E1) (pin 119)))
+    (net (code 183) (name /Arduino/ID)
+      (node (ref SAM3X8E1) (pin 129)))
+    (net (code 184) (name /Arduino/DP45)
+      (node (ref SAM3X8E1) (pin 100)))
+    (net (code 185) (name /Arduino/SCLK)
+      (node (ref SAM3X8E1) (pin 110))
+      (node (ref P2) (pin 3)))
+    (net (code 186) (name "")
+      (node (ref SAM3X8E1) (pin 120)))
+    (net (code 187) (name /Arduino/DP53)
+      (node (ref SAM3X8E1) (pin 140)))
+    (net (code 188) (name /Arduino/DP44)
+      (node (ref SAM3X8E1) (pin 101)))
+    (net (code 189) (name "")
+      (node (ref SAM3X8E1) (pin 121)))
+    (net (code 190) (name "")
+      (node (ref SAM3X8E1) (pin 131)))
+    (net (code 191) (name "")
+      (node (ref SAM3X8E1) (pin 141)))
+    (net (code 192) (name "")
+      (node (ref SAM3X8E1) (pin 122)))
+    (net (code 193) (name /Arduino/PWM9)
+      (node (ref SAM3X8E1) (pin 132))
+      (node (ref P6) (pin 5)))
+    (net (code 194) (name "")
+      (node (ref SAM3X8E1) (pin 142)))
+    (net (code 195) (name /Arduino/LedRX)
+      (node (ref SAM3X8E1) (pin 103)))
+    (net (code 196) (name "")
+      (node (ref SAM3X8E1) (pin 123)))
+    (net (code 197) (name /Arduino/PWM8)
+      (node (ref SAM3X8E1) (pin 133))
+      (node (ref P6) (pin 3)))
+    (net (code 198) (name "")
+      (node (ref SAM3X8E1) (pin 143)))
+    (net (code 199) (name /Arduino/XIN32)
+      (node (ref SAM3X8E1) (pin 48))
+      (node (ref C58) (pin 1))
+      (node (ref X2) (pin 1)))
+    (net (code 200) (name /Arduino/XOUT32)
+      (node (ref X2) (pin 2))
+      (node (ref SAM3X8E1) (pin 49))
+      (node (ref C60) (pin 1)))
+    (net (code 201) (name /Arduino/DP22)
+      (node (ref SAM3X8E1) (pin 1)))
+    (net (code 202) (name "/Arduino/programmation/TX ATMEGA")
+      (node (ref SAM3X8E1) (pin 2))
+      (node (ref U19) (pin 4)))
+    (net (code 203) (name /Arduino/RX1)
+      (node (ref P8) (pin 3))
+      (node (ref SAM3X8E1) (pin 3)))
+    (net (code 204) (name /Arduino/TX1)
+      (node (ref SAM3X8E1) (pin 4))
+      (node (ref P8) (pin 4)))
+    (net (code 205) (name /Arduino/RX2)
+      (node (ref P8) (pin 5))
+      (node (ref SAM3X8E1) (pin 5)))
+    (net (code 206) (name /Arduino/XIN)
+      (node (ref X1) (pin 1))
+      (node (ref C56) (pin 1))
+      (node (ref SAM3X8E1) (pin 36)))
+    (net (code 207) (name /Arduino/XOUT)
+      (node (ref X1) (pin 3))
+      (node (ref C57) (pin 1))
+      (node (ref SAM3X8E1) (pin 35)))
+    (net (code 208) (name /Arduino/TX2)
+      (node (ref SAM3X8E1) (pin 6))
+      (node (ref P8) (pin 6)))
+    (net (code 209) (name "")
+      (node (ref SAM3X8E1) (pin 53))
+      (node (ref R54) (pin 2)))
+    (net (code 210) (name /Arduino/DP32)
+      (node (ref SAM3X8E1) (pin 32)))
+    (net (code 211) (name /Arduino/DP43)
+      (node (ref SAM3X8E1) (pin 72)))
+    (net (code 212) (name /Arduino/AI4)
+      (node (ref P7) (pin 5))
+      (node (ref SAM3X8E1) (pin 82)))
+    (net (code 213) (name /Arduino/DP52)
+      (node (ref SAM3X8E1) (pin 92)))
+    (net (code 214) (name /Arduino/DP25)
+      (node (ref SAM3X8E1) (pin 13)))
+    (net (code 215) (name /Arduino/CANTX)
+      (node (ref SAM3X8E1) (pin 23)))
+    (net (code 216) (name /Arduino/DP30)
+      (node (ref SAM3X8E1) (pin 22)))
+    (net (code 217) (name /Arduino/DP37)
+      (node (ref SAM3X8E1) (pin 63)))
+    (net (code 218) (name /Arduino/VDDANA)
+      (node (ref SAM3X8E1) (pin 73)))
+    (net (code 219) (name /Arduino/AI5)
+      (node (ref SAM3X8E1) (pin 83))
+      (node (ref P7) (pin 3)))
+    (net (code 220) (name "")
+      (node (ref SAM3X8E1) (pin 93)))
+    (net (code 221) (name /Arduino/DP26)
+      (node (ref SAM3X8E1) (pin 14)))
+    (net (code 222) (name /Arduino/CANRX)
+      (node (ref SAM3X8E1) (pin 24)))
+    (net (code 223) (name /Arduino/DP38)
+      (node (ref SAM3X8E1) (pin 64)))
+    (net (code 224) (name /Arduino/AI10)
+      (node (ref SAM3X8E1) (pin 90))
+      (node (ref P7) (pin 12)))
+    (net (code 225) (name /Arduino/DP23)
+      (node (ref SAM3X8E1) (pin 7)))
+    (net (code 226) (name /Arduino/DP24)
+      (node (ref SAM3X8E1) (pin 8)))
+    (net (code 227) (name "")
+      (node (ref SAM3X8E1) (pin 30)))
+    (net (code 228) (name "")
+      (node (ref SAM3X8E1) (pin 50)))
+    (net (code 229) (name /Arduino/DP35)
+      (node (ref SAM3X8E1) (pin 60)))
+    (net (code 230) (name /Arduino/AI2)
+      (node (ref P7) (pin 9))
+      (node (ref SAM3X8E1) (pin 80)))
+    (net (code 231) (name "")
+      (node (ref SAM3X8E1) (pin 31)))
+    (net (code 232) (name /Arduino/VDDUTMI)
+      (node (ref SAM3X8E1) (pin 41)))
+    (net (code 233) (name /Arduino/DP42)
+      (node (ref SAM3X8E1) (pin 71)))
+    (net (code 234) (name /Arduino/AI3)
+      (node (ref SAM3X8E1) (pin 81))
+      (node (ref P7) (pin 7)))
+    (net (code 235) (name /Arduino/AI11)
+      (node (ref SAM3X8E1) (pin 91))
+      (node (ref P7) (pin 14)))
+    (net (code 236) (name "")
+      (node (ref R75) (pin 2))
+      (node (ref U20) (pin 1)))
+    (net (code 237) (name /Arduino/AREF)
+      (node (ref P6) (pin 2)))
+    (net (code 238) (name /Arduino/PWM3)
+      (node (ref SAM3X8E1) (pin 139))
+      (node (ref P6) (pin 6)))
+    (net (code 239) (name /Arduino/PWM11)
+      (node (ref SAM3X8E1) (pin 20))
+      (node (ref P6) (pin 9)))
+    (net (code 240) (name /Arduino/PWM13)
+      (node (ref SAM3X8E1) (pin 68))
+      (node (ref P6) (pin 13)))
+    (net (code 241) (name /Arduino/DAC1)
+      (node (ref P7) (pin 16))
+      (node (ref SAM3X8E1) (pin 77)))
+    (net (code 242) (name /Arduino/ERASE)
+      (node (ref Q6) (pin 3))
+      (node (ref SW2) (pin 1))
+      (node (ref SAM3X8E1) (pin 130)))
+    (net (code 243) (name /Arduino/VDDPLL)
+      (node (ref SAM3X8E1) (pin 34))
+      (node (ref C55) (pin 1))
+      (node (ref C54) (pin 1))
+      (node (ref FB2) (pin 2)))
+    (net (code 244) (name /Arduino/DAC0)
+      (node (ref SAM3X8E1) (pin 76))
+      (node (ref P7) (pin 15)))
+    (net (code 245) (name "")
+      (node (ref P8) (pin 2)))
+    (net (code 246) (name /Arduino/LED2)
+      (node (ref R75) (pin 1))
+      (node (ref SAM3X8E1) (pin 114)))
+    (net (code 247) (name /Arduino/programmation/EraseCMD)
+      (node (ref U18) (pin 23))
+      (node (ref Q6) (pin 1)))
+    (net (code 248) (name /Arduino/LED1)
+      (node (ref SAM3X8E1) (pin 113))
+      (node (ref R76) (pin 1)))
+    (net (code 249) (name "")
+      (node (ref U20) (pin 2))
+      (node (ref R76) (pin 2)))
+    (net (code 250) (name /Arduino/NCPSO)
+      (node (ref P6) (pin 7))
+      (node (ref SAM3X8E1) (pin 102))
+      (node (ref SAM3X8E1) (pin 111)))
+    (net (code 251) (name /Arduino/PWM5)
+      (node (ref P6) (pin 10))
+      (node (ref SAM3X8E1) (pin 136)))
+    (net (code 252) (name /Arduino/PWM12)
+      (node (ref P6) (pin 11))
+      (node (ref SAM3X8E1) (pin 21)))
+    (net (code 253) (name "")
+      (node (ref P7) (pin 2)))
+    (net (code 254) (name "")
+      (node (ref U14) (pin 2)))
+    (net (code 255) (name "")
+      (node (ref U14) (pin 7)))
+    (net (code 256) (name "")
+      (node (ref U14) (pin 3)))
+    (net (code 257) (name "")
+      (node (ref U14) (pin 4)))
+    (net (code 258) (name "")
+      (node (ref U14) (pin 5)))
+    (net (code 259) (name "")
+      (node (ref U14) (pin 6)))
+    (net (code 260) (name "")
+      (node (ref U14) (pin 19)))
+    (net (code 261) (name "")
+      (node (ref U14) (pin 17)))
+    (net (code 262) (name "")
+      (node (ref U14) (pin 16)))
+    (net (code 263) (name "")
+      (node (ref U14) (pin 15)))
+    (net (code 264) (name "")
+      (node (ref U14) (pin 14)))
+    (net (code 265) (name "")
+      (node (ref U14) (pin 22)))
+    (net (code 266) (name "")
+      (node (ref U14) (pin 12)))
+    (net (code 267) (name "")
+      (node (ref U14) (pin 21)))
+    (net (code 268) (name "")
+      (node (ref C41) (pin 1))
+      (node (ref U14) (pin 20)))
+    (net (code 269) (name "")
+      (node (ref C72) (pin 1))
+      (node (ref U14) (pin 10)))
+    (net (code 270) (name "")
+      (node (ref U21) (pin 8)))
+    (net (code 271) (name "")
+      (node (ref U21) (pin 9)))
+    (net (code 272) (name "")
+      (node (ref U21) (pin 10)))
+    (net (code 273) (name "")
+      (node (ref D6) (pin 1))
+      (node (ref R50) (pin 2)))
+    (net (code 274) (name /connectorIn/Vhub)
+      (node (ref J1) (pin 1))
+      (node (ref C36) (pin 1))
+      (node (ref R49) (pin 1)))
+    (net (code 275) (name /connectorIn/Vprog)
+      (node (ref J2) (pin 1))
+      (node (ref C35) (pin 1))
+      (node (ref R48) (pin 1))
+      (node (ref Q5) (pin 1)))
+    (net (code 276) (name /connectorIn/Vext)
+      (node (ref P1) (pin 1))
+      (node (ref P5) (pin 1))
+      (node (ref P4) (pin 1))
+      (node (ref R51) (pin 1))
+      (node (ref P9) (pin 1))
+      (node (ref Q4) (pin 1))
+      (node (ref R47) (pin 1))
+      (node (ref C34) (pin 1)))
+    (net (code 277) (name "")
+      (node (ref R49) (pin 2))
+      (node (ref D5) (pin 1)))
+    (net (code 278) (name "")
+      (node (ref R48) (pin 2))
+      (node (ref D4) (pin 1)))
+    (net (code 279) (name "")
+      (node (ref D3) (pin 1))
+      (node (ref R47) (pin 2)))
+    (net (code 280) (name "")
+      (node (ref R77) (pin 1))
+      (node (ref Q5) (pin 2))
+      (node (ref R51) (pin 2)))
+    (net (code 281) (name "")
+      (node (ref Q4) (pin 2))
+      (node (ref R46) (pin 1)))
+    (net (code 282) (name "")
+      (node (ref U9) (pin 4)))
+    (net (code 283) (name "")
+      (node (ref U9) (pin 2)))
+    (net (code 284) (name "")
+      (node (ref D12) (pin 1))
+      (node (ref R70) (pin 2)))
+    (net (code 285) (name "")
+      (node (ref D10) (pin 1))
+      (node (ref R69) (pin 2)))
+    (net (code 286) (name /Arduino/programmation/Reset)
+      (node (ref U18) (pin 24))
+      (node (ref P3) (pin 5))
+      (node (ref R65) (pin 2)))
+    (net (code 287) (name /Arduino/programmation/MISO)
+      (node (ref P3) (pin 1))
+      (node (ref U18) (pin 17)))
+    (net (code 288) (name "")
+      (node (ref U19) (pin 2))
+      (node (ref U18) (pin 9)))
+    (net (code 289) (name "")
+      (node (ref D12) (pin 2))
+      (node (ref U18) (pin 10)))
+    (net (code 290) (name "")
+      (node (ref U18) (pin 20)))
+    (net (code 291) (name "")
+      (node (ref D10) (pin 2))
+      (node (ref U18) (pin 11)))
+    (net (code 292) (name "")
+      (node (ref U18) (pin 21)))
+    (net (code 293) (name "")
+      (node (ref U18) (pin 29))
+      (node (ref R63) (pin 2)))
+    (net (code 294) (name "")
+      (node (ref U18) (pin 19)))
+    (net (code 295) (name "")
+      (node (ref U18) (pin 18)))
+    (net (code 296) (name "")
+      (node (ref U18) (pin 27))
+      (node (ref C63) (pin 1)))
+    (net (code 297) (name "")
+      (node (ref U18) (pin 7)))
+    (net (code 298) (name "")
+      (node (ref U18) (pin 26))
+      (node (ref R66) (pin 2)))
+    (net (code 299) (name /Arduino/programmation/MOSI)
+      (node (ref P3) (pin 4))
+      (node (ref U18) (pin 16)))
+    (net (code 300) (name "")
+      (node (ref U18) (pin 25)))
+    (net (code 301) (name /Arduino/programmation/SCK)
+      (node (ref U18) (pin 15))
+      (node (ref P3) (pin 3)))
+    (net (code 302) (name "")
+      (node (ref U18) (pin 14)))
+    (net (code 303) (name "")
+      (node (ref U18) (pin 13))
+      (node (ref R68) (pin 2)))
+    (net (code 304) (name "")
+      (node (ref U18) (pin 22))
+      (node (ref R67) (pin 2)))
+    (net (code 305) (name "")
+      (node (ref U18) (pin 12)))
+    (net (code 306) (name "")
+      (node (ref C61) (pin 1))
+      (node (ref X3) (pin 1))
+      (node (ref U18) (pin 1)))
+    (net (code 307) (name "")
+      (node (ref U18) (pin 30))
+      (node (ref R64) (pin 1)))
+    (net (code 308) (name "")
+      (node (ref C62) (pin 1))
+      (node (ref X3) (pin 3))
+      (node (ref U18) (pin 2)))
+    (net (code 309) (name "")
+      (node (ref U18) (pin 5)))
+    (net (code 310) (name "")
+      (node (ref U18) (pin 6)))))

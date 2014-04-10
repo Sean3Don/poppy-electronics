@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 26 Mar 2014 11:39:15 CET
+Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = Wed 09 Apr 2014 16:41:09 CEST
 
 BeginCmp
 TimeStamp = /52F265F0/52F3A963;
@@ -241,21 +241,21 @@ EndCmp
 BeginCmp
 TimeStamp = /52FB3A59/5301E345;
 Reference = C39;
-ValeurCmp = 10n_4V;
+ValeurCmp = 10n 4V;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52FB3A59/5301E321;
 Reference = C40;
-ValeurCmp = 100n_4V;
+ValeurCmp = 100n 4V;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52FB3A59/5301E300;
 Reference = C41;
-ValeurCmp = 2.2n_50V;
+ValeurCmp = 2.2n 50V;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -409,7 +409,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52FA02CC/52FA0621;
 Reference = C63;
-ValeurCmp = 22p;
+ValeurCmp = 1u;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -472,7 +472,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52FB3A59/5302070E;
 Reference = C72;
-ValeurCmp = 100n_2V;
+ValeurCmp = 100n 2V;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -514,20 +514,6 @@ EndCmp
 BeginCmp
 TimeStamp = /52FC9E63/5301DF1A;
 Reference = D6;
-ValeurCmp = LED;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F38CC0/52FBA7B9;
-Reference = D7;
-ValeurCmp = LED;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F38CC0/52FBA7BE;
-Reference = D8;
 ValeurCmp = LED;
 IdModule  = LED-0603;
 EndCmp
@@ -634,7 +620,7 @@ BeginCmp
 TimeStamp = /52FC9E63/52FC9EC3;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = CONN_JST-2_SMD;
+IdModule  = JST2_TV;
 EndCmp
 
 BeginCmp
@@ -655,14 +641,14 @@ BeginCmp
 TimeStamp = /52FC9E63/5305CA6B;
 Reference = P4;
 ValeurCmp = CONN_2;
-IdModule  = CONN_JST-2_SMD;
+IdModule  = JST2_TV;
 EndCmp
 
 BeginCmp
 TimeStamp = /52FC9E63/5305CA86;
 Reference = P5;
 ValeurCmp = CONN_2;
-IdModule  = CONN_JST-2_SMD;
+IdModule  = JST2_TV;
 EndCmp
 
 BeginCmp
@@ -684,6 +670,20 @@ TimeStamp = /52F38CC0/530E01A6;
 Reference = P8;
 ValeurCmp = COMMUNICATION;
 IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FC9E63/53456982;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = JST2_TV;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FC9E63/53456996;
+Reference = P10;
+ValeurCmp = CONN_2;
+IdModule  = JST2_TV;
 EndCmp
 
 BeginCmp
@@ -1046,14 +1046,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52F8F181;
 Reference = R52;
-ValeurCmp = 39R_1%;
+ValeurCmp = 39R 1%;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F38CC0/52F8F17B;
 Reference = R53;
-ValeurCmp = 39R_1%;
+ValeurCmp = 39R 1%;
 IdModule  = SM0603;
 EndCmp
 
@@ -1100,23 +1100,9 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F38CC0/52FBA7EC;
-Reference = R60;
-ValeurCmp = 330;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F38CC0/52FBA7E6;
-Reference = R61;
-ValeurCmp = 330;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /52F38CC0/52F8F18C;
 Reference = R62;
-ValeurCmp = 6k8_1%;
+ValeurCmp = 6k8 1%;
 IdModule  = SM0603;
 EndCmp
 
@@ -1137,7 +1123,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52FA02CC/52FA0823;
 Reference = R65;
-ValeurCmp = 22R;
+ValeurCmp = 10k;
 IdModule  = SM0603;
 EndCmp
 
@@ -1235,13 +1221,6 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52FB4464;
 Reference = SW2;
-ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F38CC0/52FBA809;
-Reference = SW3;
 ValeurCmp = SW_PUSH;
 IdModule  = SW_PUSH_SMD;
 EndCmp
@@ -1359,13 +1338,6 @@ IdModule  = QFN24;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F38CC0/52FBA644;
-Reference = U17;
-ValeurCmp = XBEE;
-IdModule  = XBee;
-EndCmp
-
-BeginCmp
 TimeStamp = /52F38CC0/52FA02CC/52FA0441;
 Reference = U18;
 ValeurCmp = ATMEGA16U2;
@@ -1410,7 +1382,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52FA02CC/52FA05A1;
 Reference = X3;
-ValeurCmp = 12MHz_20pF;
+ValeurCmp = 16MHz 20pF;
 IdModule  = CRYSTAL_ABM3C;
 EndCmp
 
