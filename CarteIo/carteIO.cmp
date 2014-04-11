@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = Wed 09 Apr 2014 16:41:09 CEST
+Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = Fri 11 Apr 2014 11:09:58 CEST
 
 BeginCmp
 TimeStamp = /52F265F0/52F3A963;
@@ -480,7 +480,7 @@ BeginCmp
 TimeStamp = /52F225CF/52F217B0;
 Reference = D1;
 ValeurCmp = 5.1V;
-IdModule  = DO41;
+IdModule  = VMD2;
 EndCmp
 
 BeginCmp
@@ -529,7 +529,7 @@ BeginCmp
 TimeStamp = /52F1F92E/52F8CC5A;
 Reference = D11;
 ValeurCmp = 5.1V;
-IdModule  = DO41;
+IdModule  = VMD2;
 EndCmp
 
 BeginCmp
@@ -675,13 +675,6 @@ EndCmp
 BeginCmp
 TimeStamp = /52FC9E63/53456982;
 Reference = P9;
-ValeurCmp = CONN_2;
-IdModule  = JST2_TV;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FC9E63/53456996;
-Reference = P10;
 ValeurCmp = CONN_2;
 IdModule  = JST2_TV;
 EndCmp
@@ -1320,7 +1313,7 @@ BeginCmp
 TimeStamp = /52FCE5C3/5301D503;
 Reference = U12;
 ValeurCmp = JST;
-IdModule  = CONN_JST-2_SMD;
+IdModule  = Conn2mm_3B;
 EndCmp
 
 BeginCmp
