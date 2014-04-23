@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = Fri 11 Apr 2014 11:09:58 CEST
+Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = mer. 16 avril 2014 15:51:58 CEST
 
 BeginCmp
 TimeStamp = /52F265F0/52F3A963;
@@ -680,6 +680,13 @@ IdModule  = JST2_TV;
 EndCmp
 
 BeginCmp
+TimeStamp = /52FCE5C3/534E9769;
+Reference = P10;
+ValeurCmp = CONN_4;
+IdModule  = JST4_TV;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F1F92E/52F8CC4C;
 Reference = Q1;
 ValeurCmp = 16MHz;
@@ -1307,13 +1314,6 @@ TimeStamp = /52FCE5C3/52FCF4E1;
 Reference = U11;
 ValeurCmp = USB*2;
 IdModule  = USB*2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52FCE5C3/5301D503;
-Reference = U12;
-ValeurCmp = JST;
-IdModule  = Conn2mm_3B;
 EndCmp
 
 BeginCmp
