@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 13 Mar 2014 12:07:12 CET
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:jst
 LIBS:open-project
 LIBS:perso
 LIBS:alimentation-cache
-EELAYER 25  0
+EELAYER 24 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 5
 Title ""
-Date "13 mar 2014"
+Date "20 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -52,20 +52,24 @@ Text HLabel 3250 2450 0    60   Input ~ 0
 Text HLabel 3250 3050 0    60   Input ~ 0
 5V
 $Comp
-L GND #PWR?
+L GND #PWR2
 U 1 1 53147F6C
 P 3250 3300
-F 0 "#PWR?" H 3250 3300 30  0001 C CNN
+F 0 "#PWR2" H 3250 3300 30  0001 C CNN
 F 1 "GND" H 3250 3230 30  0001 C CNN
+F 2 "" H 3250 3300 60  0001 C CNN
+F 3 "" H 3250 3300 60  0001 C CNN
 	1    3250 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR1
 U 1 1 53147F69
 P 3250 2700
-F 0 "#PWR?" H 3250 2700 30  0001 C CNN
+F 0 "#PWR1" H 3250 2700 30  0001 C CNN
 F 1 "GND" H 3250 2630 30  0001 C CNN
+F 2 "" H 3250 2700 60  0001 C CNN
+F 3 "" H 3250 2700 60  0001 C CNN
 	1    3250 2700
 	1    0    0    -1  
 $EndComp
@@ -82,20 +86,24 @@ Wire Wire Line
 Wire Wire Line
 	3450 3050 3250 3050
 $Comp
-L CONN_2 P?
+L CONN_2 P2
 U 1 1 53147F3D
 P 3800 3150
-F 0 "P?" V 3750 3150 40  0000 C CNN
+F 0 "P2" V 3750 3150 40  0000 C CNN
 F 1 "CONN_2" V 3850 3150 40  0000 C CNN
+F 2 "" H 3800 3150 60  0001 C CNN
+F 3 "" H 3800 3150 60  0001 C CNN
 	1    3800 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P?
+L CONN_2 P1
 U 1 1 53147F38
 P 3800 2550
-F 0 "P?" V 3750 2550 40  0000 C CNN
+F 0 "P1" V 3750 2550 40  0000 C CNN
 F 1 "CONN_2" V 3850 2550 40  0000 C CNN
+F 2 "" H 3800 2550 60  0001 C CNN
+F 3 "" H 3800 2550 60  0001 C CNN
 	1    3800 2550
 	1    0    0    -1  
 $EndComp

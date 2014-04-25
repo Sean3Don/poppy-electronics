@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 13 Mar 2014 12:12:56 CET
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:jst
 LIBS:open-project
 LIBS:perso
 LIBS:alimentation-cache
-EELAYER 25  0
+EELAYER 24 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 5
 Title ""
-Date "13 mar 2014"
+Date "20 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4250 2650
+Wire Wire Line
+	4250 2650 4250 3700
+Wire Wire Line
+	4250 3700 5250 3700
 Wire Wire Line
 	9300 2850 8850 2850
 Wire Wire Line
@@ -59,6 +64,12 @@ Wire Wire Line
 	9050 3700 9050 3100
 Wire Wire Line
 	9050 3100 9300 3100
+Wire Wire Line
+	5250 2400 4600 2400
+Wire Wire Line
+	4600 2400 4600 2650
+Wire Wire Line
+	4600 2650 3250 2650
 $Sheet
 S 9300 2650 1100 650 
 U 53147DBA
@@ -68,17 +79,10 @@ F2 "14V" I L 9300 2850 60
 F3 "5V" I L 9300 3100 60 
 $EndSheet
 $Sheet
-S 4100 950  850  600 
-U 53147D44
-F0 "Battery Management" 60
-F1 "batteryManagement.sch" 60
-$EndSheet
-$Sheet
 S 2350 2300 900  550 
 U 53147D23
 F0 "Connector In" 60
 F1 "connectorIn.sch" 60
-F2 "Battery" O R 3250 2450 60 
 F3 "Stabilized" O R 3250 2650 60 
 $EndSheet
 $Sheet
