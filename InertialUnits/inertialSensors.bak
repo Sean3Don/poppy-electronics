@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date lun. 31 mars 2014 21:58:20 CEST
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,9 +33,9 @@ LIBS:jst
 LIBS:open-project
 LIBS:perso
 LIBS:inertialSensors-cache
-EELAYER 25  0
+EELAYER 24 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
