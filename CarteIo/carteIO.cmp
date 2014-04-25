@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = mer. 16 avril 2014 15:51:58 CEST
+Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = jeu. 24 avril 2014 13:31:47 CEST
 
 BeginCmp
 TimeStamp = /52F265F0/52F3A963;
@@ -1317,9 +1317,9 @@ IdModule  = USB*2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F38CA5/5301D3C4;
-Reference = U13;
-ValeurCmp = AP1117;
+TimeStamp = /52F38CA5/535902E6;
+Reference = U12;
+ValeurCmp = TLV1117;
 IdModule  = SOT223;
 EndCmp
 

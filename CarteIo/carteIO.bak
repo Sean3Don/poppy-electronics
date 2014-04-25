@@ -205,6 +205,7 @@ F6 "D- Top" I L 8350 5850 60
 F7 "D+Top" I L 8350 5750 60 
 F8 "SDA" I L 8350 5450 60 
 F9 "SCL" I L 8350 5350 60 
+F10 "5V" I L 8350 5550 60 
 $EndSheet
 Text Label 7550 4650 0    60   ~ 0
 3.3V
@@ -259,6 +260,7 @@ F3 "D-prog" I R 1750 4150 60
 F4 "D+prog" I R 1750 4050 60 
 F5 "D+hub" I R 1750 4300 60 
 F6 "D-hub" I R 1750 4400 60 
+F7 "Vext" I R 1750 3700 60 
 $EndSheet
 Text Label 4800 5400 0    60   ~ 0
 3.3V
@@ -331,4 +333,12 @@ F21 "3.3V" I L 3100 4550 60
 F22 "D-hub" I L 3100 3700 60 
 F23 "D+hub" I L 3100 3600 60 
 $EndSheet
+Wire Wire Line
+	1750 3700 2100 3700
+Text Label 2100 3700 0    60   ~ 0
+Vext
+Text Label 8000 5550 2    60   ~ 0
+Vext
+Wire Wire Line
+	8000 5550 8350 5550
 $EndSCHEMATC
