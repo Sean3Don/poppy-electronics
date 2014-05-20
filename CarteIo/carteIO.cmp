@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = jeu. 24 avril 2014 13:31:47 CEST
+Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = ven. 16 mai 2014 09:38:25 CEST
 
 BeginCmp
 TimeStamp = /52F265F0/52F3A963;
@@ -360,22 +360,22 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52F8D4B3;
 Reference = C56;
-ValeurCmp = 22p;
-IdModule  = SM0603_Capa;
+ValeurCmp = 4.7p;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F38CC0/52F8D4C9;
 Reference = C57;
-ValeurCmp = 22p;
-IdModule  = SM0603_Capa;
+ValeurCmp = 4.7p;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F38CC0/52F8D382;
 Reference = C58;
-ValeurCmp = 22p;
-IdModule  = SM0603_Capa;
+ValeurCmp = 4.7p;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -388,8 +388,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52F8D386;
 Reference = C60;
-ValeurCmp = 22p;
-IdModule  = SM0603_Capa;
+ValeurCmp = 4.7p;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -572,20 +572,6 @@ TimeStamp = /52F38CC0/52F9E496;
 Reference = FB2;
 ValeurCmp = FILTER;
 IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F225CF/52F8CC60;
-Reference = GS1;
-ValeurCmp = GS2;
-IdModule  = GS2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F1F92E/52F2256F;
-Reference = GS2;
-ValeurCmp = GS2;
-IdModule  = GS2;
 EndCmp
 
 BeginCmp
@@ -1368,15 +1354,15 @@ EndCmp
 BeginCmp
 TimeStamp = /52F38CC0/52F8CEDA;
 Reference = X2;
-ValeurCmp = 32MHz;
-IdModule  = HC-49;
+ValeurCmp = 32kHz;
+IdModule  = CM315;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F38CC0/52FA02CC/52FA05A1;
+TimeStamp = /52F38CC0/52FA02CC/5367A812;
 Reference = X3;
-ValeurCmp = 16MHz 20pF;
-IdModule  = CRYSTAL_ABM3C;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49;
 EndCmp
 
 EndListe
