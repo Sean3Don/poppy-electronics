@@ -83,7 +83,7 @@ S 2350 2300 900  550
 U 53147D23
 F0 "Connector In" 60
 F1 "connectorIn.sch" 60
-F3 "Stabilized" O R 3250 2650 60 
+F2 "Stabilized" O R 3250 2650 60 
 $EndSheet
 $Sheet
 S 5250 3450 1200 750 

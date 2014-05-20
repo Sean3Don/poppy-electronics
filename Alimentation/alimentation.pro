@@ -1,4 +1,4 @@
-update=jeu. 24 avril 2014 10:30:03 CEST
+update=ven. 02 mai 2014 17:25:25 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -77,11 +77,11 @@ EquName1=devcms
 version=1
 PageLayoutDescrFile=
 LastNetListRead=alimentation.net
-UseCmpFile=0
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=2.9
-PadSizeV=0.8999999999999999
+UseCmpFile=1
+PadDrill=0.8999999999999999
+PadDrillOvalY=0.8999999999999999
+PadSizeH=1.2
+PadSizeV=1.2
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048

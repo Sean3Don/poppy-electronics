@@ -1,17 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 13 Mar 2014 16:32:10 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 14 Mar 2014 15:41:32 CET
 
 BeginCmp
 TimeStamp = /53204173;
 Reference = 1u1;
 ValeurCmp = 100nF;
 IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53203FB9;
-Reference = 10k3;
-ValeurCmp = R;
-IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -25,35 +18,35 @@ BeginCmp
 TimeStamp = /5320353D;
 Reference = D1;
 ValeurCmp = MBRB2545CT;
-IdModule  = DPAK2;
+IdModule  = PowerFlat;
 EndCmp
 
 BeginCmp
 TimeStamp = /5320408B;
 Reference = D2;
 ValeurCmp = 1n4148;
-IdModule  = D3;
+IdModule  = SOT23D;
 EndCmp
 
 BeginCmp
 TimeStamp = /53204089;
 Reference = D3;
 ValeurCmp = 1n4148;
-IdModule  = D3;
+IdModule  = SOT23D;
 EndCmp
 
 BeginCmp
 TimeStamp = /5320363F;
 Reference = D4;
 ValeurCmp = MBRB2545CT;
-IdModule  = DPAK2;
+IdModule  = PowerFlat;
 EndCmp
 
 BeginCmp
 TimeStamp = /532039F5;
 Reference = D5;
 ValeurCmp = 1N750;
-IdModule  = D3;
+IdModule  = SOT23D;
 EndCmp
 
 BeginCmp
@@ -81,35 +74,28 @@ BeginCmp
 TimeStamp = /532035E6;
 Reference = Q1;
 ValeurCmp = 2N2222;
-IdModule  = TO92;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /532035D5;
 Reference = Q2;
 ValeurCmp = 2N2222;
-IdModule  = TO92;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /532035CD;
 Reference = Q3;
 ValeurCmp = 2N2907;
-IdModule  = TO18CBE;
-EndCmp
-
-BeginCmp
-TimeStamp = /53203517;
-Reference = Q4;
-ValeurCmp = FDS4675;
-IdModule  = SOIC8;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /532039D1;
 Reference = Q5;
 ValeurCmp = 2N2222;
-IdModule  = TO92;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -176,6 +162,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53203FB9;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /532038E9;
 Reference = U1;
 ValeurCmp = INA213;
@@ -187,6 +180,13 @@ TimeStamp = /5321912C;
 Reference = U2;
 ValeurCmp = LT1721;
 IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /532308A8;
+Reference = U3;
+ValeurCmp = MOSP_PWF;
+IdModule  = PowerPAK;
 EndCmp
 
 EndListe
