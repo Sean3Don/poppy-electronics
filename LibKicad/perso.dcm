@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: lun. 28 avril 2014 16:56:08 CEST
+EESchema-DOCLIB  Version 2.0  Date: jeu. 22 mai 2014 17:26:33 CEST
 #
 $CMP 7SEGM
 D Afficheur Leds 7 segments
@@ -126,6 +126,10 @@ $CMP MOS_N
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP MOS_N2
+F transistors/mos/*.*
+$ENDCMP
+#
 $CMP MOS_P
 F transistors/mos/*.*
 $ENDCMP
@@ -146,7 +150,7 @@ $CMP NPN
 F transistors/bipolar/*.*
 $ENDCMP
 #
-$CMP NPN_p
+$CMP NPN_P
 F transistors/bipolar/*.*
 $ENDCMP
 #
@@ -162,7 +166,7 @@ $CMP PNP
 F transistors/bipolar/*.*
 $ENDCMP
 #
-$CMP PNP_p
+$CMP PNP_P
 F transistors/bipolar/*.*
 $ENDCMP
 #

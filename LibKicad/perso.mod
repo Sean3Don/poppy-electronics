@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  ven. 16 mai 2014 10:10:18 CEST
+PCBNEW-LibModule-V1  jeu. 22 mai 2014 15:45:23 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -40,6 +40,7 @@ Molex-6BrochesC
 Molex-6BrochesV
 Molex3B_90
 OHWLogo
+PG-TDSON
 PowerFlat
 PowerPAK
 QFN24
@@ -6006,6 +6007,50 @@ Dl 6.17982 0.55626
 Dl 6.17982 1.43002
 Dl 6.17982 1.43002
 $EndMODULE OHWLogo
+$MODULE PG-TDSON
+Po 0 0 0 15 537DFF70 00000000 ~~
+Li PG-TDSON
+Sc 0
+AR 
+Op 0 0 0
+T0 -11.5062 11.0998 1.524 1.524 0 0.3048 N V 21 N "PG-TDSON"
+T1 0.0508 5.8547 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6.25 -1.905
+$EndPAD
+$PAD
+Sh "2" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6.25 -0.635
+$EndPAD
+$PAD
+Sh "3" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6.25 0.635
+$EndPAD
+$PAD
+Sh "4" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6.25 1.905
+$EndPAD
+$PAD
+Sh "5" R 5 4.46 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$EndMODULE PG-TDSON
 $MODULE PowerFlat
 Po 0 0 0 15 5342C218 00000000 ~~
 Li PowerFlat
