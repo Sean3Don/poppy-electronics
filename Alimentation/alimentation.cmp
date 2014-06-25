@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = jeu. 22 mai 2014 15:51:03 CEST
+Cmp-Mod V01 Created by CvPcb (2013-09-18 BZR 4305)-stable date = mer. 25 juin 2014 16:40:11 CEST
 
 BeginCmp
 TimeStamp = /53147CCA/53203BE1;
@@ -106,6 +106,27 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53147CCA/537E1298;
+Reference = C16;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53147CCA/53AAE37E;
+Reference = C17;
+ValeurCmp = 330n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53147CCA/53AAE38D;
+Reference = C18;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53147CCA/537E028B;
 Reference = D1;
 ValeurCmp = Z-10V;
@@ -131,13 +152,6 @@ TimeStamp = /53147CCA/5320363F;
 Reference = D4;
 ValeurCmp = STPS3045DJF;
 IdModule  = PowerFlat;
-EndCmp
-
-BeginCmp
-TimeStamp = /53147CCA/532039F5;
-Reference = D5;
-ValeurCmp = BZX84;
-IdModule  = SOT23D;
 EndCmp
 
 BeginCmp
@@ -225,13 +239,6 @@ IdModule  = SOT23_p;
 EndCmp
 
 BeginCmp
-TimeStamp = /53147CCA/5363B8DF;
-Reference = Q4;
-ValeurCmp = BCV27;
-IdModule  = SOT23_p;
-EndCmp
-
-BeginCmp
 TimeStamp = /53147CCA/537DF86C;
 Reference = Q5;
 ValeurCmp = 2N7002;
@@ -295,13 +302,6 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53147CCA/532039E3;
-Reference = R9;
-ValeurCmp = 4.7k;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /53147CCA/53203FB9;
 Reference = R10;
 ValeurCmp = 10k;
@@ -347,6 +347,13 @@ BeginCmp
 TimeStamp = /53147CCA/537E0DD0;
 Reference = R16;
 ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53147D03/53A991FC;
+Reference = R17;
+ValeurCmp = 1k;
 IdModule  = SM0603;
 EndCmp
 
@@ -404,6 +411,13 @@ TimeStamp = /53147CCA/537DFC1D;
 Reference = U8;
 ValeurCmp = MOSN_PWF;
 IdModule  = PG-TDSON;
+EndCmp
+
+BeginCmp
+TimeStamp = /53147CCA/53AAE227;
+Reference = U9;
+ValeurCmp = L78L05;
+IdModule  = SOT-89;
 EndCmp
 
 EndListe
